@@ -2,7 +2,9 @@
 
   <div id="app" class='container'>
 
-    <NavBar></NavBar>
+    <nav-bar></nav-bar>
+
+    <lunch-menu ></lunch-menu>
 
   </div>
 
@@ -10,6 +12,7 @@
 
 <script>
     import NavBar from './components/NavBar.vue'
+    import LunchMenu from './components/LunchMenu.vue'
 
     export default {
 
@@ -17,7 +20,7 @@
 
         components: {
 
-            NavBar
+            NavBar, LunchMenu
 
         },
 
@@ -25,7 +28,7 @@
 
             return {
 
-            msg: 'Stone Korean Restaurant'
+                msg: 'Stone Korean Restaurant'
 
             }
 
@@ -38,7 +41,7 @@
 <style>
   #app {
 
-    border: solid 1px black;
+    /*border: solid 1px black;*/
 
   }
 </style>
