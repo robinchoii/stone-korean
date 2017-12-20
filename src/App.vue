@@ -2,6 +2,8 @@
 
 	<div id="app" class='container'>
 
+        <nav-bar></nav-bar>
+
 		<full-menu></full-menu>
 
 	</div>
@@ -10,29 +12,30 @@
 
 <script>
 
-		import FullMenu from './components/FullMenu.vue'
+	import FullMenu from './components/FullMenu.vue'
+	import NavBar from './components/NavBar.vue'
 
-		export default {
+	export default {
 
-				name: 'app',
+		name: 'app',
 
-				components: {
+		components: {
 
-					FullMenu
+			FullMenu, NavBar
 
-				},
+		},
 
-				data () {
+		data () {
 
-						return {
+				return {
 
-								msg: 'Stone Korean Restaurant',
-
-						}
+						msg: 'Stone Korean Restaurant',
 
 				}
 
 		}
+
+	}
 
 </script>
 

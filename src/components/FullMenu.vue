@@ -1,8 +1,5 @@
 <template>
     <div>
-
-        <nav-bar></nav-bar>
-
         <lunch-menu ></lunch-menu>
 
         <appetizers-menu> </appetizers-menu>
@@ -23,7 +20,6 @@
 </template>
 
 <script type="text/javascript">
-    import NavBar from './NavBar.vue'
     import LunchMenu from './LunchMenu.vue'
     import AppetizersMenu from './AppetizersMenu.vue'
     import SoftTofuSoupMenu from './SoftTofuSoupMenu.vue'
@@ -37,7 +33,7 @@
 
         components: {
 
-                NavBar, LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu
+                LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu
 
         },
     }
