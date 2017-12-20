@@ -7,6 +7,11 @@
 
                 <h2>Soft Tofu Soups</h2>
 
+                <div class='softTofuSoup-about'>
+                    <p>Served with sizzling stone pot rice and assortment of side dishes</p>
+                    <p>Soft tofu sou can be prepared from non-spicy to extra spicy (5 star scale) according to your preference. </p>
+                </div>
+
             </div>
 
             <div class='softTofuSoup-flex-grid'>
@@ -150,7 +155,7 @@
     .softTofuSoup-about {
         text-align: center;
 
-        font-size: .5em;
+        font-size: .6em;
 
         line-height: 1;
 

@@ -14,6 +14,8 @@
 
 		<bbq-menu></bbq-menu>
 
+		<fried-chicken-menu></fried-chicken-menu>
+
 	</div>
 
 </template>
@@ -25,6 +27,7 @@
 		import SoftTofuSoupMenu from './components/SoftTofuSoupMenu.vue'
 		import BibimbobMenu from './components/BiBimBobMenu.vue'
 		import BbqMenu from './components/BBQMenu.vue'
+		import FriedChickenMenu from './components/FriedChickenMenu.vue'
 
 		export default {
 
@@ -32,7 +35,7 @@
 
 				components: {
 
-						NavBar, LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu
+						NavBar, LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu
 
 				},
 
