@@ -1,5 +1,5 @@
 <template>
-    <div class='lunch columns'>
+    <div class='lunch columns is-mobile'>
 
         <div class='column'>
 
@@ -8,7 +8,7 @@
                 <h2>Lunch Specials</h2>
 
 
-                <div class='lunch-description has-text-centered'>
+                <div class='lunch-description'>
 
                     <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
 
@@ -37,8 +37,6 @@
     import AppetizerItem from './AppetizerItem.vue';
 
     export default {
-
-        // props: ['lunches'],
 
         components: { LunchItem, AppetizerItem},
 
@@ -167,22 +165,23 @@
 
     .lunch-item-card {
         margin: 5px;
+
         text-align: center;
 
-        justify-content: center;
-
-        align-content: center;
-
-        padding: 30px;
+        padding: 15px;
     }
 
-    .lunch-header, .appetizer-header {
+    .lunch-header {
+        text-align: center;
+
         font-size: 1.5em;
 
         background-color: yellow
      }
 
-    .lunch-description, .appetizer-description {
+    .lunch-description {
+        text-align: center;
+
         font-size: .5em;
 
         line-height: 1;

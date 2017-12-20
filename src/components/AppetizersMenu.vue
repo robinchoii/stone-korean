@@ -1,5 +1,5 @@
 <template>
-    <div class='columns'>
+    <div class='columns is-mobile'>
 
         <div class='appetizers column'>
 
@@ -26,8 +26,6 @@
     import AppetizersItem from './AppetizerItem.vue';
 
     export default {
-
-        // props: ['lunches'],
 
         components: { AppetizersItem },
 
@@ -128,13 +126,11 @@
 
     .appetizers-item-card {
         margin: 5px;
+
         text-align: center;
 
-        justify-content: center;
+        padding: 15px;
 
-        align-content: center;
-
-        padding: 30px;
     }
 
     .appetizers-header{

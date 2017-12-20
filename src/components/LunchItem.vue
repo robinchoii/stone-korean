@@ -4,9 +4,9 @@
 
         <h3>{{lunch.name}}</h3>
 
-        <p class='description'>{{lunch.description}}</p>
+        <p class='lunch-description'>{{lunch.description}}</p>
 
-        <span>${{lunch.price}}</span>
+        <span class='price'>${{lunch.price}}</span>
 
     </div>
 
@@ -24,15 +24,10 @@
 
 <style type="text/css">
 
-    .description {
+    .lunch-description {
         line-height: 1;
         font-size:.75em;
 
-    }
-
-    .lunch-item-card{
-        /*border: solid 1px blue;*/
-        /*background-color: red;*/
     }
 
 </style>

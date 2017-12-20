@@ -8,6 +8,8 @@
 
     <appetizers-menu> </appetizers-menu>
 
+    <soft-tofu-soup-menu></soft-tofu-soup-menu>
+
   </div>
 
 </template>
@@ -16,6 +18,7 @@
     import NavBar from './components/NavBar.vue'
     import LunchMenu from './components/LunchMenu.vue'
     import AppetizersMenu from './components/AppetizersMenu.vue'
+    import SoftTofuSoupMenu from './components/SoftTofuSoupMenu.vue'
 
     export default {
 
@@ -23,7 +26,7 @@
 
         components: {
 
-            NavBar, LunchMenu, AppetizersMenu
+            NavBar, LunchMenu, AppetizersMenu, SoftTofuSoupMenu
 
         },
 
@@ -46,5 +49,9 @@
 
     /*border: solid 1px black;*/
 
+  }
+
+  .price {
+    color: black;
   }
 </style>

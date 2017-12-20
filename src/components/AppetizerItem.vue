@@ -6,7 +6,7 @@
 
         <p class='appetizers-description'>{{appetizer.description}}</p>
 
-        <span>${{appetizer.price}}</span>
+        <span class='price'>${{appetizer.price}}</span>
 
     </div>
 
@@ -23,16 +23,10 @@
 </script>
 
 <style type="text/css">
-
     .appetizers-description {
         line-height: 1;
         font-size:.75em;
 
-    }
-
-    .lunch-item-card{
-        /*border: solid 1px blue;*/
-        /*background-color: red;*/
     }
 
 </style>
