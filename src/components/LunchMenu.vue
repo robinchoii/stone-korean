@@ -3,7 +3,7 @@
 
         <div class='column'>
 
-            <div class='lunch-header'>
+            <div class='lunch-header sub-title'>
 
                 <h2>Lunch Specials</h2>
 
@@ -182,7 +182,7 @@
     .lunch-about {
         text-align: center;
 
-        font-size: .5em;
+        font-size: .6em;
 
         line-height: 1;
 

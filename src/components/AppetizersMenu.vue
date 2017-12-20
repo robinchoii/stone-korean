@@ -141,8 +141,8 @@
         background-color: yellow
      }
 
-    .appetizers-description {
-        font-size: .5em;
+    .appetizers-about {
+        font-size: .6em;
 
         line-height: 1;
 

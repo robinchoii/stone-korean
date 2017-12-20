@@ -1,11 +1,11 @@
 <template>
 
     <div class='bibimbob-item-card'>
-        <h3 class='menu-title'>{{bibimbob.name}}</h3>
+        <h3 class='item-title'>{{bibimbob.name}}</h3>
 
-        <p class='bibimbob-description'>{{bibimbob.description}}</p>
+        <p class='item-description'>{{bibimbob.description}}</p>
 
-        <span class='price'>${{bibimbob.price}}</span>
+        <span class='item-price'>${{bibimbob.price}}</span>
     </div>
 
 </template>
@@ -22,7 +22,5 @@
 
 <style type="text/css">
 
-    .bibimbob-description {
-        font-size: .7em;
-    }
+
 </style>

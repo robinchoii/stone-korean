@@ -2,9 +2,9 @@
 
     <div class='softTofuSoup-item-card'>
 
-        <h3 class='menu-title'>{{softTofuSoup.name}}</h3>
+        <h3 class='item-title'>{{softTofuSoup.name}}</h3>
 
-        <span class='price'>${{softTofuSoup.price}}</span>
+        <span class='item-price'>${{softTofuSoup.price}}</span>
 
     </div>
 
@@ -21,10 +21,5 @@
 </script>
 
 <style type="text/css">
-
-    .softTofuSoup-description {
-        line-height: 1;
-        font-size: .7em;
-    }
 
 </style>

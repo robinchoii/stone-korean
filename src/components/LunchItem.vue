@@ -2,11 +2,11 @@
 
     <div class='lunch-item-card'>
 
-        <h3 class='menu-title'>{{lunch.name}}</h3>
+        <h3 class='item-title'>{{lunch.name}}</h3>
 
-        <p class='lunch-description'>{{lunch.description}}</p>
+        <p class='item-description'>{{lunch.description}}</p>
 
-        <span class='price'>${{lunch.price}}</span>
+        <span class='item-price'>${{lunch.price}}</span>
 
     </div>
 
@@ -24,9 +24,5 @@
 
 <style type="text/css">
 
-    .lunch-description {
-        line-height: 1;
-        font-size: .7em;
-    }
 
 </style>

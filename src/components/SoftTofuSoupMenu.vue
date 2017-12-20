@@ -3,7 +3,7 @@
 
         <div class='softTofuSoup column'>
 
-            <div class='softTofuSoup-header'>
+            <div class='softTofuSoup-header '>
 
                 <h2>Soft Tofu Soups</h2>
 
@@ -147,7 +147,7 @@
         background-color: yellow
      }
 
-    .softTofuSoup-description {
+    .softTofuSoup-about {
         text-align: center;
 
         font-size: .5em;

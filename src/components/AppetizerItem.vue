@@ -2,11 +2,11 @@
 
     <div class='appetizers-item-card'>
 
-        <h3 class='menu-title'>{{appetizer.name}}</h3>
+        <h3 class='item-title'>{{appetizer.name}}</h3>
 
-        <p class='appetizers-description'>{{appetizer.description}}</p>
+        <p class='item-description'>{{appetizer.description}}</p>
 
-        <span class='price'>${{appetizer.price}}</span>
+        <span class='item-price'>${{appetizer.price}}</span>
 
     </div>
 
@@ -23,9 +23,5 @@
 </script>
 
 <style type="text/css">
-    .appetizers-description {
-        line-height: 1;
-        font-size: .7em;
-    }
 
 </style>

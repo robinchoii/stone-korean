@@ -121,7 +121,7 @@
 
     .bbq-about {
 
-        font-size: .5em;
+        font-size: .6em;
 
         line-height: 1;
     }

@@ -2,11 +2,11 @@
 
     <div class='bbq-item-card'>
 
-        <h3 class='menu-title'>{{BBQ.name}}</h3>
+        <h3 class='item-title'>{{BBQ.name}}</h3>
 
-        <p class='bbq-description'>{{BBQ.description}}</p>
+        <p class='item-description'>{{BBQ.description}}</p>
 
-        <span class='price'>${{BBQ.price}}</span>
+        <span class='item-price'>${{BBQ.price}}</span>
 
     </div>
 
@@ -24,8 +24,6 @@
 </script>
 
 <style type="text/css">
-    .bbq-description {
-        font-size: .7em;
-    }
+
 
 </style>

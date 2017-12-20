@@ -1,71 +1,76 @@
 <template>
 
-  <div id="app" class='container'>
+	<div id="app" class='container'>
 
-    <nav-bar></nav-bar>
+		<nav-bar></nav-bar>
 
-    <lunch-menu ></lunch-menu>
+		<lunch-menu ></lunch-menu>
 
-    <appetizers-menu> </appetizers-menu>
+		<appetizers-menu> </appetizers-menu>
 
-    <soft-tofu-soup-menu></soft-tofu-soup-menu>
+		<soft-tofu-soup-menu></soft-tofu-soup-menu>
 
-    <bibimbob-menu></bibimbob-menu>
+		<bibimbob-menu></bibimbob-menu>
 
-    <bbq-menu></bbq-menu>
+		<bbq-menu></bbq-menu>
 
-  </div>
+	</div>
 
 </template>
 
 <script>
-    import NavBar from './components/NavBar.vue'
-    import LunchMenu from './components/LunchMenu.vue'
-    import AppetizersMenu from './components/AppetizersMenu.vue'
-    import SoftTofuSoupMenu from './components/SoftTofuSoupMenu.vue'
-    import BibimbobMenu from './components/BiBimBobMenu.vue'
-    import BbqMenu from './components/BBQMenu.vue'
+		import NavBar from './components/NavBar.vue'
+		import LunchMenu from './components/LunchMenu.vue'
+		import AppetizersMenu from './components/AppetizersMenu.vue'
+		import SoftTofuSoupMenu from './components/SoftTofuSoupMenu.vue'
+		import BibimbobMenu from './components/BiBimBobMenu.vue'
+		import BbqMenu from './components/BBQMenu.vue'
 
-    export default {
+		export default {
 
-        name: 'app',
+				name: 'app',
 
-        components: {
+				components: {
 
-            NavBar, LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu
+						NavBar, LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu
 
-        },
+				},
 
-        data () {
+				data () {
 
-            return {
+						return {
 
-                msg: 'Stone Korean Restaurant',
+								msg: 'Stone Korean Restaurant',
 
-            }
+						}
 
-        }
+				}
 
-    }
+		}
 
 </script>
 
 <style>
-  #app {
+	#app {
 
-    /*border: solid 1px black;*/
+		/*border: solid 1px black;*/
 
-  }
+	}
 
-  .price {
-    color: black;
-    font-size:.8em;
-    font-weight: 600;
-  }
+	.item-description {
+		line-height: 1;
+		font-size: .75em;
+	}
 
-  .menu-title {
-    font-weight: 600;
-    line-height: 1;
-    margin-bottom: 3px
-  }
+	.item-price {
+		color: black;
+		font-size:.8em;
+		font-weight: 600;
+	}
+
+	.item-title {
+		font-weight: 600;
+		line-height: 1;
+		margin-bottom: 3px
+	}
 </style>
