@@ -1,25 +1,31 @@
 <template>
+    <div class='lunch columns'>
 
-    <div class='container'>
+        <div class='column'>
 
-        <div class='lunch-header'>
+            <div class='lunch-header has-text-centered'>
 
-            <h2>Lunch Specials</h2>
+                <h2>Lunch Specials</h2>
 
-        </div>
 
-        <div class='lunch-description'>
+                <div class='lunch-description has-text-centered'>
 
-            <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
+                    <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
 
-            <p>Rice and assortment of sides included.</p>
+                    <p>Rice and assortment of sides included.</p>
 
-            <p>Bi-Bim-Bob can be made into vegetarian dish upon request.</p>
+                    <p>Bi-Bim-Bob can be made into vegetarian dish upon request.</p>
 
-        </div>
+                </div>
 
-        <div class='lunch-menu'>
-            <lunch-item v-for='lunch in lunches' :lunch='lunch'></lunch-item>
+            </div>
+
+            <div class='flex-grid'>
+
+                <lunch-item v-for='lunch in lunches' class='card' :lunch='lunch'></lunch-item>
+
+            </div>
+
         </div>
 
     </div>
@@ -28,12 +34,13 @@
 
 <script type="text/javascript">
     import LunchItem from './LunchItem.vue';
+    import AppetizerItem from './AppetizerItem.vue';
 
     export default {
 
         // props: ['lunches'],
 
-        components: { LunchItem },
+        components: { LunchItem, AppetizerItem},
 
         data() {
 
@@ -139,30 +146,47 @@
                     }
                 ]
 
-
             }
+
         }
+
     }
 
 </script>
 
 <style type="text/css">
 
-    .lunch-header {
+    .flex-grid {
+        display: grid;
 
-        font-size: 1.5em
+        grid-template-columns: 25% 25% 25% 25%;
 
+        grid-template-rows: 25% 25% 25% 25%;
+
+    }
+
+    .lunch-item-card {
+        margin: 5px;
+        text-align: center;
+
+        justify-content: center;
+
+        align-content: center;
+
+        padding: 30px;
+    }
+
+    .lunch-header, .appetizer-header {
+        font-size: 1.5em;
+
+        background-color: yellow
      }
 
-    .lunch-description {
+    .lunch-description, .appetizer-description {
+        font-size: .5em;
 
-        font-size: 1em;
-        line-height: 1
+        line-height: 1;
 
     }
 
-    .lunch-menu {
-
-        padding-top: 15px;
-    }
 </style>

@@ -13,6 +13,12 @@
 
         <div class="navbar-menu">
 
+            <div class='navbar-start'>
+
+                <h3 class='navbar-item'>Korean BBQ & Tofu</h3>
+
+            </div>
+
             <div class="navbar-end">
 
                 <a class="navbar-item" href="/">
@@ -66,6 +72,9 @@
 </script>
 
 <style type="text/css">
+    .navbar {
+        background-color: blue
+    }
 
     .nav-item {
 

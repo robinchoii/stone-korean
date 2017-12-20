@@ -6,6 +6,8 @@
 
     <lunch-menu ></lunch-menu>
 
+    <appetizers-menu> </appetizers-menu>
+
   </div>
 
 </template>
@@ -13,6 +15,7 @@
 <script>
     import NavBar from './components/NavBar.vue'
     import LunchMenu from './components/LunchMenu.vue'
+    import AppetizersMenu from './components/AppetizersMenu.vue'
 
     export default {
 
@@ -20,7 +23,7 @@
 
         components: {
 
-            NavBar, LunchMenu
+            NavBar, LunchMenu, AppetizersMenu
 
         },
 
@@ -28,7 +31,7 @@
 
             return {
 
-                msg: 'Stone Korean Restaurant'
+                msg: 'Stone Korean Restaurant',
 
             }
 

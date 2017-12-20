@@ -1,12 +1,12 @@
 <template>
 
-    <div class='lunch-item-card'>
+    <div class='appetizers-item-card'>
 
-        <h3>{{lunch.name}}</h3>
+        <h3>{{appetizer.name}}</h3>
 
-        <p class='description'>{{lunch.description}}</p>
+        <p class='appetizers-description'>{{appetizer.description}}</p>
 
-        <span>${{lunch.price}}</span>
+        <span>${{appetizer.price}}</span>
 
     </div>
 
@@ -16,7 +16,7 @@
 
     export default {
 
-        props: ['lunch']
+        props: ['appetizer']
 
     }
 
@@ -24,7 +24,7 @@
 
 <style type="text/css">
 
-    .description {
+    .appetizers-description {
         line-height: 1;
         font-size:.75em;
 
