@@ -8,7 +8,7 @@
 
                 <h2>Bi-Bim-Bobs</h2>
 
-                <div class='bibimbob-description'>
+                <div class='bibimbob-about'>
                     <p> Served with rice and assortment of side dishes.</p>
 
                     <p>The following can be made into vegetarian upon request</p>
@@ -135,9 +135,7 @@
         background-color: yellow
      }
 
-    .bibimbob-description {
-        text-align: center;
-
+    .bibimbob-about {
         font-size: .5em;
 
         line-height: 1;
