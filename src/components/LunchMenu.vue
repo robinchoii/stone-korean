@@ -8,7 +8,7 @@
                 <h2>Lunch Specials</h2>
 
 
-                <div class='lunch-description'>
+                <div class='lunch-about'>
 
                     <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
 
@@ -179,7 +179,7 @@
         background-color: yellow
      }
 
-    .lunch-description {
+    .lunch-about {
         text-align: center;
 
         font-size: .5em;
