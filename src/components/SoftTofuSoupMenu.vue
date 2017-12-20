@@ -9,7 +9,7 @@
 
             </div>
 
-            <div class='softTofuSoup flex-grid'>
+            <div class='softTofuSoup-flex-grid'>
 
                 <soft-tofu-soup-item v-for='softTofuSoup in softTofuSoups'  class='card' :softTofuSoup="softTofuSoup"></soft-tofu-soup-item>
 
@@ -121,12 +121,12 @@
 
 <style type="text/css">
 
-    .softTofuSoup .flex-grid {
+    .softTofuSoup-flex-grid {
         display: grid;
 
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 33% 33% 33%;
 
-        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-rows: 33% 33% 33%;
 
     }
 

@@ -3,7 +3,7 @@
 
         <div class='column'>
 
-            <div class='lunch-header has-text-centered'>
+            <div class='lunch-header'>
 
                 <h2>Lunch Specials</h2>
 
@@ -20,7 +20,7 @@
 
             </div>
 
-            <div class='flex-grid'>
+            <div class='lunch-flex-grid'>
 
                 <lunch-item v-for='lunch in lunches' class='card' :lunch='lunch'></lunch-item>
 
@@ -154,12 +154,12 @@
 
 <style type="text/css">
 
-    .flex-grid {
+    .lunch-flex-grid {
         display: grid;
 
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 33% 33% 33%;
 
-        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-rows: 33% 33% 33%;
 
     }
 

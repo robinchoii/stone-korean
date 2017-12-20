@@ -10,6 +10,8 @@
 
     <soft-tofu-soup-menu></soft-tofu-soup-menu>
 
+    <bibimbob-menu></bibimbob-menu>
+
   </div>
 
 </template>
@@ -19,6 +21,7 @@
     import LunchMenu from './components/LunchMenu.vue'
     import AppetizersMenu from './components/AppetizersMenu.vue'
     import SoftTofuSoupMenu from './components/SoftTofuSoupMenu.vue'
+    import BibimbobMenu from './components/BiBimBobMenu.vue'
 
     export default {
 
@@ -26,7 +29,7 @@
 
         components: {
 
-            NavBar, LunchMenu, AppetizersMenu, SoftTofuSoupMenu
+            NavBar, LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu
 
         },
 
@@ -53,5 +56,13 @@
 
   .price {
     color: black;
+    font-size:.8em;
+    font-weight: 600;
+  }
+
+  .menu-title {
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 3px
   }
 </style>

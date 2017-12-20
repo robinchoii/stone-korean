@@ -2,7 +2,7 @@
 
     <div class='appetizers-item-card'>
 
-        <h3>{{appetizer.name}}</h3>
+        <h3 class='menu-title'>{{appetizer.name}}</h3>
 
         <p class='appetizers-description'>{{appetizer.description}}</p>
 
@@ -25,8 +25,7 @@
 <style type="text/css">
     .appetizers-description {
         line-height: 1;
-        font-size:.75em;
-
+        font-size: .7em;
     }
 
 </style>

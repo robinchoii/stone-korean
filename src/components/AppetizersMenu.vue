@@ -1,7 +1,7 @@
 <template>
     <div class='columns is-mobile'>
 
-        <div class='appetizers column'>
+        <div class='appetizers-conatiner column'>
 
             <div class='appetizers-header'>
 
@@ -9,7 +9,7 @@
 
             </div>
 
-            <div class='flex-grid'>
+            <div class='appetizers-flex-grid'>
 
                 <appetizers-item v-for='appetizer in appetizers' class='card' :appetizer='appetizer'></appetizers-item>
 
@@ -115,12 +115,12 @@
 
 <style type="text/css">
 
-    .flex-grid {
+    .appetizers-flex-grid {
         display: grid;
 
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 33% 33% 33%;
 
-        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-rows: 33% 33% 33%;
 
     }
 

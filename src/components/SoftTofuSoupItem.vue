@@ -2,7 +2,7 @@
 
     <div class='softTofuSoup-item-card'>
 
-        <h3>{{softTofuSoup.name}}</h3>
+        <h3 class='menu-title'>{{softTofuSoup.name}}</h3>
 
         <span class='price'>${{softTofuSoup.price}}</span>
 
@@ -24,7 +24,7 @@
 
     .softTofuSoup-description {
         line-height: 1;
-        font-size:.75em;
+        font-size: .7em;
     }
 
 </style>
