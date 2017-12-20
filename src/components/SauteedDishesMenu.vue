@@ -5,7 +5,7 @@
         <div class='column'>
 
             <div class='sauteed-header'>
-                <h2>Sauteed Dishes Chicken</h2>
+                <h2>Sauteed Dishes</h2>
                 <div class='sauteed-about'>
                     <p>Served with a sizzling hot stone pot rice and assortment of side dishes.</p>
                     <p><i class='fa fa-leaf'></i>The following can be made into vegetarian dish upon request.</p>
