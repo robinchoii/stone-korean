@@ -156,7 +156,7 @@
     }
 
     .combo-specials-about {
-        font-size: .6em;
+        font-size: .55em;
 
         line-height: 1;
 

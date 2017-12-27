@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class='full-menu'>
         <lunch-menu ></lunch-menu>
 
         <appetizers-menu> </appetizers-menu>
@@ -10,13 +10,15 @@
 
         <bbq-menu></bbq-menu>
 
-        <fried-chicken-menu></fried-chicken-menu>
+        <combo-specials></combo-specials>
 
-        <grilled-fish-menu></grilled-fish-menu>
+        <fried-chicken-menu></fried-chicken-menu>
 
         <sauteed-dishes-menu></sauteed-dishes-menu>
 
-        <combo-specials></combo-specials>
+        <grilled-fish-menu></grilled-fish-menu>
+
+
 
     </div>
 </template>
@@ -59,5 +61,11 @@
         font-weight: 600;
         line-height: 1;
         margin-bottom: 3px
+    }
+
+    .full-menu {
+        margin: auto;
+
+        width: 70%;
     }
 </style>

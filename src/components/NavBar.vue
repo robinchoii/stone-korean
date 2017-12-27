@@ -1,5 +1,27 @@
 <template>
-    <nav class="navbar">
+
+    <div>
+        <div class="navbar-brand">
+
+            <h1 class="navbar-item title">
+
+                {{name}}
+
+            </h1>
+
+        </div>
+
+        <div class="tabs is-centered">
+            <ul>
+                <li class="is-active"><a>Home</a></li>
+                <li><a>Menu</a></li>
+                <li><a>Location</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+  <!--   <nav class="navbar">
 
         <div class="navbar-brand">
 
@@ -50,7 +72,7 @@
 
         </div>
 
-    </nav>
+    </nav> -->
 
 </template>
 
