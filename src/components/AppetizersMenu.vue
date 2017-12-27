@@ -7,6 +7,12 @@
 
                 <h2>Appetizers</h2>
 
+                <div class='appetizers-about'>
+
+                    <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
+
+                </div>
+
             </div>
 
             <div class='appetizers-flex-grid'>
@@ -142,7 +148,7 @@
      }
 
     .appetizers-about {
-        font-size: .6em;
+        font-size: .55em;
 
         line-height: 1;
 

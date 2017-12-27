@@ -16,6 +16,8 @@
 
                     <p>Bi-Bim-Bob can be made into vegetarian dish upon request.</p>
 
+                    <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
+
                 </div>
 
             </div>
@@ -182,7 +184,7 @@
     .lunch-about {
         text-align: center;
 
-        font-size: .6em;
+        font-size: .55em;
 
         line-height: 1;
 

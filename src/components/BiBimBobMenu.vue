@@ -11,8 +11,7 @@
                 <div class='bibimbob-about'>
                     <p> Served with rice and assortment of side dishes.</p>
 
-                    <p>The following can be made into vegetarian upon request</p>
-
+                    <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
                 </div>
             </div>
 
@@ -136,7 +135,7 @@
      }
 
     .bibimbob-about {
-        font-size: .6em;
+        font-size: .55em;
 
         line-height: 1;
 
