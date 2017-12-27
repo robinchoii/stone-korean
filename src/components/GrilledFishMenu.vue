@@ -58,10 +58,11 @@
 
         text-align: center;
 
+        background-color: yellow;
+
     }
 
     .fish-item-card {
-
         text-align: center;
 
         padding: 15px;

@@ -16,6 +16,8 @@
 
         <sauteed-dishes-menu></sauteed-dishes-menu>
 
+        <combo-specials></combo-specials>
+
     </div>
 </template>
 
@@ -28,12 +30,13 @@
     import FriedChickenMenu from './FriedChickenMenu.vue'
     import GrilledFishMenu from './GrilledFishMenu.vue'
     import SauteedDishesMenu from './SauteedDishesMenu.vue'
+    import ComboSpecials from './ComboSpecials.vue'
 
     export default {
 
         components: {
 
-                LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu
+                LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu, ComboSpecials
 
         },
     }
