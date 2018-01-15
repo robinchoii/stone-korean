@@ -6,6 +6,7 @@
 
 		<full-menu></full-menu>
 
+		<food-picture></food-picture>
 	</div>
 
 </template>
@@ -14,6 +15,7 @@
 
 	import FullMenu from './components/FullMenu.vue'
 	import NavBar from './components/NavBar.vue'
+	import FoodPicture from './components/FoodPicture.vue'
 
 	export default {
 
@@ -21,7 +23,7 @@
 
 		components: {
 
-			FullMenu, NavBar
+			FullMenu, NavBar,FoodPicture
 
 		},
 
