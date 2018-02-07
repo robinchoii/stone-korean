@@ -5,8 +5,7 @@
 
             <h2>Lunch Specials</h2>
 
-
-            <div class=''>
+            <div class='lunch-about'>
 
                 <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
 
@@ -167,38 +166,17 @@
         text-align: center;
 
     }
-/*    .lunch-flex-grid {
-        display: grid;
-
-        grid-template-columns: 33% 33% 33%;
-
-        grid-template-rows: 33% 33% 33%;
-
-    }
-
-    .lunch-item-card {
-        margin: 5px;
-
-        text-align: center;
-
-        padding: 15px;
-    }
 
     .lunch-header {
         text-align: center;
-
         font-size: 1.5em;
-
         background-color: yellow
      }
 
     .lunch-about {
-        text-align: center;
-
         font-size: .55em;
-
         line-height: 1;
 
-    }*/
+    }
 
 </style>
