@@ -24,5 +24,7 @@
 
 <style type="text/css">
 
-
+    .lunch-item-card {
+        padding: 10px;
+    }
 </style>
