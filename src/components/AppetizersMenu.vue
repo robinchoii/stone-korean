@@ -1,25 +1,21 @@
 <template>
-    <div class='columns is-mobile'>
+    <div class='appetizer-wrapper'>
 
-        <div class='appetizers-conatiner column'>
+        <div class='appetizers-header'>
 
-            <div class='appetizers-header'>
+            <h2>Appetizers</h2>
 
-                <h2>Appetizers</h2>
+            <div class='appetizers-about'>
 
-                <div class='appetizers-about'>
-
-                    <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
-
-                </div>
+                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
 
             </div>
 
-            <div class='appetizers-flex-grid'>
+        </div>
 
-                <appetizers-item v-for='appetizer in appetizers' class='card' :appetizer='appetizer'></appetizers-item>
+        <div class='appetizer-items'>
 
-            </div>
+            <appetizers-item v-for='appetizer in appetizers' class='card' :appetizer='appetizer'></appetizers-item>
 
         </div>
 
@@ -120,36 +116,30 @@
 </script>
 
 <style type="text/css">
-
-    .appetizers-flex-grid {
+    .appetizer-wrapper {
         display: grid;
-
-        grid-template-columns: 33% 33% 33%;
-
-        grid-template-rows: 33% 33% 33%;
+        grid-template-columns: 1fr;
 
     }
 
-    .appetizers-item-card {
-        margin: 5px;
-
+    .appetizer-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
         text-align: center;
-
-        padding: 15px;
-
+    }
+    .appetizers-item-card {
+        padding: 10px;
     }
 
     .appetizers-header{
         text-align: center;
-
         font-size: 1.5em;
-
-        background-color: yellow
+        background-color: yellow;
      }
 
     .appetizers-about {
         font-size: .55em;
-
         line-height: 1;
 
     }

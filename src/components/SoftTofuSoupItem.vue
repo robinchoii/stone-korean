@@ -1,6 +1,6 @@
 <template>
 
-    <div class='softTofuSoup-item-card'>
+    <div class='soft-tofu-soups-item-card'>
 
         <h3 class='item-title'>{{softTofuSoup.name}}</h3>
 
@@ -21,5 +21,8 @@
 </script>
 
 <style type="text/css">
+    .soft-tofu-soups-item-card {
+        padding: 10px;
 
+    }
 </style>

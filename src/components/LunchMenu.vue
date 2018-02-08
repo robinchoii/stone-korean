@@ -1,32 +1,27 @@
 <template>
-    <div class='lunch columns is-mobile'>
+    <div class='lunch-specials'>
 
-        <div class='column'>
+        <div class='lunch-header'>
 
-            <div class='lunch-header sub-title'>
+            <h2>Lunch Specials</h2>
 
-                <h2>Lunch Specials</h2>
+            <div class='lunch-about'>
 
+                <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
 
-                <div class='lunch-about'>
+                <p>Rice and assortment of sides included.</p>
 
-                    <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
+                <p>Bi-Bim-Bob can be made into vegetarian dish upon request.</p>
 
-                    <p>Rice and assortment of sides included.</p>
-
-                    <p>Bi-Bim-Bob can be made into vegetarian dish upon request.</p>
-
-                    <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
-
-                </div>
+                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
 
             </div>
 
-            <div class='lunch-flex-grid'>
+        </div>
 
-                <lunch-item v-for='lunch in lunches' class='card' :lunch='lunch'></lunch-item>
+        <div class='lunch-items'>
 
-            </div>
+            <lunch-item v-for='lunch in lunches' class='card' :lunch='lunch'></lunch-item>
 
         </div>
 
@@ -155,37 +150,31 @@
 </script>
 
 <style type="text/css">
-
-    .lunch-flex-grid {
+    .lunch-specials {
         display: grid;
-
-        grid-template-columns: 33% 33% 33%;
-
-        grid-template-rows: 33% 33% 33%;
-
-    }
-
-    .lunch-item-card {
-        margin: 5px;
-
-        text-align: center;
-
-        padding: 15px;
+        grid-template-columns: 1fr;
     }
 
     .lunch-header {
         text-align: center;
 
-        font-size: 1.5em;
+    }
+    .lunch-items {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        text-align: center;
 
+    }
+
+    .lunch-header {
+        text-align: center;
+        font-size: 1.5em;
         background-color: yellow
      }
 
     .lunch-about {
-        text-align: center;
-
         font-size: .55em;
-
         line-height: 1;
 
     }

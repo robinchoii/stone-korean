@@ -64,8 +64,6 @@
     }
 
     .full-menu {
-        margin: auto;
-
-        width: 70%;
+        margin: auto 100px;
     }
 </style>
