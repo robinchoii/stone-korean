@@ -1,30 +1,26 @@
 <template>
 
-    <div class='columns is-mobile'>
+    <div class='bibimbobs'>
 
-        <div class='column'>
+        <div class='bibimbob-header'>
 
-            <div class='bibimbob-header'>
+            <h2>Bi-Bim-Bobs</h2>
 
-                <h2>Bi-Bim-Bobs</h2>
+            <div class='bibimbob-about'>
+                <p> Served with rice and assortment of side dishes.</p>
 
-                <div class='bibimbob-about'>
-                    <p> Served with rice and assortment of side dishes.</p>
-
-                    <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
-                </div>
-            </div>
-
-
-            <div class='bibimbob-flex-grid'>
-
-                <bi-bim-bob-item v-for='bibimbob in Bibimbobs' :bibimbob='bibimbob' class='card'></bi-bim-bob-item>
-
+                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
             </div>
         </div>
 
-    </div>
 
+        <div class='bibimbobs-items'>
+
+            <bi-bim-bob-item v-for='bibimbob in Bibimbobs' :bibimbob='bibimbob' class='card'></bi-bim-bob-item>
+
+        </div>
+
+    </div>
 
 </template>
 
@@ -112,20 +108,23 @@
 </script>
 
 <style type="text/css">
-    .bibimbob-flex-grid{
+
+    .bibimbobs {
         display: grid;
-
-        grid-template-columns: 33% 33% 33%;
-
-        grid-template-rows: 33% 33% 33%;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
     }
+
+    .bibimbobs-items  {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    }
+
     .bibimbob-item-card {
-        margin: 5px;
-
-        text-align: center;
-
-        padding: 15px;
+        padding: 10px;
     }
+
     .bibimbob-header {
         text-align: center;
 

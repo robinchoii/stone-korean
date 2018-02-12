@@ -119,14 +119,16 @@
     .appetizer-wrapper {
         display: grid;
         grid-template-columns: 1fr;
+        grid-gap:20px
+        ;
 
     }
 
     .appetizer-items {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 10px;
-        text-align: center;
+        /*text-align: center;*/
     }
     .appetizers-item-card {
         padding: 10px;

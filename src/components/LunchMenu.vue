@@ -153,6 +153,7 @@
     .lunch-specials {
         display: grid;
         grid-template-columns: 1fr;
+        grid-gap: 20px;
     }
 
     .lunch-header {
@@ -162,8 +163,8 @@
     .lunch-items {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        text-align: center;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        /*text-align: center;*/
 
     }
 
