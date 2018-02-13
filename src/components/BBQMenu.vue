@@ -1,26 +1,22 @@
 <template>
 
-    <div class='columns'>
+    <div class='bbqs'>
 
-        <div class='column'>
+        <div class='bbq-header'>
 
-            <div class='bbq-header'>
-
-                <h2>B.B.Q</h2>
+            <h2>B.B.Q</h2>
 
 
-                <div class='bbq-about'>
+            <div class='bbq-about'>
 
-                    <p>Served with sizzling hot stone pot rice & assortment of side dishes</p>
+                <p>Served with sizzling hot stone pot rice & assortment of side dishes</p>
 
-                </div>
             </div>
+        </div>
 
-            <div class='bbq-flex-grid'>
+        <div class='bbqs-items'>
 
-                <bbq-item v-for='BBQ in BBQs' :BBQ='BBQ' class='card'></bbq-item>
-            </div>
-
+            <bbq-item v-for='BBQ in BBQs' :BBQ='BBQ' class='card'></bbq-item>
         </div>
 
     </div>
@@ -92,22 +88,20 @@
 </script>
 
 <style type="text/css">
-
-    .bbq-flex-grid {
+    .bbqs {
         display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
 
-        grid-template-columns: 50% 50%;
-
-        grid-template-rows: 50% 50%;
+    .bbqs-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
 
     }
 
     .bbq-item-card {
-
-        margin: 5px;
-
-        text-align: center;
-
         padding: 15px;
     }
 
@@ -120,7 +114,6 @@
     }
 
     .bbq-about {
-
         font-size: .55em;
 
         line-height: 1;

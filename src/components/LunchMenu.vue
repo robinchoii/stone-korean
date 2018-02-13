@@ -163,7 +163,7 @@
     .lunch-items {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         /*text-align: center;*/
 
     }
