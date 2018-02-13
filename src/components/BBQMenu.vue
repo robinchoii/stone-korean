@@ -102,7 +102,7 @@
     }
 
     .bbq-item-card {
-        padding: 15px;
+        padding: 10px;
     }
 
     .bbq-header {

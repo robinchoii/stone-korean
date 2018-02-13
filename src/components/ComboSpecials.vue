@@ -1,133 +1,109 @@
 <template>
 
-    <div class='columns'>
+    <div class='combo-specials'>
 
-        <div class='column'>
+        <div class='combo-specials-header'>
 
-            <div class='combo-specials-header'>
+            <h2>Combo Specials</h2>
 
-                <h2>Combo Specials</h2>
+            <div class='combo-specials-about'>
 
-                <div class='combo-specials-about'>
+                <p>Served with a sizzling hot stone pot rice except 1,2,3,9,& 10 and assortment of side dishes.</p>
 
-                    <p>Served with a sizzling hot stone pot rice except 1,2,3,9,& 10 and assortment of side dishes.</p>
-
-                    <p>(1 person serving, samller portions than if ordered separately)</p>
-
-                </div>
+                <p>(1 person serving, samller portions than if ordered separately)</p>
 
             </div>
 
-            <div class='combo-specials-flex-grid'>
+        </div>
 
-                <div class='combo-special-item-card card '>
-                    <span class='num is-pulled-left'>1</span>
-                    <h3 class='item-title'>Bulgogi or Spicy Pork + Hotpot Bibimbob</h3>
+        <div class='combo-specials-items'>
 
-                    <p class='item-description'></p>
+            <div class='combo-special-item-card card '>
+                <span class='combo-number'>1</span>
+                <h3 class='item-title'>Bulgogi or Spicy Pork + Hotpot Bibimbob</h3>
 
-                    <span class='item-price'>$23</span>
+                <span class='item-price'>$23</span>
 
-                </div>
+            </div>
 
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>2</span>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>2</span>
 
-                    <h3 class='item-title'>Kalbi(Short Ribs) + Hotpot Bibimbob</h3>
+                <h3 class='item-title'>Kalbi(Short Ribs) + Hotpot Bibimbob</h3>
 
-                    <p class='item-description'></p>
+                <span class='item-price'>$25</span>
 
-                    <span class='item-price'>$25</span>
+            </div>
 
-                </div>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>3</span>
 
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>3</span>
+                <h3 class='item-title'>Soft Tofu Soup + Hotpot Bibimbob</h3>
 
-                    <h3 class='item-title'>Soft Tofu Soup + Hotpot Bibimbob</h3>
+                <span class='item-price'>$23</span>
 
-                    <p class='item-description'></p>
+            </div>
 
-                    <span class='item-price'>$23</span>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>4</span>
 
-                </div>
+                <h3 class='item-title'>Bulgogi + Soft Tofu Soup + Stone Rice</h3>
 
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>4</span>
+                <span class='item-price'>$23</span>
 
-                    <h3 class='item-title'>Bulgogi + Soft Tofu Soup + Stone Rice</h3>
+            </div>
 
-                    <p class='item-description'></p>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>5</span>
 
-                    <span class='item-price'>$23</span>
+                <h3 class='item-title'>Spicy Pork + Soft Tofu Soup + Stone Rice</h3>
 
-                </div>
+                <span class='item-price'>$23</span>
 
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>5</span>
+            </div>
 
-                    <h3 class='item-title'>Spicy Pork + Soft Tofu Soup + Stone Rice</h3>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>6</span>
 
-                    <p class='item-description'></p>
+                <h3 class='item-title'>Chicken Bulgogi + Soft Tofu Soup + Stone Rice</h3>
 
-                    <span class='item-price'>$23</span>
+                <span class='item-price'>$23</span>
 
-                </div>
+            </div>
 
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>6</span>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>7</span>
 
-                    <h3 class='item-title'>Chicken Bulgogi + Soft Tofu Soup + Stone Rice</h3>
+                <h3 class='item-title'>Spicy Chicken Bulgogo + Soft Tofu Soup + Stone Rice</h3>
 
-                    <p class='item-description'></p>
+                <span class='item-price'>$23</span>
 
-                    <span class='item-price'>$23</span>
+            </div>
 
-                </div>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>8</span>
 
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>7</span>
+                <h3 class='item-title'>Kalbi (Short Ribs) + Soft Tofu Soup + Stone Rice</h3>
 
-                    <h3 class='item-title'>Spicy Chicken Bulgogo + Soft Tofu Soup + Stone Rice</h3>
+                <span class='item-price'>$24</span>
 
-                    <p class='item-description'></p>
+            </div>
 
-                    <span class='item-price'>$23</span>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>9</span>
 
-                </div>
+                <h3 class='item-title'>Kalbi (Short Ribs) + Naeng-Myun(Cold Noodle Soup)</h3>
 
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>8</span>
+                <span class='item-price'>$24</span>
 
-                    <h3 class='item-title'>Kalbi (Short Ribs) + Soft Tofu Soup + Stone Rice</h3>
+            </div>
 
-                    <p class='item-description'></p>
+            <div class='combo-special-item-card card'>
+                <span class='combo-number'>10</span>
 
-                    <span class='item-price'>$24</span>
+                <h3 class='item-title'>Chicken Bulgogi + Hotpot Bibimbob</h3>
 
-                </div>
-
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>9</span>
-
-                    <h3 class='item-title'>Kalbi (Short Ribs) + Naeng-Myun(Cold Noodle Soup)</h3>
-
-                    <p class='item-description'></p>
-
-                    <span class='item-price'>$24</span>
-
-                </div>
-
-                <div class='combo-special-item-card card'>
-                    <span class='num is-pulled-left'>10</span>
-
-                    <h3 class='item-title'>Chicken Bulgogi + Hotpot Bibimbob</h3>
-
-                    <p class='item-description'></p>
-
-                    <span class='item-price'>$3</span>
-
-                </div>
+                <span class='item-price'>$3</span>
 
             </div>
 
@@ -145,47 +121,39 @@
 </script>
 
 <style type="text/css">
+    .combo-specials {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
 
     .combo-specials-header {
         font-size: 1.5em;
-
         text-align: center;
-
         background-color: yellow;
 
     }
 
     .combo-specials-about {
         font-size: .55em;
-
         line-height: 1;
 
     }
 
-    .combo-specials-flex-grid {
+    .combo-specials-items {
         display: grid;
-
-        grid-template-columns: 50% 50%;
-
-        grid-template-rows: 50% 50%;
-
-        margin: auto;
-
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
     }
 
     .combo-special-item-card {
-        text-align: center;
-
-        padding: 15px;
-
-        margin: 5px;
-
-        position: relative;
-
+        display: grid;
+        grid-template-columns: auto 1fr;
+        padding: 10px;
+        grid-column-gap: 15px;
     }
 
-    .num {
-        font-size: 1em
+    .combo-special-item-card .item-price {
+        grid-column: 2;
     }
-
 </style>
