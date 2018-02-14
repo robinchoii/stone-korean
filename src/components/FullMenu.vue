@@ -63,7 +63,7 @@
         margin-bottom: 3px
     }
 
-    .full-menu {
+/*    .full-menu {
         margin: auto 50px;
-    }
+    }*/
 </style>

@@ -1,6 +1,6 @@
 <template>
 
-	<div id="app" class='container'>
+	<div id="app" class=''>
 
         <nav-bar></nav-bar>
 
