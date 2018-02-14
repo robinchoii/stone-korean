@@ -1,20 +1,10 @@
 <template>
+    <div>
 
-    <div class='navbar'>
 
-        <h1>
+        <div class='navbar'>
 
-            {{name}}
-
-        </h1>
-
-    </div>
-
-  <!--   <nav class="navbar">
-
-        <div class="navbar-brand">
-
-            <h1 class="navbar-item title" href="/">
+            <h1>
 
                 {{name}}
 
@@ -22,46 +12,37 @@
 
         </div>
 
-        <div class="navbar-menu">
 
-            <div class='navbar-start'>
+        <div class="">
 
-                <h3 class='navbar-item'>Korean BBQ & Tofu</h3>
+            <a class="" href="/">
 
-            </div>
+                Home
 
-            <div class="navbar-end">
+            </a>
 
-                <a class="navbar-item" href="/">
+            <a class="" href="/">
 
-                    Home
+                Lunch Specials
 
-                </a>
+            </a>
 
-                <a class="navbar-item" href="/">
+            <a class="" href="/">
 
-                    Lunch Specials
+                Full Menu
 
-                </a>
+            </a>
 
-                <a class="navbar-item" href="/">
+            <a class="" href="/">
 
-                    Full Menu
-
-                </a>
-
-                <a class="navbar-item" href="/">
-
-                    Locations
+                Locations
 
 
-                </a>
-
-            </div>
+            </a>
 
         </div>
 
-    </nav> -->
+    </div>
 
 </template>
 
@@ -84,7 +65,7 @@
 
 <style type="text/css">
     .navbar {
-        background-color: blue
+        /*background-color: blue*/
     }
 
     .nav-item {

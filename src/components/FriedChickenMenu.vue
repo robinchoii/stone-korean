@@ -1,16 +1,22 @@
 <template>
 
-    <div class='fried-chicken'>
+    <div class='fried-chicken food-wrapper'>
 
-        <div class='fried-chicken-header'>
+        <div class='fried-chicken-header main-header'>
+
             <h2>Fried Chicken</h2>
-            <div class='fried-chicken-about'>
+
+            <div class='fried-chicken-about main-about'>
+
                 <p>Deep fried in soy bean oil. </p>
+
                 <p>Served with side of pickled radishes. Must pair with entre for full side dish set.</p>
+
             </div>
+
         </div>
 
-        <div class='fried-chicken-items'>
+        <div class='fried-chicken-items food-items-grid'>
 
             <fried-chicken-item v-for='chicken in chickens' :chicken='chicken' class='card'></fried-chicken-item>
 
@@ -65,33 +71,5 @@
 
 <style type="text/css">
 
-    .fried-chicken {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: 1fr;
 
-    }
-
-    .fried-chicken-items {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 10px;
-    }
-
-    .fried-chicken-item-card {
-        padding: 10px;
-    }
-
-    .fried-chicken-header {
-        font-size: 1.5em;
-        text-align: center;
-        background-color: yellow;
-
-    }
-
-    .fried-chicken-about {
-        font-size: .55em;
-        line-height: 1;
-
-    }
 </style>

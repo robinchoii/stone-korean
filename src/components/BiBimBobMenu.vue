@@ -1,20 +1,20 @@
 <template>
 
-    <div class='bibimbobs'>
+    <div class='bibimbobs food-wrapper'>
 
-        <div class='bibimbob-header'>
+        <div class='bibimbob-header main-header'>
 
             <h2>Bi-Bim-Bobs</h2>
 
-            <div class='bibimbob-about'>
+            <div class='bibimbob-about main-about'>
                 <p> Served with rice and assortment of side dishes.</p>
 
-                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
+                <p><i class='fa fa-leaf vege'></i> The following can be made into vegetarian dish upon request.</p>
             </div>
         </div>
 
 
-        <div class='bibimbobs-items'>
+        <div class='bibimbobs-items food-items-grid'>
 
             <bi-bim-bob-item v-for='bibimbob in Bibimbobs' :bibimbob='bibimbob' class='card'></bi-bim-bob-item>
 
@@ -108,36 +108,5 @@
 </script>
 
 <style type="text/css">
-
-    .bibimbobs {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
-
-    .bibimbobs-items  {
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-    }
-
-    .bibimbob-item-card {
-        padding: 10px;
-    }
-
-    .bibimbob-header {
-        text-align: center;
-
-        font-size: 1.5em;
-
-        background-color: yellow
-     }
-
-    .bibimbob-about {
-        font-size: .55em;
-
-        line-height: 1;
-
-    }
 
 </style>

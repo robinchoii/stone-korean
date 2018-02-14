@@ -1,6 +1,6 @@
 <template>
 
-    <div class='bbq-item-card'>
+    <div class='bbq-item-card item-card'>
 
         <h3 class='item-title'>{{BBQ.name}}</h3>
 

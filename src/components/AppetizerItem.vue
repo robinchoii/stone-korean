@@ -1,6 +1,6 @@
 <template>
 
-    <div class='appetizers-item-card'>
+    <div class='appetizers-item-card item-card'>
 
         <h3 class='item-title'>{{appetizer.name}}</h3>
 

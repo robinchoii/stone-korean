@@ -1,11 +1,11 @@
 <template>
-    <div class='fishes'>
+    <div class='fishes food-wrapper'>
 
-        <div class='fishes-header'>
+        <div class='fishes-header main-header'>
 
             <h2>Grilled Fish</h2>
 
-            <div class='fish-about'>
+            <div class='fish-about main-about'>
 
                 <p>Served with a sizzling hot stone pot rice & side dishes.</p>
 
@@ -13,9 +13,9 @@
 
         </div>
 
-        <div class='fishes-items'>
+        <div class='fishes-items food-items-grid'>
 
-            <div class='fish-item-card card'>
+            <div class='fish-item-card item-card'>
 
                 <h3 class='item-title'>Grilled Mackerel</h3>
 
@@ -25,7 +25,7 @@
 
             </div>
 
-            <div class='fish-item-card card'>
+            <div class='fish-item-card item-card'>
 
                 <h3 class='item-title'>Grilled Flounder</h3>
 
@@ -47,35 +47,5 @@
 
 <style type="text/css">
 
-    .fishes{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
 
-    }
-
-    .fishes-items {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 1px;
-    }
-
-    .fishes-header {
-        font-size: 1.5em;
-
-        text-align: center;
-
-        background-color: yellow;
-
-    }
-
-    .fish-item-card {
-        padding: 10px;
-
-    }
-
-    .fish-about {
-        font-size: .55em;
-        line-height: 1;
-    }
 </style>

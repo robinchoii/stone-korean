@@ -1,11 +1,11 @@
 <template>
-    <div class='lunch-specials'>
+    <div class='lunch-specials food-wrapper'>
 
-        <div class='lunch-header'>
+        <div class='lunch-header main-header'>
 
             <h2>Lunch Specials</h2>
 
-            <div class='lunch-about'>
+            <div class='lunch-about main-about'>
 
                 <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
 
@@ -19,7 +19,7 @@
 
         </div>
 
-        <div class='lunch-items'>
+        <div class='lunch-items food-items-grid'>
 
             <lunch-item v-for='lunch in lunches' class='card' :lunch='lunch'></lunch-item>
 
@@ -150,34 +150,6 @@
 </script>
 
 <style type="text/css">
-    .lunch-specials {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
 
-    .lunch-header {
-        text-align: center;
-
-    }
-    .lunch-items {
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        /*text-align: center;*/
-
-    }
-
-    .lunch-header {
-        text-align: center;
-        font-size: 1.5em;
-        background-color: yellow
-     }
-
-    .lunch-about {
-        font-size: .55em;
-        line-height: 1;
-
-    }
 
 </style>

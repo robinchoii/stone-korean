@@ -1,20 +1,20 @@
 <template>
 
-    <div class='bbqs'>
+    <div class='bbqs food-wrapper'>
 
-        <div class='bbq-header'>
+        <div class='bbq-header main-header'>
 
             <h2>B.B.Q</h2>
 
 
-            <div class='bbq-about'>
+            <div class='bbq-about main-about'>
 
                 <p>Served with sizzling hot stone pot rice & assortment of side dishes</p>
 
             </div>
         </div>
 
-        <div class='bbqs-items'>
+        <div class='bbqs-items food-items-grid'>
 
             <bbq-item v-for='BBQ in BBQs' :BBQ='BBQ' class='card'></bbq-item>
         </div>
@@ -88,35 +88,5 @@
 </script>
 
 <style type="text/css">
-    .bbqs {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
-
-    .bbqs-items {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 10px;
-
-    }
-
-    .bbq-item-card {
-        padding: 10px;
-    }
-
-    .bbq-header {
-        font-size: 1.5em;
-
-        text-align: center;
-
-        background-color: yellow;
-    }
-
-    .bbq-about {
-        font-size: .55em;
-
-        line-height: 1;
-    }
 
 </style>

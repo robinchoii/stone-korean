@@ -47,13 +47,12 @@
 <style type="text/css">
 
     .item-description {
-        line-height: 1;
-        font-size: .75em;
+        font-size: .85em;
     }
 
     .item-price {
         color: black;
-        font-size:.8em;
+        font-size:.9em;
         font-weight: 600;
     }
 
@@ -61,6 +60,53 @@
         font-weight: 600;
         line-height: 1;
         margin-bottom: 3px
+    }
+
+    .item-card {
+        border: solid 2px gray;
+        box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+
+    .item-card > * {
+        margin: 0;
+        line-height: 1.25;
+    }
+
+    .food-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:20px;
+    }
+
+    .food-items-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
+    }
+    .main-header {
+        padding: 15px;
+        background-color: yellow;
+    }
+
+    .main-header > *{
+
+    }
+
+    .main-header h2, .main-header p {
+        /*margin: 0;*/
+        /*padding: 0;*/
+        text-align: center;
+
+    }
+
+    .main-about > *, .vege {
+        font-size: .9em;
+    }
+
+    .main-header p {
+        margin: 0;
+        padding: 0;
     }
 
 /*    .full-menu {

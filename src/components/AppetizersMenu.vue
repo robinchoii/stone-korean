@@ -1,11 +1,11 @@
 <template>
-    <div class='appetizer-wrapper'>
+    <div class='appetizers food-wrapper'>
 
-        <div class='appetizers-header'>
+        <div class='appetizers-header main-header'>
 
             <h2>Appetizers</h2>
 
-            <div class='appetizers-about'>
+            <div class='appetizers-about main-about'>
 
                 <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
 
@@ -13,7 +13,7 @@
 
         </div>
 
-        <div class='appetizer-items'>
+        <div class='appetizer-items food-items-grid'>
 
             <appetizers-item v-for='appetizer in appetizers' class='card' :appetizer='appetizer'></appetizers-item>
 
@@ -116,34 +116,5 @@
 </script>
 
 <style type="text/css">
-    .appetizer-wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap:20px
-        ;
-
-    }
-
-    .appetizer-items {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 10px;
-        /*text-align: center;*/
-    }
-    .appetizers-item-card {
-        padding: 10px;
-    }
-
-    .appetizers-header{
-        text-align: center;
-        font-size: 1.5em;
-        background-color: yellow;
-     }
-
-    .appetizers-about {
-        font-size: .55em;
-        line-height: 1;
-
-    }
 
 </style>

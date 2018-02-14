@@ -1,6 +1,6 @@
 <template>
 
-    <div class='soft-tofu-soups-item-card'>
+    <div class='soft-tofu-soups-item-card item-card'>
 
         <h3 class='item-title'>{{softTofuSoup.name}}</h3>
 

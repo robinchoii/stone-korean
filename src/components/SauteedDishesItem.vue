@@ -1,6 +1,6 @@
 <template>
 
-    <div class='sauteed-item-card'>
+    <div class='sauteed-item-card item-card'>
 
         <h3 class='item-title'>{{sauteed.name}}</h3>
 

@@ -1,16 +1,22 @@
 <template>
 
-    <div class='sauteed-dishes'>
+    <div class='sauteed-dishes food-wrapper'>
 
-        <div class='sauteed-dishes-header'>
+        <div class='sauteed-dishes-header main-header'>
+
             <h2>Sauteed Dishes</h2>
-            <div class='sauteed-dishes-about'>
+
+            <div class='sauteed-dishes-about main-about'>
+
                 <p>Served with a sizzling hot stone pot rice and assortment of side dishes.</p>
-                <p><i class='fa fa-leaf'></i>The following can be made into vegetarian dish upon request.</p>
+
+                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
+
             </div>
+
         </div>
 
-        <div class='sauteed-dishes-items'>
+        <div class='sauteed-dishes-items food-items-grid'>
 
             <sauteed-dishes-item v-for='sauteed in sauteedDishes' :sauteed='sauteed' class='card'></sauteed-dishes-item>
 
@@ -71,38 +77,4 @@
 
 <style type="text/css">
 
-    .sauteed-dishes {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-
-    }
-
-    .sauteed-dishes-items {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 10px;
-    }
-
-    .sauteed-item-card {
-        padding: 10px;
-    }
-
-    .sauteed-dishes-header {
-
-        font-size: 1.5em;
-
-        text-align: center;
-
-        background-color: yellow;
-
-    }
-
-    .sauteed-dishes-about {
-
-        font-size: .55em;
-
-        line-height: 1;
-
-    }
 </style>
