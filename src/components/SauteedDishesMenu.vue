@@ -1,22 +1,18 @@
 <template>
 
-    <div class='columns'>
+    <div class='sauteed-dishes'>
 
-        <div class='column'>
-
-            <div class='sauteed-header'>
-                <h2>Sauteed Dishes</h2>
-                <div class='sauteed-about'>
-                    <p>Served with a sizzling hot stone pot rice and assortment of side dishes.</p>
-                    <p><i class='fa fa-leaf'></i>The following can be made into vegetarian dish upon request.</p>
-                </div>
+        <div class='sauteed-dishes-header'>
+            <h2>Sauteed Dishes</h2>
+            <div class='sauteed-dishes-about'>
+                <p>Served with a sizzling hot stone pot rice and assortment of side dishes.</p>
+                <p><i class='fa fa-leaf'></i>The following can be made into vegetarian dish upon request.</p>
             </div>
+        </div>
 
-            <div class='sauteed-flex-grid'>
+        <div class='sauteed-dishes-items'>
 
-                <sauteed-dishes-item v-for='sauteed in sauteedDishes' :sauteed='sauteed' class='card'></sauteed-dishes-item>
-
-            </div>
+            <sauteed-dishes-item v-for='sauteed in sauteedDishes' :sauteed='sauteed' class='card'></sauteed-dishes-item>
 
         </div>
 
@@ -75,24 +71,24 @@
 
 <style type="text/css">
 
-    .sauteed-flex-grid {
+    .sauteed-dishes {
         display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
 
-        grid-template-columns: 33% 33% 33%;
+    }
 
-        grid-template-rows: 33% 33% 33%;
-
+    .sauteed-dishes-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 10px;
     }
 
     .sauteed-item-card {
-        margin: 5px;
-
-        text-align: center;
-
-        padding: 15px;
+        padding: 10px;
     }
 
-    .sauteed-header {
+    .sauteed-dishes-header {
 
         font-size: 1.5em;
 
@@ -102,7 +98,7 @@
 
     }
 
-    .sauteed-about {
+    .sauteed-dishes-about {
 
         font-size: .55em;
 

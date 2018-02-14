@@ -1,34 +1,37 @@
 <template>
-    <div class='columns'>
-        <div class='column'>
-            <div class='fish-header'>
-                <h2>Grilled Fish</h2>
-                <div class='fish-about'>
-                    <p>Served with a sizzling hot stone pot rice & side dishes.</p>
-                </div>
+    <div class='fishes'>
+
+        <div class='fishes-header'>
+
+            <h2>Grilled Fish</h2>
+
+            <div class='fish-about'>
+
+                <p>Served with a sizzling hot stone pot rice & side dishes.</p>
 
             </div>
-            <div class='fish-flex-grid'>
 
-                <div class='fish-item-card card'>
+        </div>
 
-                    <h3 class='item-title'>Grilled Mackerel</h3>
+        <div class='fishes-items'>
 
-                    <p class='item-description'>Grilled mackerel with lemon and rice</p>
+            <div class='fish-item-card card'>
 
-                    <span class='item-price'>$15</span>
+                <h3 class='item-title'>Grilled Mackerel</h3>
 
-                </div>
+                <p class='item-description'>Grilled mackerel with lemon and rice</p>
 
-                <div class='fish-item-card card'>
+                <span class='item-price'>$15</span>
 
-                    <h3 class='item-title'>Grilled Flounder</h3>
+            </div>
 
-                    <p class='item-description'>Grilled flounder with lemon and rice</p>
+            <div class='fish-item-card card'>
 
-                    <span class='item-price'>$15</span>
+                <h3 class='item-title'>Grilled Flounder</h3>
 
-                </div>
+                <p class='item-description'>Grilled flounder with lemon and rice</p>
+
+                <span class='item-price'>$15</span>
 
             </div>
 
@@ -44,16 +47,20 @@
 
 <style type="text/css">
 
-    .fish-flex-grid {
+    .fishes{
         display: grid;
-
-        grid-template-columns: 50% 50%;
-
-        grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
 
     }
 
-    .fish-header {
+    .fishes-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1px;
+    }
+
+    .fishes-header {
         font-size: 1.5em;
 
         text-align: center;
@@ -63,16 +70,12 @@
     }
 
     .fish-item-card {
-        text-align: center;
+        padding: 10px;
 
-        padding: 15px;
-
-        margin: 5px;
     }
 
     .fish-about {
         font-size: .55em;
-
         line-height: 1;
     }
 </style>
