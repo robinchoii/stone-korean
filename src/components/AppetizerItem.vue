@@ -6,7 +6,7 @@
 
         <p class='item-description'>{{appetizer.description}}</p>
 
-        <span class='item-price'>${{appetizer.price}}</span>
+        <span class='item-price'>{{appetizer.price}}</span>
 
     </div>
 

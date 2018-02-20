@@ -21,7 +21,7 @@
 
                 <p class='item-description'>Grilled mackerel with lemon and rice</p>
 
-                <span class='item-price'>$15</span>
+                <span class='item-price'>15</span>
 
             </div>
 
@@ -31,7 +31,7 @@
 
                 <p class='item-description'>Grilled flounder with lemon and rice</p>
 
-                <span class='item-price'>$15</span>
+                <span class='item-price'>15</span>
 
             </div>
 

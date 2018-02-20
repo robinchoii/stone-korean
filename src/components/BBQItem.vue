@@ -6,7 +6,7 @@
 
         <p class='item-description'>{{BBQ.description}}</p>
 
-        <span class='item-price'>${{BBQ.price}}</span>
+        <span class='item-price'>{{BBQ.price}}</span>
 
     </div>
 

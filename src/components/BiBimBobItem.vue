@@ -5,7 +5,7 @@
 
         <p class='item-description'>{{bibimbob.description}}</p>
 
-        <span class='item-price'>${{bibimbob.price}}</span>
+        <span class='item-price'>{{bibimbob.price}}</span>
     </div>
 
 </template>

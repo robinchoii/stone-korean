@@ -6,7 +6,7 @@
 
         <p class='item-description'>{{sauteed.description}}</p>
 
-        <span class='item-price'>${{sauteed.price}}</span>
+        <span class='item-price'>{{sauteed.price}}</span>
 
     </div>
 

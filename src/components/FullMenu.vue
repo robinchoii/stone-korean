@@ -92,7 +92,7 @@
 
     .main-header h2 {
         text-transform: uppercase;
-        margin: 10px;
+        margin: 5px;
 
     }
 
