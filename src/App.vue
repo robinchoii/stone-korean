@@ -6,7 +6,7 @@
 
 		<full-menu></full-menu>
 
-		<food-picture></food-picture>
+		<!-- <food-picture></food-picture> -->
 	</div>
 
 </template>
