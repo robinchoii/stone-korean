@@ -62,6 +62,6 @@
         border-radius: 1px;
         height: 3px;
         grid-column: 2;
-        background: red;
+        background: #ca2626;
      }
 </style>
