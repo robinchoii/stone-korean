@@ -15,7 +15,7 @@
 
         <div class='appetizer-items food-items-grid'>
 
-            <appetizers-item v-for='appetizer in appetizers' class='card' :appetizer='appetizer'></appetizers-item>
+            <appetizers-item v-for='appetizer in appetizers' :key='appetizer.id'  class='card' :appetizer='appetizer'></appetizers-item>
 
         </div>
 
@@ -35,6 +35,9 @@
 
             return {
                 appetizers: [{
+
+                    id: 1,
+
                         name: 'Dumplings, 10pcs.',
 
                         description: "Pork & vegetable potstickers, served with soy dipping sauce",
@@ -44,6 +47,8 @@
                     },
 
                     {
+                        id: 2,
+
                         name: 'Seafood Pancake',
 
                         description: "Pan-fried seafood (baby shrimp, baby octopus & calamari squid) pancake with green onions, served with soy dipping sauce",
@@ -53,6 +58,8 @@
                     },
 
                     {
+                        id: 3,
+
                         name: 'Kimchi Pancake',
 
                         description: "Pan-fried Kimchi pancake with soy dipping sauce",
@@ -62,6 +69,8 @@
                     },
 
                     {
+                        id: 4,
+
                         name: 'Veggie Pancake',
 
                         description: "Pan-fried veggies(green and white onions, carrot, & bellpepper) pancake with soy dipping sauce",
@@ -70,6 +79,8 @@
                     },
 
                     {
+                        id: 5,
+
                         name: 'Gye-Rahn-Jiim',
 
                         description: "Battered egg, steamed with chopped green onions",
@@ -79,6 +90,8 @@
                     },
 
                     {
+                        id: 6,
+
                         name: 'Jab-Chae',
 
                         description: "Korean potato starch noodles, stir-fried with veggies & beef, seasoned in soy sauce",
@@ -88,6 +101,8 @@
                     },
 
                     {
+                        id: 7,
+
                         name: 'Dduhk-Bohk-Ghi',
 
                         description: "Fresh rice cake & veggies, boiled & braised in sweet Korean chili sauce",
@@ -97,6 +112,8 @@
                     },
 
                     {
+                        id: 8,
+
                         name: 'Chicken Hot Wings, 8pcs.',
 
                         description: "Seasoned chicken wings deep-fried in soybean oil",

@@ -16,7 +16,7 @@
 
         <div class='bbqs-items food-items-grid'>
 
-            <bbq-item v-for='BBQ in BBQs' :BBQ='BBQ' class='card'></bbq-item>
+            <bbq-item v-for='BBQ in BBQs' :key='BBQ.id':BBQ='BBQ' class='card'></bbq-item>
         </div>
 
     </div>
@@ -37,6 +37,8 @@
         data() {
             return {
                 BBQs: [{
+                        id: 1,
+
                         name: 'Kalbi',
 
                         description: 'Korean BBQ beef short ribs with Kalbi sauce',
@@ -46,6 +48,8 @@
                     },
 
                     {
+                        id: 2,
+
                         name: 'Bul-Go-Gi',
 
                         description: 'Korean BBQ rib-eye marinated in Bulgogi sauce',
@@ -55,6 +59,8 @@
                     },
 
                     {
+                        id: 3,
+
                         name: 'Spicy BBQ Pork',
 
                         description: 'Korean BBQ pork loin marinated in spicy Bulgogi sauce',
@@ -64,6 +70,8 @@
                     },
 
                     {
+                        id: 4,
+
                         name: 'Chicken BBQ Bul-Go-Gi',
 
                         description: 'Korean BBQ chicken slices marinated in Bulgogi sauce',
@@ -73,6 +81,8 @@
                     },
 
                     {
+                        id: 5,
+
                         name: 'Spicy Chicken BBQ Bul-Go-Gi',
 
                         description: 'Korean BBQ chicken slices marinated in spicy Bulgogi sauce',

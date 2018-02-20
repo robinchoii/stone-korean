@@ -21,7 +21,7 @@
 
         <div class='lunch-items food-items-grid'>
 
-            <lunch-item v-for='lunch in lunches' class='card' :lunch='lunch'></lunch-item>
+            <lunch-item v-for='lunch in lunches' :key='lunch.id' class='card' :lunch='lunch'></lunch-item>
 
         </div>
 
@@ -41,6 +41,7 @@
 
             return {
                 lunches: [{
+                        id: 1,
 
                         name: "Soft Tofu Soup",
 
@@ -51,6 +52,7 @@
                     },
 
                     {
+                        id: 2,
 
                         name: 'Cold Bi-Bim-Bob',
 
@@ -61,6 +63,7 @@
                     },
 
                     {
+                        id: 3,
 
                         name: 'Hot Pot Bi-Bim-Bob',
 
@@ -71,6 +74,7 @@
                     },
 
                     {
+                        id: 4,
 
                         name: 'Bul-Go-Gi',
 
@@ -81,6 +85,7 @@
                     },
 
                     {
+                        id: 5,
 
                         name: 'Kalbi',
 
@@ -91,6 +96,7 @@
                     },
 
                     {
+                        id: 6,
 
                         name: 'Spicy Pork Bul-Go-Gi',
 
@@ -101,6 +107,7 @@
                     },
 
                     {
+                        id: 7,
 
                         name: 'Chicken Bul-Go-Gi',
 
@@ -111,6 +118,7 @@
                     },
 
                     {
+                        id: 8,
 
                         name: 'Spicy Chicken Bul-Go-Gi',
 
@@ -121,6 +129,7 @@
                     },
 
                     {
+                        id: 9,
 
                         name: 'Yuk-Gae-Jahng',
 
@@ -131,6 +140,7 @@
                     },
 
                     {
+                        id: 10,
 
                         name: 'Kimchi Jhi-Gae',
 
