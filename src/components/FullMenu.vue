@@ -59,7 +59,8 @@
     .item-title {
         font-weight: 600;
         line-height: 1;
-        margin-bottom: 3px
+        margin-bottom: 3px;
+        text-transform: uppercase;
     }
 
     .item-card {
@@ -89,7 +90,9 @@
         background-color: yellow;
     }
 
-    .main-header > *{
+    .main-header h2 {
+        text-transform: uppercase;
+        margin: 10px;
 
     }
 
