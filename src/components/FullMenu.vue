@@ -45,6 +45,11 @@
 </script>
 
 <style type="text/css">
+    .full-menu {
+        background-color: #3d1b1b;
+        color: #e2e2e2;
+
+    }
 
     .item-description {
         font-size: .85em;
@@ -64,8 +69,9 @@
     }
 
     .item-card {
-        border: solid 2px gray;
-        box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);
+        /*background-color: #ca2626;*/
+        /*border: solid 2px gray;*/
+        /*box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);*/
         padding: 10px;
     }
 
@@ -82,12 +88,12 @@
 
     .food-items-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 10px;
     }
     .main-header {
         padding: 15px;
-        background-color: yellow;
+        /*background-color: yellow;*/
     }
 
     .main-header h2 {

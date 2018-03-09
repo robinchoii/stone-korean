@@ -4,6 +4,8 @@
 
         <nav-bar class='component' ></nav-bar>
 
+        <!-- <left-nav></left-nav> -->
+
 		<full-menu class='component' ></full-menu>
 
 		<contact class='component contact'></contact>
@@ -21,6 +23,7 @@
 	import FoodPicture from './components/FoodPicture.vue'
 	import GoogleMap from './components/GoogleMap.vue'
 	import Contact from './components/Contact.vue'
+	import LeftNav from './components/LeftNav.vue'
 
 	export default {
 
@@ -28,7 +31,7 @@
 
 		components: {
 
-			FullMenu, NavBar,FoodPicture, GoogleMap, Contact
+			FullMenu, NavBar,FoodPicture, GoogleMap, Contact, LeftNav
 
 		},
 
@@ -48,7 +51,7 @@
 
 <style>
 	.component {
-		border: 2px solid green;
+		/*border: 2px solid green;*/
 	}
 
 </style>
