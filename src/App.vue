@@ -2,12 +2,13 @@
 
 	<div id="app" class=''>
 
-        <nav-bar></nav-bar>
+        <nav-bar class='component' ></nav-bar>
 
-		<full-menu></full-menu>
+		<full-menu class='component' ></full-menu>
 
-		<google-map name='stone'> </google-map>
+		<contact class='component contact'></contact>
 
+		<google-map  class='component' name='stone'> </google-map>
 		<!-- <food-picture></food-picture> -->
 	</div>
 
@@ -19,6 +20,7 @@
 	import NavBar from './components/NavBar.vue'
 	import FoodPicture from './components/FoodPicture.vue'
 	import GoogleMap from './components/GoogleMap.vue'
+	import Contact from './components/Contact.vue'
 
 	export default {
 
@@ -26,7 +28,7 @@
 
 		components: {
 
-			FullMenu, NavBar,FoodPicture, GoogleMap
+			FullMenu, NavBar,FoodPicture, GoogleMap, Contact
 
 		},
 
@@ -45,5 +47,8 @@
 </script>
 
 <style>
+	.component {
+		border: 2px solid green;
+	}
 
 </style>
