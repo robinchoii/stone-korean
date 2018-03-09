@@ -49,7 +49,7 @@ export default {
             "phone hours address";
         grid-template-columns columns: repeat(auto-fit, minmax(200px, 1fr));
         text-align: center;
-        align-items: center;
+        /*align-items: center;*/
         color: white;
         background-color: black;
         padding-bottom: 20px;
@@ -83,6 +83,10 @@ export default {
         grid-area: address;
         display:grid;
         grid-template-rows: 75px;
+    }
+
+    .address div, .phone div, .hours ul li {
+        font-size: 20px;
     }
 
     #contact {
