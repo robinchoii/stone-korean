@@ -6,6 +6,8 @@
 
 		<full-menu></full-menu>
 
+		<google-map name='stonee'> </google-map>
+
 		<!-- <food-picture></food-picture> -->
 	</div>
 
@@ -16,6 +18,7 @@
 	import FullMenu from './components/FullMenu.vue'
 	import NavBar from './components/NavBar.vue'
 	import FoodPicture from './components/FoodPicture.vue'
+	import GoogleMap from './components/GoogleMap.vue'
 
 	export default {
 
@@ -23,7 +26,7 @@
 
 		components: {
 
-			FullMenu, NavBar,FoodPicture
+			FullMenu, NavBar,FoodPicture, GoogleMap
 
 		},
 
