@@ -6,7 +6,7 @@
 
 		<full-menu></full-menu>
 
-		<google-map name='stonee'> </google-map>
+		<google-map name='stone'> </google-map>
 
 		<!-- <food-picture></food-picture> -->
 	</div>
