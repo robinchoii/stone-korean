@@ -46,6 +46,8 @@
 
 <style type="text/css">
     .full-menu {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
         background-color: #3d1b1b;
         color: #e2e2e2;
 
@@ -88,7 +90,7 @@
 
     .food-items-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
         grid-gap: 10px;
     }
     .main-header {
