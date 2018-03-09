@@ -1,8 +1,6 @@
 <template>
 
-
     <div class='google-map' id="stone-map"></div>
-
 
 </template>
 
@@ -45,9 +43,9 @@
 
 <style type="text/css">
     .google-map {
-        width: 600px;
+        width: auto;
         height: 400px;
-        margin: 0 auto;
+        /*margin: 0 auto;*/
         background: gray;
 
     }
