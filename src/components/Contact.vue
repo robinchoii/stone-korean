@@ -1,24 +1,25 @@
 <template>
     <div class='info'>
-        <h2>Contact Us</h2>
+        <div id='contact'>Contact Us</div id='contact'>
+
         <div class='hours'>
             <i class="fa fa-clock-o fa-3x"></i>
-            <h4>Mon - Thur: 11AM - 9:30PM</h4>
-            <h4>Fri - Sun: 11AM - 10PM </h4>
-            <h4>Sun: 11AM - 9PM</h4>
-
+            <ul>
+                <li>Mon - Thur: 11AM - 9:30PM</li>
+                <li>Fri - Sun: 11AM - 10PM </li>
+                <li>Sun: 11AM - 9PM</li>
+            </ul>
         </div>
 
         <div class='address'>
             <i class="fa fa-location-arrow fa-3x"></i>
-            <h4>16857 Redmond Way<br>
-            Redmond, WA 98052</h4>
+            <div>16857 Redmond Way<br>
+            Redmond, WA 98052</div>
         </div>
 
         <div class='phone'>
             <i class="fa fa-phone fa-3x"></i>
-            <i class="fas fa-clock"></i>
-            <h4>425-497-0515</h4>
+            <div>425-497-0515</div>
         </div>
     </div>
 
@@ -42,29 +43,61 @@ export default {
 
     .info {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-row-gap: 30px;
+        grid-template-areas:
+            "header header header"
+            "phone hours address";
+        grid-template-columns columns: repeat(auto-fit, minmax(200px, 1fr));
         text-align: center;
         align-items: center;
         color: white;
         background-color: black;
+        padding-bottom: 20px;
+    }
+    .info #contact {
+        grid-area: header;
     }
 
+    .info div {
+        font-weight: 600;
+        /*line-height: 1*/
+    }
     .hours {
-        /*grid-column: 2 / 3;*/
+        display:grid;
+        grid-template-rows: 75px;
+        grid-area: hours;
     }
 
+    .hours ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
     .phone {
-        /*grid-column: 4 / 5;*/
+        display:grid;
+        grid-template-rows: 75px;
+        grid-area: phone;
     }
 
     .address {
-        /*grid-column: 3 / 4;*/
+        grid-area: address;
+        display:grid;
+        grid-template-rows: 75px;
     }
 
-    .fa-clock-o {
-        /*color: red;*/
-     }
-     .fa-phone {
-        /*color: blue;*/
-     }
+    #contact {
+        font-size: 40px;
+    }
+
+    @media only screen and (max-width: 500px) {
+        .info {
+            grid-template-areas:
+                "header"
+                "phone"
+                "hours"
+                "address";
+        }
+
+    }
+
 </style>
