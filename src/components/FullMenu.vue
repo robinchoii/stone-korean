@@ -47,7 +47,7 @@
 <style type="text/css">
     .full-menu {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
+        grid-template-columns: minmax(300px, 1fr);
         background-color: #3d1b1b;
         color: #e2e2e2;
 
@@ -58,9 +58,11 @@
     }
 
     .item-price {
-        color: black;
+        color: #e2e2e2;
         font-size:.9em;
         font-weight: 600;
+        text-align: right;
+
     }
 
     .item-title {
@@ -71,6 +73,9 @@
     }
 
     .item-card {
+        display: grid;
+        grid-template-columns: 1fr 30px;
+        grid-template-rows: 30px auto;
         /*background-color: #ca2626;*/
         /*border: solid 2px gray;*/
         /*box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);*/
@@ -90,7 +95,7 @@
 
     .food-items-grid {
         display: grid;
-        grid-template-columns: repeat(2, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 10px;
     }
     .main-header {

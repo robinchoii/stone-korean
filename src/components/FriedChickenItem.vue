@@ -4,9 +4,9 @@
 
         <h3 class='item-title'>{{chicken.name}}</h3>
 
-        <p class='item-description'>{{chicken.description}}</p>
-
         <span class='item-price'>{{chicken.price}}</span>
+
+        <p class='item-description'>{{chicken.description}}</p>
 
     </div>
 

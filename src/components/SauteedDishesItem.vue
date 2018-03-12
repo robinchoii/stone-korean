@@ -4,9 +4,9 @@
 
         <h3 class='item-title'>{{sauteed.name}}</h3>
 
-        <p class='item-description'>{{sauteed.description}}</p>
-
         <span class='item-price'>{{sauteed.price}}</span>
+
+        <p class='item-description'>{{sauteed.description}}</p>
 
     </div>
 

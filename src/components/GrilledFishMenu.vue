@@ -19,9 +19,9 @@
 
                 <h3 class='item-title'>Grilled Mackerel</h3>
 
-                <p class='item-description'>Grilled mackerel with lemon and rice</p>
-
                 <span class='item-price'>15</span>
+
+                <p class='item-description'>Grilled mackerel with lemon and rice</p>
 
             </div>
 
@@ -29,9 +29,9 @@
 
                 <h3 class='item-title'>Grilled Flounder</h3>
 
-                <p class='item-description'>Grilled flounder with lemon and rice</p>
-
                 <span class='item-price'>15</span>
+
+                <p class='item-description'>Grilled flounder with lemon and rice</p>
 
             </div>
 
