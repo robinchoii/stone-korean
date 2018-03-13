@@ -15,19 +15,62 @@
 
 			<nav-tab name='Full Menu'>
 
-				<h1>Full Menu</h1>
+				<full-menu></full-menu>
 
 			</nav-tab>
 
 			<nav-tab name='Lunch Specials'>
 
-				<h1>Lunch Specials</h1>
+				<lunch-menu></lunch-menu>
 
 			</nav-tab>
 
 			<nav-tab name='Appetizers'>
 
-				<h1>Appetizers</h1>
+				<appetizers-menu></appetizers-menu>
+
+			</nav-tab>
+
+			<nav-tab name='Soft Tofu Soups'>
+
+				<soft-tofu-soup-menu></soft-tofu-soup-menu>
+
+			</nav-tab>
+
+			<nav-tab name='BiBimBobs'>
+
+				<bibimbob-menu></bibimbob-menu>
+
+			</nav-tab>
+
+			<nav-tab name='B.B.Q.'>
+
+				<bbq-menu></bbq-menu>
+
+			</nav-tab>
+
+			<nav-tab name='Combo Specials'>
+
+				<combo-specials></combo-specials>
+
+			</nav-tab>
+
+			<nav-tab name='Fried Chicken'>
+
+				<fried-chicken-menu></fried-chicken-menu>
+
+			</nav-tab>
+
+			<nav-tab name='Sauteed Dishes'>
+
+				<sauteed-dishes-menu></sauteed-dishes-menu>
+
+			</nav-tab>
+
+
+			<nav-tab name='Grilled Fish'>
+
+				<grilled-fish-menu></grilled-fish-menu>
 
 			</nav-tab>
 
@@ -42,7 +85,6 @@
 </template>
 
 <script>
-
 	import FullMenu from './components/FullMenu.vue'
 	import NavBar from './components/NavBar.vue'
 	import FoodPicture from './components/FoodPicture.vue'
@@ -50,6 +92,16 @@
 	import Contact from './components/Contact.vue'
 	import NavTabs from './components/Navtabs.vue'
 	import NavTab from './components/Navtab.vue'
+    import LunchMenu from './components/LunchMenu.vue'
+    import AppetizersMenu from './components/AppetizersMenu.vue'
+    import SoftTofuSoupMenu from './components/SoftTofuSoupMenu.vue'
+    import BibimbobMenu from './components/BiBimBobMenu.vue'
+    import BbqMenu from './components/BBQMenu.vue'
+    import FriedChickenMenu from './components/FriedChickenMenu.vue'
+    import GrilledFishMenu from './components/GrilledFishMenu.vue'
+    import SauteedDishesMenu from './components/SauteedDishesMenu.vue'
+    import ComboSpecials from './components/ComboSpecials.vue'
+
 
 	export default {
 
@@ -57,7 +109,22 @@
 
 		components: {
 
-			FullMenu, NavBar,FoodPicture, GoogleMap, Contact, NavTabs, NavTab
+			FullMenu,
+			NavBar,
+			FoodPicture,
+			GoogleMap,
+			Contact,
+			NavTabs,
+			NavTab,
+			LunchMenu,
+			AppetizersMenu,
+			SoftTofuSoupMenu,
+			BibimbobMenu,
+			BbqMenu,
+			FriedChickenMenu,
+			GrilledFishMenu,
+			SauteedDishesMenu,
+			ComboSpecials
 
 		},
 
@@ -78,6 +145,11 @@
 <style>
 	.component {
 		/*border: 2px solid green;*/
+	}
+
+	#app {
+        background-color: #3d1b1b;
+        color: #e2e2e2;
 	}
 
 </style>

@@ -60,10 +60,11 @@ export default {
 
     .tabs ul li {
         list-style-type: none;
+        text-align: center;
     }
     .tabs ul li a {
         text-decoration: none;
-        color: red;
+        color: #e2e2e2;
     }
 
     .tabs ul {
@@ -73,5 +74,10 @@ export default {
 
     .is-active {
         background: purple;
+    }
+
+    .tabs, .tabs-detail {
+        background-color: #3d1b1b;
+        color: #e2e2e2;
     }
 </style>
