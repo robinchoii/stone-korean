@@ -48,6 +48,7 @@
     .full-menu {
         display: grid;
         grid-template-columns: minmax(300px, 1fr);
+        grid-gap: 20px;
         background-color: #3d1b1b;
         color: #e2e2e2;
 
@@ -55,12 +56,13 @@
 
     .item-description {
         font-size: .85em;
+        font-weight: 400;
     }
 
     .item-price {
         color: #e2e2e2;
         font-size:.9em;
-        font-weight: 600;
+        font-weight: 400;
         text-align: right;
 
     }
@@ -95,7 +97,8 @@
 
     .food-items-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        justify-content: center;
+        grid-template-columns: repeat(2, minmax(300px, 400px));
         grid-gap: 10px;
     }
     .main-header {

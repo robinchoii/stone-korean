@@ -51,7 +51,7 @@ export default {
         text-align: center;
         /*align-items: center;*/
         color: white;
-        background-color: black;
+        background-color: #141212;
         padding-bottom: 20px;
     }
     .info #contact {
