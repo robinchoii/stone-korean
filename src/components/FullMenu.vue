@@ -98,7 +98,7 @@
     .food-items-grid {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 500px));
         grid-gap: 10px;
     }
     .main-header {

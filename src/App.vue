@@ -5,7 +5,7 @@
         <nav-bar class='component' ></nav-bar>
 
 		<!-- <full-menu class='component' ></full-menu> -->
-		<nav-tabs>
+		<nav-tabs class='nav-tabs'>
 
 			<nav-tab name='Home' :selected='true'>
 
@@ -76,7 +76,7 @@
 
 		</nav-tabs>
 
-		<google-map  class='component' name='stone'> </google-map>
+		<google-map  class='component google-map' name='stone'> </google-map>
 
 		<contact class='component contact'></contact>
 		<!-- <food-picture></food-picture> -->
@@ -151,5 +151,11 @@
         background-color: #3d1b1b;
         color: #e2e2e2;
 	}
+
+	.nav-tabs, .contact, .google-map{
+		max-width: 1200px;
+		margin: auto;
+	}
+
 
 </style>

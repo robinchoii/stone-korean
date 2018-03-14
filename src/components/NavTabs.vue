@@ -73,7 +73,8 @@ export default {
     }
 
     .is-active {
-        background: purple;
+        /*background: purple;*/
+        border-bottom: 4px solid #e2e2e2;
     }
 
     .tabs, .tabs-detail {
