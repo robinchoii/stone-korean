@@ -11,8 +11,6 @@
 
                 <p>Rice and assortment of sides included.</p>
 
-                <p>Bi-Bim-Bob can be made into vegetarian dish upon request.</p>
-
                 <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
 
             </div>
