@@ -18,8 +18,6 @@
 
         <grilled-fish-menu></grilled-fish-menu>
 
-
-
     </div>
 </template>
 
@@ -98,8 +96,14 @@
     .food-items-grid {
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 500px));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         grid-gap: 10px;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .food-items-grid {
+            grid-template-columns: repeat(2, minmax(300px, 400px));
+        }
     }
     .main-header {
         padding: 15px;

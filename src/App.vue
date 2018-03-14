@@ -78,7 +78,7 @@
 
 		<google-map  class='component google-map' name='stone'> </google-map>
 
-		<contact class='component contact'></contact>
+		<contact class='component contact' id='contact'></contact>
 		<!-- <food-picture></food-picture> -->
 	</div>
 
@@ -153,7 +153,7 @@
 	}
 
 	.nav-tabs, .contact, .google-map{
-		max-width: 1200px;
+		max-width: 1600px;
 		margin: auto;
 	}
 

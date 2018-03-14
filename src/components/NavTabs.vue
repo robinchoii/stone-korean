@@ -8,7 +8,7 @@
 
                 <li v-for='tab in tabs' :class="{'is-active' : tab.isActive}">
 
-                    <a :href='tab.href' @click='selectTab(tab)'>{{tab.name}}</a>
+                    <a :href='tab.href' @click='selectTab(tab)'>{{tab.name}} {{tab.title}}</a>
 
                 </li>
 
@@ -69,7 +69,7 @@ export default {
 
     .tabs ul {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 
     .is-active {
@@ -80,5 +80,9 @@ export default {
     .tabs, .tabs-detail {
         background-color: #3d1b1b;
         color: #e2e2e2;
+    }
+
+    .tab-details {
+        max-width: 1200px;
     }
 </style>

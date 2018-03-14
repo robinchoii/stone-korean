@@ -1,6 +1,6 @@
 <template>
     <div class='info'>
-        <div id='contact'>Contact Us</div id='contact'>
+        <div class='contact-header'>Contact Us</div>
 
         <div class='hours'>
             <i class="fa fa-clock-o fa-3x"></i>
@@ -54,7 +54,7 @@ export default {
         background-color: #141212;
         padding-bottom: 20px;
     }
-    .info #contact {
+    .info .contact-header {
         grid-area: header;
     }
 
@@ -89,7 +89,7 @@ export default {
         font-size: 20px;
     }
 
-    #contact {
+    .contact-header {
         font-size: 40px;
     }
 
