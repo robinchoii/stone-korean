@@ -35,9 +35,9 @@
         grid-template-rows: auto auto auto;
         background-color: #141212;
         color: white;
-        -webkit-text-fill-color: #141212; /* Will override color (regardless of order) */
+        -webkit-text-fill-color: #141212; /* Will override color (regardless overflow: f order) */
         -webkit-text-stroke-width: 2px;
-        font-size: 1.85em;
+        font-size: 1.5em;
         font-family: 'Rammetto One', cursive;
         line-height: 1.5;
         text-align: center;
