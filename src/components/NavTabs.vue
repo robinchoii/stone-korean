@@ -76,11 +76,14 @@ export default {
         font-size: 16px;
         list-style-type: none;
         line-height: 3;
+        text-transform: uppercase;
+        color: #c8a5aa;
 
     }
     .tabs ul li a {
         text-decoration: none;
-        color: #e2e2e2;
+        color: #c8a5aa;
+        font-weight: 700;
     }
 
 

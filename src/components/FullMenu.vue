@@ -48,12 +48,13 @@
         grid-template-columns: minmax(300px, 1fr);
         grid-gap: 20px;
         background-color: #3d1b1b;
-        color: #e2e2e2;
+        letter-spacing: 2px;
     }
 
     .item-description {
         font-size: .85em;
         font-weight: 400;
+        color: #a8a8a8;
     }
 
     .item-price {
@@ -90,6 +91,8 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap:20px;
+        letter-spacing: 2px;
+
     }
 
     .food-items-grid {
@@ -129,6 +132,10 @@
     .main-header p {
         margin: 0;
         padding: 0;
+    }
+
+    .fa-leaf {
+        color: #00ce00;
     }
 
 /*    .full-menu {

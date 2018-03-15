@@ -4,7 +4,7 @@
 
         <h3 class='item-title'>{{softTofuSoup.name}}</h3>
 
-        <span class='item-price'>{{softTofuSoup.price}}</span>
+        <span class='item-price'>${{softTofuSoup.price}}</span>
 
     </div>
 
