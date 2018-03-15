@@ -86,7 +86,8 @@
 
                         name: 'Kimchi Hot Pot Bi-Bim-Bob',
                         description: 'Well-ripen Kimchi, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '14'
+                        price: '14',
+                        isVege: true,
 
                     },
 
@@ -95,7 +96,8 @@
 
                         name: 'Vegetable Hot Pot Bi-Bim-Bob',
                         description: 'Carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '14'
+                        price: '14',
+                        isVege: true,
 
                     },
 

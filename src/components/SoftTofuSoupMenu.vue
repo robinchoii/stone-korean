@@ -43,7 +43,9 @@
 
                         name: 'Mushroom Tofu Soup',
 
-                        price: 12
+                        price: 12,
+
+                        isVege: true,
 
                     },
 
@@ -70,7 +72,9 @@
 
                         name: 'Kimchi Tofu Soup',
 
-                        price: 12
+                        price: 12,
+
+                        isVege: true,
 
                     },
 
@@ -124,7 +128,9 @@
 
                         name: 'Dumpling Tofu Soup',
 
-                        price: 12
+                        price: 12,
+
+                        isVege: true,
 
                     },
 
@@ -133,7 +139,9 @@
 
                         name: 'Vegetable Tofu Soup',
 
-                        price: 12
+                        price: 12,
+
+                        isVege: true,
 
                     },
 

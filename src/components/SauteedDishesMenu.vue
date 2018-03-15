@@ -68,12 +68,14 @@
                         name:'Stif Fried Vegetables',
                         description: 'Sauteed vegetables with house sauce',
                         price: 13,
+                        isVege: true,
                     },
                     {
                         id: 6,
                         name:'Stif Fried Vegetables w/ Noodles',
                         description: 'Sauteed vegetables & spinach noodles with house sauce',
                         price: 15,
+                        isVege: true,
                     }
                 ]
             }

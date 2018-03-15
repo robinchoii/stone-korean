@@ -2,7 +2,7 @@
 
     <div class='lunch-item-card item-card'>
 
-        <h3 class='item-title'>{{lunch.name}}</h3>
+        <h3 class='item-title'>{{lunch.name}} <i v-show="lunch.isVege" class='fa fa-leaf'></i></h3>
 
         <span class='item-price'>${{lunch.price}}</span>
 
@@ -13,6 +13,7 @@
 </template>
 
 <script type="text/javascript">
+
 
     export default {
 

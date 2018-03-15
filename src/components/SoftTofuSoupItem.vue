@@ -2,7 +2,7 @@
 
     <div class='soft-tofu-soups-item-card item-card'>
 
-        <h3 class='item-title'>{{softTofuSoup.name}}</h3>
+        <h3 class='item-title'>{{softTofuSoup.name}} <i v-show='softTofuSoup.isVege' class='fa fa-leaf'></i></h3>
 
         <span class='item-price'>${{softTofuSoup.price}}</span>
 

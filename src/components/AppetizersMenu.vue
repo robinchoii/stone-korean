@@ -42,7 +42,9 @@
 
                         description: "Pork & vegetable potstickers, served with soy dipping sauce",
 
-                        price: 7
+                        price: 7,
+
+                        isVege: true,
 
                     },
 
@@ -64,7 +66,9 @@
 
                         description: "Pan-fried Kimchi pancake with soy dipping sauce",
 
-                        price: 12
+                        price: 12,
+
+                        isVege: true,
 
                     },
 
@@ -75,7 +79,9 @@
 
                         description: "Pan-fried veggies(green and white onions, carrot, & bellpepper) pancake with soy dipping sauce",
 
-                        price: 12
+                        price: 12,
+
+                        isVege: true,
                     },
 
                     {
@@ -85,7 +91,9 @@
 
                         description: "Battered egg, steamed with chopped green onions",
 
-                        price: 7
+                        price: 7,
+
+                        isVege: true,
 
                     },
 
@@ -96,7 +104,9 @@
 
                         description: "Korean potato starch noodles, stir-fried with veggies & beef, seasoned in soy sauce",
 
-                        price: 14
+                        price: 14,
+
+                        isVege: true,
 
                     },
 
@@ -107,7 +117,9 @@
 
                         description: "Fresh rice cake & veggies, boiled & braised in sweet Korean chili sauce",
 
-                        price: 10
+                        price: 10,
+
+                        isVege: true,
 
                     },
 

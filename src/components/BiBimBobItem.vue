@@ -1,7 +1,7 @@
 <template>
 
     <div class='bibimbob-item-card item-card'>
-        <h3 class='item-title'>{{bibimbob.name}}</h3>
+        <h3 class='item-title'>{{bibimbob.name}} <i v-show='bibimbob.isVege' class='fa fa-leaf'></i></h3>
 
         <span class='item-price'>${{bibimbob.price}}</span>
 

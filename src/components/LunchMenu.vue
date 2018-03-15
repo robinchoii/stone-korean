@@ -47,6 +47,8 @@
 
                         price: 11,
 
+                        isVege: true,
+
                     },
 
                     {
@@ -56,7 +58,9 @@
 
                         description: "Assorted vegetables, beef & egg over rice",
 
-                        price: 10
+                        price: 10,
+
+                        isVege: true
 
                     },
 
@@ -67,7 +71,9 @@
 
                         description: "Assorted vegetables, beef & egg over rice in a sizzling stone pot",
 
-                        price: 13
+                        price: 13,
+
+                        isVege: true,
 
                     },
 
@@ -79,6 +85,7 @@
                         description: "BBQ beef ribeye served with onions topped with sesame seeds",
 
                         price: 12
+
 
                     },
 
@@ -144,7 +151,9 @@
 
                         description: "Kimchi stew with onions, medium-firm tofu, rice cakes. Choice of Beef or Pork",
 
-                        price: 10
+                        price: 10,
+
+                        isVege: true
 
                     }
                 ]
