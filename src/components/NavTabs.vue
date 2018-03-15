@@ -1,6 +1,6 @@
 <template>
 
-    <div>
+    <div class='nav-tabs'>
 
         <div class='tabs'>
 
@@ -57,21 +57,32 @@ export default {
 </script>
 
 <style lang="css" scoped>
+    .nav-tabs {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 50px;
+        grid-template-areas:
+            "tabs tabs-detail"
+    }
+    .tabs  {
+        grid-area: tabs;
+     }
+
+     .tabs-detail{
+        grid-area: tabs-details;
+        justify-content: center;
+     }
 
     .tabs ul li {
         font-size: 16px;
         list-style-type: none;
-        text-align: center;
+
     }
     .tabs ul li a {
         text-decoration: none;
         color: #e2e2e2;
     }
 
-    .tabs ul {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
-    }
 
     .is-active {
         border-bottom: 4px solid #c71b00;
@@ -84,5 +95,20 @@ export default {
 
     .tab-details {
         max-width: 1200px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .nav-tabs {
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "tabs"
+                "tabs-detail"
+        }
+
+        .tabs ul {
+            display: grid;
+            grid-row-gap: 25px;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
     }
 </style>

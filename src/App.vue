@@ -4,7 +4,6 @@
 
         <nav-bar class='component' ></nav-bar>
 
-		<!-- <full-menu class='component' ></full-menu> -->
 		<nav-tabs class='nav-tabs'>
 
 			<nav-tab name='Home' :selected='true'>
