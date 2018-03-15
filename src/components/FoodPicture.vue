@@ -1,9 +1,25 @@
 <template>
-    <div class='image is-square'>
-        <img src="../assets/half-half-chicken.png">
+    <div class='image'>
+        <img :src="'/dist'+image.path" />
     </div>
 </template>
 
-<script type="text/javascript"></script>
+<script type="text/javascript">
+    export default {
+        props: {
+            image: {required: true}
+        }
+    }
+</script>
 
-<style type="text/css"></style>
+<style type="text/css">
+    .image img {
+        width: 100%;
+        height: auto;
+        /*object-fit: cover;*/
+    }
+    .image {
+        width: 250px;
+        line-height: 0;
+     }
+</style>

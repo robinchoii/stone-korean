@@ -9,7 +9,7 @@
 
 			<nav-tab name='Home' :selected='true'>
 
-				<h1>Home</h1>
+				<image-gallery></image-gallery>
 
 			</nav-tab>
 
@@ -101,6 +101,7 @@
     import GrilledFishMenu from './components/GrilledFishMenu.vue'
     import SauteedDishesMenu from './components/SauteedDishesMenu.vue'
     import ComboSpecials from './components/ComboSpecials.vue'
+    import ImageGallery from './components/ImageGallery.vue'
 
 
 	export default {
@@ -124,7 +125,8 @@
 			FriedChickenMenu,
 			GrilledFishMenu,
 			SauteedDishesMenu,
-			ComboSpecials
+			ComboSpecials,
+			ImageGallery
 
 		},
 
