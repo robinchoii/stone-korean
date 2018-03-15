@@ -49,7 +49,6 @@
         grid-gap: 20px;
         background-color: #3d1b1b;
         color: #e2e2e2;
-
     }
 
     .item-description {

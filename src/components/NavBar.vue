@@ -1,17 +1,20 @@
 <template>
     <div>
 
-        <div class='navbar'>
+        <a href="/">
 
-            <h1>
-                <span>S</span><span>T</span><span>O</span><span>N</span><span>E</span>
-            </h1>
+            <div class='navbar'>
 
-            <span class='bar'></span>
+                <h1>
+                    <span>S</span><span>T</span><span>O</span><span>N</span><span>E</span>
+                </h1>
 
-            <h4> KOREAN RERSTAURANT </h4>
+                <span class='bar'></span>
 
-        </div>
+                <h4> KOREAN RERSTAURANT </h4>
+
+            </div>
+        </a>
 
     </div>
 
@@ -63,5 +66,9 @@
         height: 3px;
         grid-column: 2;
         background: #ca2626;
+     }
+
+     a {
+        text-decoration: none;
      }
 </style>

@@ -4,7 +4,7 @@
 
         <nav-bar class='component' ></nav-bar>
 
-		<nav-tabs class='nav-tabs'>
+		<nav-tabs class=''>
 
 			<nav-tab name='Home' :selected='true'>
 
@@ -12,7 +12,7 @@
 
 			</nav-tab>
 
-			<nav-tab name='Gallery'>
+			<nav-tab name='Photos'>
 
 				<image-gallery></image-gallery>
 
@@ -159,7 +159,7 @@
         color: #e2e2e2;
 	}
 
-	.nav-tabs, .contact, .google-map{
+	.contact, .google-map{
 		max-width: 1600px;
 		margin: auto;
 	}

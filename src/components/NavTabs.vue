@@ -70,12 +70,12 @@ export default {
 
      .tabs-detail{
         grid-area: tabs-details;
-        justify-content: center;
      }
 
     .tabs ul li {
         font-size: 16px;
         list-style-type: none;
+        line-height: 3;
 
     }
     .tabs ul li a {
@@ -107,7 +107,7 @@ export default {
 
         .tabs ul {
             display: grid;
-            grid-row-gap: 25px;
+            /*grid-row-gap: 50px;*/
             grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         }
     }
