@@ -59,6 +59,7 @@ export default {
 <style lang="css" scoped>
 
     .tabs ul li {
+        font-size: 16px;
         list-style-type: none;
         text-align: center;
     }
@@ -69,7 +70,7 @@ export default {
 
     .tabs ul {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
     }
 
     .is-active {

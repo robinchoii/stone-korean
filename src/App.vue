@@ -9,6 +9,12 @@
 
 			<nav-tab name='Home' :selected='true'>
 
+				<h1>Home</h1>
+
+			</nav-tab>
+
+			<nav-tab name='Gallery'>
+
 				<image-gallery></image-gallery>
 
 			</nav-tab>

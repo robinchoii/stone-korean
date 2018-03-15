@@ -19,7 +19,9 @@
         /*object-fit: cover;*/
     }
     .image {
+        align-self: center;
         width: 250px;
-        line-height: 0;
+        height: auto;
+        border: 3px solid white;
      }
 </style>
