@@ -13,13 +13,13 @@
 
         <div class='address'>
             <i class="fa fa-location-arrow fa-3x"></i>
-            <div>16857 Redmond Way<br>
-            Redmond, WA 98052</div>
+            <a href='https://www.google.com/maps/place/Stone+Korean+Restaurant/@47.6712848,-122.1171033,17z/data=!3m1!4b1!4m5!3m4!1s0x549072b0849aab65:0x323ab2d85984f5b!8m2!3d47.6712848!4d-122.1149146'>16857 Redmond Way<br>
+            Redmond, WA 98052</a>
         </div>
 
         <div class='phone'>
             <i class="fa fa-phone fa-3x"></i>
-            <div>425-497-0515</div>
+            <a href='tel:+14254970515'>425-497-0515</a>
         </div>
     </div>
 
@@ -77,6 +77,11 @@ export default {
         display:grid;
         grid-template-rows: 75px;
         grid-area: phone;
+    }
+
+    .phone a, .address a {
+        color: white;
+        text-decoration: none;
     }
 
     .address {
