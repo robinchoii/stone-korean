@@ -1,6 +1,6 @@
 <template>
     <div class='image'>
-        <img :src="'/dist'+image.path" />
+        <img :src="'src/'+image.path" />
     </div>
 </template>
 

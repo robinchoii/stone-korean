@@ -20,84 +20,84 @@
             images: [
             {
                 id: 23,
-                path: '/stone23.jpg'
+                path: '/assets/stone23.jpg'
             },
             {
                 id: 11,
-                path: '/stone11.jpg'
+                path: '/assets/stone11.jpg'
             },
             {
                 id: 12,
-                path: '/stone12.jpg'
+                path: '/assets/stone12.jpg'
             },
             {
                 id: 6,
-                path: '/stone6.jpg'
+                path: '/assets/stone6.jpg'
             },
             {
                 id: 16,
-                path: '/stone16.jpg'
+                path: '/assets/stone16.jpg'
             },
             {
                 id: 17,
-                path: '/stone17.jpg'
+                path: '/assets/stone17.jpg'
             },
             {
                 id: 7,
-                path: '/stone7.jpg'
+                path: '/assets/stone7.jpg'
             },
             {
                 id: 2,
-                path: '/stone2.jpg'
+                path: '/assets/stone2.jpg'
             },
             {
                 id: 13,
-                path: '/stone13.jpg'
+                path: '/assets/stone13.jpg'
             },
             {
                 id: 15,
-                path: '/stone15.jpg'
+                path: '/assets/stone15.jpg'
             },
             {
                 id: 10,
-                path: '/stone10.jpg'
+                path: '/assets/stone10.jpg'
             },
             {
                 id: 3,
-                path: '/stone3.jpg'
+                path: '/assets/stone3.jpg'
             },
             {
                 id: 20,
-                path: '/stone20.jpg'
+                path: '/assets/stone20.jpg'
             },
             {
                 id: 14,
-                path: '/stone14.jpg'
+                path: '/assets/stone14.jpg'
             },
             {
                 id: 4,
-                path: '/stone4.jpg'
+                path: '/assets/stone4.jpg'
             },
             {
                 id: 9,
-                path: '/stone9.jpg'
+                path: '/assets/stone9.jpg'
             },
 
             {
                 id: 1,
-                path: '/stone1.jpg'
+                path: '/assets/stone1.jpg'
             },
             {
                 id: 18,
-                path: '/stone18.jpg'
+                path: '/assets/stone18.jpg'
             },
             {
                 id: 5,
-                path: '/stone5.jpg'
+                path: '/assets/stone5.jpg'
             },
             {
                 id: 19,
-                path: '/stone19.jpg'
+                path: '/assets/stone19.jpg'
             }]
         }
       }
