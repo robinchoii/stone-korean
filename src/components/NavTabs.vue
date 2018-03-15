@@ -60,7 +60,7 @@ export default {
     .nav-tabs {
         display: grid;
         grid-template-columns: auto 1fr;
-        grid-gap: 50px;
+        grid-gap: 25px;
         grid-template-areas:
             "tabs tabs-detail"
     }

@@ -5,15 +5,18 @@
 
             <div class='navbar'>
 
-                <h1>
+                <div class='upper-header'>
+
                     <span>S</span><span>T</span><span>O</span><span>N</span><span>E</span>
-                </h1>
+
+                </div>
 
                 <span class='bar'></span>
 
-                <h4> KOREAN RERSTAURANT </h4>
+                <div class='lower-header'> KOREAN RESTAURANT </div>
 
             </div>
+
         </a>
 
     </div>
@@ -37,26 +40,26 @@
         color: white;
         -webkit-text-fill-color: #141212; /* Will override color (regardless overflow: f order) */
         -webkit-text-stroke-width: 2px;
-        font-size: 1.5em;
         font-family: 'Rammetto One', cursive;
         line-height: 1.5;
         text-align: center;
         padding: 5px;
-        /*border: 3px solid red;*/
     }
 
-    .navbar h1 {
+    .navbar .upper-header {
         display: flex;
         justify-content: space-around;
         grid-auto-flow: column;
         grid-column: 2;
         margin: 0;
+        font-size: 40px
      }
 
-    .navbar h4 {
+    .navbar .lower-header {
         grid-column: 2;
         -webkit-text-stroke-width: 1px;
         margin: 0;
+        font-size: 30px
     }
 
     .bar {
