@@ -159,10 +159,4 @@
         color: #e2e2e2;
 	}
 
-	.contact, .google-map{
-		max-width: 1600px;
-		margin: auto;
-	}
-
-
 </style>

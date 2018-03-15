@@ -76,9 +76,6 @@
         display: grid;
         grid-template-columns: 1fr 30px;
         grid-template-rows: 30px auto;
-        /*background-color: #ca2626;*/
-        /*border: solid 2px gray;*/
-        /*box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.1);*/
         padding: 10px;
     }
 

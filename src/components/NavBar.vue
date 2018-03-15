@@ -43,7 +43,6 @@
         text-align: center;
         padding: 5px;
         /*border: 3px solid red;*/
-
     }
 
     .navbar h1 {

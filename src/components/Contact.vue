@@ -45,14 +45,15 @@ export default {
         display: grid;
         grid-row-gap: 30px;
         grid-template-areas:
-            "header header header"
-            "phone hours address";
+            ". header header header ."
+            ". phone hours address .";
         grid-template-columns columns: repeat(auto-fit, minmax(200px, 1fr));
         text-align: center;
         /*align-items: center;*/
         color: white;
         background-color: #141212;
         padding-bottom: 20px;
+        margin: auto;
     }
     .info .contact-header {
         grid-area: header;
@@ -66,6 +67,7 @@ export default {
         display:grid;
         grid-template-rows: 75px;
         grid-area: hours;
+        letter-spacing: 2px;
     }
 
     .hours ul {
@@ -82,6 +84,8 @@ export default {
     .phone a, .address a {
         color: white;
         text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 2px;
     }
 
     .address {

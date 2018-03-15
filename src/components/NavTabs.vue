@@ -75,7 +75,7 @@ export default {
     .tabs ul li {
         font-size: 16px;
         list-style-type: none;
-        line-height: 3;
+        line-height: 2.5;
         text-transform: uppercase;
         color: #c8a5aa;
 
