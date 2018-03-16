@@ -53,43 +53,28 @@
 
     .item-description {
         font-size: .85em;
-        font-weight: 400;
         color: #a8a8a8;
     }
 
     .item-price {
         color: #e2e2e2;
-        font-size:.9em;
-        font-weight: 400;
         text-align: right;
-
     }
 
     .item-title {
         font-weight: 600;
-        line-height: 1;
-        margin-bottom: 3px;
         text-transform: uppercase;
     }
 
     .item-card {
         display: grid;
         grid-template-columns: 1fr 30px;
-        grid-template-rows: 30px auto;
+        grid-template-rows: auto 1fr;
         padding: 10px;
     }
 
     .item-card > * {
         margin: 0;
-        line-height: 1.25;
-    }
-
-    .food-wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap:20px;
-        letter-spacing: 2px;
-
     }
 
     .food-items-grid {
@@ -106,36 +91,24 @@
     }
     .main-header {
         padding: 15px;
-        /*background-color: yellow;*/
     }
 
     .main-header h2 {
         text-transform: uppercase;
         margin: 5px;
-
     }
 
     .main-header h2, .main-header p {
-        /*margin: 0;*/
-        /*padding: 0;*/
-        text-align: center;
-
-    }
-
-    .main-about > *, .vege {
-        font-size: .9em;
-    }
-
-    .main-header p {
         margin: 0;
         padding: 0;
+        text-align: center;
+    }
+
+    .main-about > * {
+        font-size: .85em;
     }
 
     .fa-leaf {
         color: #00ce00;
     }
-
-/*    .full-menu {
-        margin: auto 50px;
-    }*/
 </style>
