@@ -53,7 +53,7 @@ export default {
         color: white;
         background-color: #141212;
         padding-bottom: 20px;
-        margin: auto;
+        /*margin: auto;*/
     }
     .info .contact-header {
         grid-area: header;

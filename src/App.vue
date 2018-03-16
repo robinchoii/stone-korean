@@ -2,9 +2,9 @@
 
 	<div id="app" class=''>
 
-        <nav-bar class='component' ></nav-bar>
+        <nav-bar class='navbar-component' ></nav-bar>
 
-		<nav-tabs class=''>
+		<nav-tabs class='navtabs-component'>
 
 			<nav-tab name='Home' :selected='true'>
 
@@ -81,9 +81,9 @@
 
 		</nav-tabs>
 
-		<google-map  class='component google-map' name='stone'> </google-map>
+		<google-map  class='component google-map-component' name='stone'> </google-map>
 
-		<contact class='component contact' id='contact'></contact>
+		<contact class='component contact-component' id='contact'></contact>
 		<!-- <food-picture></food-picture> -->
 	</div>
 
@@ -150,13 +150,30 @@
 </script>
 
 <style>
-	.component {
-		/*border: 2px solid green;*/
+	.navbar-component {
+		grid-area: header
+	}
+	.navtabs-component {
+		grid-area: tabs
+	}
+	.google-map-component {
+		grid-area: maps;
+	}
+	.contact-component {
+		grid-area: contact;
 	}
 
 	#app {
+		display: grid;
+		grid-template-columns: 1fr 4fr 1fr;
+		grid-template-areas:
+			"header header header"
+			"tabs tabs tabs"
+			"maps maps maps"
+			"contact contact contact";
         background-color: #3d1b1b;
         color: #e2e2e2;
+        height: 100%;
 	}
 
 </style>
