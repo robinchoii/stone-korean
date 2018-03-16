@@ -24,7 +24,7 @@
 
 			</nav-tab>
 
-			<nav-tab name='Lunch Specials'>
+			<nav-tab name='Lunch'>
 
 				<lunch-menu></lunch-menu>
 
@@ -36,7 +36,7 @@
 
 			</nav-tab>
 
-			<nav-tab name='Soft Tofu Soups'>
+			<nav-tab name='Soft Tofu'>
 
 				<soft-tofu-soup-menu></soft-tofu-soup-menu>
 
@@ -54,7 +54,7 @@
 
 			</nav-tab>
 
-			<nav-tab name='Combo Specials'>
+			<nav-tab name='Combos'>
 
 				<combo-specials></combo-specials>
 
@@ -66,7 +66,7 @@
 
 			</nav-tab>
 
-			<nav-tab name='Sauteed Dishes'>
+			<nav-tab name='Sauteed'>
 
 				<sauteed-dishes-menu></sauteed-dishes-menu>
 
@@ -174,6 +174,7 @@
         background-color: #3d1b1b;
         color: #e2e2e2;
         height: 100%;
+        letter-spacing:2px;
 	}
 
 </style>

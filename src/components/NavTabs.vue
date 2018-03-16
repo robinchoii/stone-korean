@@ -66,10 +66,12 @@ export default {
     }
     .tabs  {
         grid-area: tabs;
+        letter-spacing: 0px;
      }
 
      .tabs-detail{
         grid-area: tabs-details;
+        letter-spacing: 2px;
      }
 
     .tabs ul li {
