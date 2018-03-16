@@ -8,9 +8,9 @@
 
             <div class='sauteed-dishes-about main-about'>
 
-                <p>Served with a sizzling hot stone pot rice and assortment of side dishes.</p>
+                <p>Served with a sizzling hot stone pot rice and  side dishes</p>
 
-                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
+                <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
 
             </div>
 

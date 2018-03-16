@@ -9,7 +9,7 @@
 
             <div class='bbq-about main-about'>
 
-                <p>Served with sizzling hot stone pot rice & assortment of side dishes</p>
+                <p>Served with sizzling hot stone pot rice & side dishes</p>
 
             </div>
         </div>

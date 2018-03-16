@@ -8,10 +8,11 @@
 
             <div class='combo-specials-about main-about'>
 
-                <p>Served with a sizzling hot stone pot rice and assortment of side dishes. </p>
-                <p> BiBimBob and Cold Noodle specials do <b>not</b> come with additional rice.</p>
+                <p>Served with a sizzling hot stone pot rice and  side dishes</p>
 
-                <p>(1 person serving, smaller portions than if ordered separately)</p>
+                <p>Smaller portions than if ordered separately </p>
+
+                <p> * BiBimBob and Cold Noodle specials do <b>not</b> come with additional rice</p>
 
             </div>
 
@@ -113,10 +114,5 @@
 </script>
 
 <style type="text/css">
-/*    .combo-number {
-        display: flex;
-        align-items: center;
-        font-size: 16px;
-        font-weight: bold;
-    }*/
+
 </style>

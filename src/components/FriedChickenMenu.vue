@@ -8,9 +8,7 @@
 
             <div class='fried-chicken-about main-about'>
 
-                <p>Deep fried in soy bean oil. </p>
-
-                <p>Served with side of pickled radishes. Must pair with entre for full side dish set.</p>
+                <p>Served with side of pickled radishes <br /> Must pair with entre for full side dish set</p>
 
             </div>
 

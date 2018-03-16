@@ -39,8 +39,8 @@
         background-color: #141212;
         color: white;
         -webkit-text-fill-color: #141212; /* Will override color (regardless overflow: f order) */
-        -webkit-text-stroke-width: 2px;
-        font-family: 'Rammetto One', cursive;
+        -webkit-text-stroke-width: 3px;
+        font-family: 'Rammetto One';
         line-height: 1.5;
         text-align: center;
         padding: 5px;

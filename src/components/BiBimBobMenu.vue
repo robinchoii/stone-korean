@@ -7,9 +7,9 @@
             <h2>Bi-Bim-Bobs</h2>
 
             <div class='bibimbob-about main-about'>
-                <p> Served with rice and assortment of side dishes.</p>
+                <p> Served with rice and side dishes</p>
 
-                <p><i class='fa fa-leaf vege'></i> The following can be made into vegetarian dish upon request.</p>
+                <p><i class='fa fa-leaf vege'></i> Ask for Vegetarian</p>
             </div>
         </div>
 

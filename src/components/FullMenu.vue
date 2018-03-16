@@ -53,7 +53,8 @@
 
     .item-description {
         font-size: .85em;
-        color: #a8a8a8;
+        color: #aaa;
+        line-height: 1.25
     }
 
     .item-price {
@@ -89,6 +90,16 @@
             grid-template-columns: repeat(2, minmax(300px, 400px));
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        .main-about > * {
+            font-size: 12px !important;
+            font-weight: 200;
+        }
+        .item-title {
+            font-size: 15px;
+        }
+    }
     .main-header {
         padding: 15px;
     }
@@ -96,6 +107,7 @@
     .main-header h2 {
         text-transform: uppercase;
         margin: 5px;
+        color: #caae00;
     }
 
     .main-header h2, .main-header p {
@@ -104,8 +116,10 @@
         text-align: center;
     }
 
-    .main-about > * {
-        font-size: .85em;
+    .main-about > p {
+        font-size: .9em;
+        font-weight: 400;
+        color: #aaa;;
     }
 
     .fa-leaf {

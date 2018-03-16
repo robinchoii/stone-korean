@@ -7,11 +7,38 @@
 
             <div class='soft-tofu-soups-about main-about'>
 
-                <p>Served with sizzling stone pot rice and assortment of side dishes</p>
+                <p>Served with sizzling stone pot rice and  side dishes</p>
 
-                <p>Soft tofu sou can be prepared from non-spicy to extra spicy (5 star scale) according to your preference. </p>
+                <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
 
-                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
+                <div class='spicy'>
+
+                    <div class='non-spicy'>
+                        <i class="fa fa-star"></i>
+                        <div>White</div>
+                    </div>
+
+                    <div class='mild'>
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        <div>Mild</div>
+                    </div>
+
+                    <div class='medium'>
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        <div>Medium</div>
+                    </div>
+
+                    <div class='hot'>
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        <div>Spicy</div>
+                    </div>
+
+                    <div class='extra-hot'>
+                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        <div>Extra-Spicy</div>
+                    </div>
+                </div>
+
 
             </div>
 
@@ -156,6 +183,26 @@
 </script>
 
 <style type="text/css">
-
-
+    .spicy {
+        display: grid;
+        grid-template-columns: repeat(13, auto);
+        text-align:center;
+        grid-template-areas:
+            ". . . . non-spicy mild medium hot extra-hot . . . . "
+    }
+    .non-spicy {
+        grid-area: non-spicy
+    }
+    .mild {
+        grid-area: mild
+    }
+    .medium {
+        grid-area: medium
+    }
+    .hot {
+        grid-area: hot
+    }
+    .extra-hot {
+        grid-area: extra-hot
+    }
 </style>

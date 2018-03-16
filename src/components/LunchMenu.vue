@@ -9,9 +9,9 @@
 
                 <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
 
-                <p>Rice and assortment of sides included.</p>
+                <p>Rice and assortment of sides included</p>
 
-                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
+                <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
 
             </div>
 

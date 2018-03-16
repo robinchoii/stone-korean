@@ -7,7 +7,7 @@
 
             <div class='appetizers-about main-about'>
 
-                <p><i class='fa fa-leaf'></i> The following can be made into vegetarian dish upon request.</p>
+                <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
 
             </div>
 
