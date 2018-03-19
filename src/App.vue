@@ -6,13 +6,7 @@
 
 		<nav-tabs class='navtabs-component'>
 
-			<nav-tab name='Home' :selected='true'>
-
-				<h1>Home</h1>
-
-			</nav-tab>
-
-			<nav-tab name='Photos'>
+			<nav-tab name='' :selected='true'>
 
 				<image-gallery></image-gallery>
 
