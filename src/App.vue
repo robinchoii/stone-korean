@@ -10,6 +10,8 @@
 
 				<image-gallery></image-gallery>
 
+				<catering></catering>
+
 			</nav-tab>
 
 			<nav-tab name='Full Menu'>
@@ -101,6 +103,7 @@
     import SauteedDishesMenu from './components/SauteedDishesMenu.vue'
     import ComboSpecials from './components/ComboSpecials.vue'
     import ImageGallery from './components/ImageGallery.vue'
+    import Catering from './components/Catering.vue'
 
 
 	export default {
@@ -125,7 +128,8 @@
 			GrilledFishMenu,
 			SauteedDishesMenu,
 			ComboSpecials,
-			ImageGallery
+			ImageGallery,
+			Catering
 
 		},
 
