@@ -107,7 +107,7 @@ export default {
         line-height: 2.5;
         text-transform: uppercase;
         color: #c8a5aa;
-        margin:10px;
+        margin: 0px;
         padding: 0px;
         text-align: center;
 
@@ -140,16 +140,19 @@ export default {
 
     .menu-list ul {
         grid-row: 2;
-        /*grid-column: 1;*/
+    }
+
+    .menu-list ul li a  {
+        /*color: ;*/
     }
 
 
 
     @media only screen and (min-width: 800px) {
         .menu-list {
-            display:grid;
-            grid-template-columns: repeat(auto-fill, minmax(auto,1fr));
-            grid-column-gap: 5px;
+            display:flex;
+            /*grid-template-columns: repeat(auto-fill, minmax(auto,1fr));*/
+            /*grid-column-gap: 5px;*/
         }
 
         .tabs ul {
@@ -159,6 +162,11 @@ export default {
             grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
             justify-content: left;
 
+        }
+
+        .tabs ul li {
+            margin-left: 4px;
+            margin-right: 15px;
         }
     }
 </style>
