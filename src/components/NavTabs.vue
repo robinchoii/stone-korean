@@ -67,8 +67,6 @@ export default {
         console.log(tab)
         if (this.isMenuOpen === false) {
             this.isMenuOpen = true
-        } else {
-            this.isMenuOpen = false
         }
     }
   }
