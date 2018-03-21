@@ -14,9 +14,9 @@
 
 			</nav-tab>
 
-			<nav-tab name='Full Menu'>
+			<nav-tab name='Full Menu' id='full-menu'>
 
-				<full-menu id='full-menu'></full-menu>
+				<full-menu id=''></full-menu>
 
 			</nav-tab>
 
@@ -40,7 +40,7 @@
 
 			<nav-tab name='BiBimBobs'>
 
-				<bibimbob-menu id='bimbimbobs'></bibimbob-menu>
+				<bibimbob-menu id='bibimbobs'></bibimbob-menu>
 
 			</nav-tab>
 
