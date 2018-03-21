@@ -19,6 +19,11 @@
             <i class="fa fa-phone"></i>
             <a href='tel:+14254970515'>425-497-0515</a>
         </div>
+
+        <div class='email'>
+            <i class='fa fa-envelope'></i>
+            <a href='mailto:stonekoreanrestaurant@gmail.com'>stonekoreanrestaurant@gmail.com</a>
+        </div>
     </div>
 
 </template>
@@ -41,16 +46,15 @@ export default {
 
     .info {
         display: grid;
-        grid-row-gap: 30px;
+        grid-gap: 15px;
         grid-template-areas:
-            ". header header header ."
-            ". phone hours address .";
+            "header header header header"
+            "phone hours address email";
         grid-template-columns columns: repeat(auto-fit, minmax(200px, 1fr));
         text-align: center;
         color: white;
         background-color: #141212;
         padding-bottom: 20px;
-        /*margin: auto;*/
     }
         .info > * i {
             font-size: 40px;
@@ -70,17 +74,21 @@ export default {
         grid-area: phone;
     }
 
+    .email {
+        grid-area: email;
+    }
+
     .address {
         grid-area: address;
 
     }
-        .phone a, .address a {
+        .phone a, .address a, .email a{
             color: white;
             text-decoration: none;
             letter-spacing: 2px;
         }
 
-    .address, .hours, .phone {
+    .address, .hours, .phone , .email {
         display: grid;
         grid-template-rows: 50px;
         letter-spacing: 2px;
@@ -93,7 +101,8 @@ export default {
                 "header"
                 "phone"
                 "hours"
-                "address";
+                "address"
+                "email"
 
         }
 
