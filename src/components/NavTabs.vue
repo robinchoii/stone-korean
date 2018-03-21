@@ -80,7 +80,7 @@ export default {
 <style lang="css" scoped>
     .nav-tabs {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(300px, 1fr);
         grid-gap: 25px;
         grid-template-areas:
             "tabs"
