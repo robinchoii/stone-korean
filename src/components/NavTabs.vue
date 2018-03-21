@@ -62,6 +62,7 @@ export default {
         this.tabs.forEach( tab => {
             tab.isActive = (tab.name == selectedTab.name);
         })
+        console.log(window.location.href)
     },
     toggleMenu(tab) {
         console.log(tab)
@@ -108,6 +109,7 @@ export default {
         margin: 0px;
         padding: 0px;
         text-align: center;
+        line-height: 1.65;
 
     }
     .tabs ul li a {
