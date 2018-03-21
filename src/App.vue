@@ -173,6 +173,8 @@
         color: #e2e2e2;
         height: 100%;
         letter-spacing:2px;
+        font-family: 'Oswald', sans-serif;
+
 	}
 
 </style>
