@@ -46,47 +46,30 @@ export default {
 
     .info {
         display: grid;
-        grid-gap: 15px;
-        grid-template-areas:
-            "header header header header"
-            "phone hours address email";
-        grid-template-columns columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         text-align: center;
         color: white;
         background-color: #141212;
         padding-bottom: 20px;
     }
+
         .info > * i {
             font-size: 40px;
         }
 
     .contact-header {
-        grid-area: header;
         font-size: 36px;
         letter-spacing: 2px;
+        grid-column: 1  / -1;
+        margin: 20px;
     }
 
-    .hours {
-        grid-area: hours;
+    .phone a, .address a, .email a{
+        color: white;
+        text-decoration: none;
+        letter-spacing: 2px;
     }
-
-    .phone {
-        grid-area: phone;
-    }
-
-    .email {
-        grid-area: email;
-    }
-
-    .address {
-        grid-area: address;
-
-    }
-        .phone a, .address a, .email a{
-            color: white;
-            text-decoration: none;
-            letter-spacing: 2px;
-        }
 
     .address, .hours, .phone , .email {
         display: grid;
@@ -94,18 +77,4 @@ export default {
         letter-spacing: 2px;
         font-size: 16px;
     }
-
-    @media only screen and (max-width: 600px) {
-        .info {
-            grid-template-areas:
-                "header"
-                "phone"
-                "hours"
-                "address"
-                "email"
-
-        }
-
-    }
-
 </style>
