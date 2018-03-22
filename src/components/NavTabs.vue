@@ -88,6 +88,8 @@ export default {
     .tabs  {
         grid-area: tabs;
         letter-spacing: 0px;
+        padding: 15px 0 15px 0;
+        background-color: #14243b !important;
 
      }
         .tabs ul {
@@ -105,7 +107,7 @@ export default {
         list-style-type: none;
         line-height: 2.5;
         text-transform: uppercase;
-        color: #c8a5aa;
+        color: #e2e2e2;
         margin: 0px;
         padding: 0px;
         text-align: center;
@@ -114,7 +116,7 @@ export default {
     }
     .tabs ul li a {
         text-decoration: none;
-        color: #c8a5aa;
+        color: #e2e2e2;
         font-weight: 700;
     }
 
@@ -158,7 +160,6 @@ export default {
         .tabs ul {
             display: grid;
             grid-auto-flow: column;
-            grid-gap: 20px;
             grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
             justify-content: left;
 
