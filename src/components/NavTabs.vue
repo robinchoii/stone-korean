@@ -14,9 +14,9 @@
                     <span id='menu'>Menu</span>
                     <ul class="" v-for='tab in tabs' v-show='isMenuOpen'>
 
-                        <li  :class="{'is-active' : tab.isActive}">
+                        <li>
 
-                            <a :href='tab.href' @click='selectTab(tab)'>{{tab.name}} {{tab.title}}</a>
+                            <a  :class="{'is-active' : tab.isActive}" :href='tab.href' @click='selectTab(tab)'>{{tab.name}} {{tab.title}}</a>
 
                         </li>
 
