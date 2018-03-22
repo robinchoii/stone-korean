@@ -14,64 +14,64 @@
 
 			</nav-tab>
 
-			<nav-tab name='Full Menu' id='full-menu'>
+			<nav-tab name='Full Menu'>
 
-				<full-menu id=''></full-menu>
+				<full-menu></full-menu>
 
 			</nav-tab>
 
 			<nav-tab name='Lunch'>
 
-				<lunch-menu id='lunch'></lunch-menu>
+				<lunch-menu></lunch-menu>
 
 			</nav-tab>
 
 			<nav-tab name='Appetizers'>
 
-				<appetizers-menu id='appetizers'></appetizers-menu>
+				<appetizers-menu></appetizers-menu>
 
 			</nav-tab>
 
 			<nav-tab name='Soft Tofu'>
 
-				<soft-tofu-soup-menu id='soft-tofu'></soft-tofu-soup-menu>
+				<soft-tofu-soup-menu></soft-tofu-soup-menu>
 
 			</nav-tab>
 
 			<nav-tab name='BiBimBobs'>
 
-				<bibimbob-menu id='bibimbobs'></bibimbob-menu>
+				<bibimbob-menu></bibimbob-menu>
 
 			</nav-tab>
 
 			<nav-tab name='B.B.Q.'>
 
-				<bbq-menu id='b.b.q.'></bbq-menu>
+				<bbq-menu></bbq-menu>
 
 			</nav-tab>
 
 			<nav-tab name='Combos'>
 
-				<combo-specials id='combos'></combo-specials>
+				<combo-specials></combo-specials>
 
 			</nav-tab>
 
 			<nav-tab name='Fried Chicken'>
 
-				<fried-chicken-menu id='fried-chicken'></fried-chicken-menu>
+				<fried-chicken-menu></fried-chicken-menu>
 
 			</nav-tab>
 
 			<nav-tab name='Sauteed'>
 
-				<sauteed-dishes-menu id='sauteed'></sauteed-dishes-menu>
+				<sauteed-dishes-menu></sauteed-dishes-menu>
 
 			</nav-tab>
 
 
 			<nav-tab name='Grilled Fish'>
 
-				<grilled-fish-menu id='grilled-fish'></grilled-fish-menu>
+				<grilled-fish-menu></grilled-fish-menu>
 
 			</nav-tab>
 
