@@ -10,6 +10,12 @@
 
                 <li><a href="#contact" title="">Contact</a></li>
 
+                <li @click='toggleOrderTab'>
+                    Order Online
+                    <dropdown v-if='isOrderOnline'></dropdown>
+
+                </li>
+
                 <li class='menu-list' @click='toggleMenu'>
                     <span id='menu'>Menu</span>
                     <ul class="" v-for='tab in tabs' v-show='isMenuOpen'>
@@ -40,14 +46,24 @@
 </template>
 
 <script>
+
+import Dropdown from './Dropdown.vue'
+
 export default {
+
+    components: {
+
+        Dropdown
+
+    },
 
   name: 'NavTabs',
 
   data () {
     return {
         tabs: [],
-        isMenuOpen: false
+        isMenuOpen: false,
+        isOrderOnline: false
     }
   },
 
@@ -65,11 +81,15 @@ export default {
         console.log(window.location.href)
     },
     toggleMenu(tab) {
-        console.log(tab)
+        // console.log(tab)
         if (this.isMenuOpen === false) {
             this.isMenuOpen = true
         }
+    },
+    toggleOrderTab() {
+        this.isOrderOnline = !this.isOrderOnline
     }
+
   }
 
 
@@ -148,6 +168,9 @@ export default {
         /*color: ;*/
     }
 
+    .order-online {
+        display: block;
+    }
 
 
     @media only screen and (min-width: 800px) {
