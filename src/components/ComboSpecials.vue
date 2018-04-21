@@ -22,7 +22,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Bulgogi or Spicy Pork + Hotpot Bibimbob</h3>
+                <h3 class='item-title'>Bulgogi or Spicy Pork + Hotpot Bibimbob*</h3>
 
                 <span class='item-price'>$23</span>
 
@@ -30,7 +30,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Kalbi + Hotpot Bibimbob</h3>
+                <h3 class='item-title'>Kalbi + Hotpot Bibimbob*</h3>
 
                 <span class='item-price'>$25</span>
 
@@ -38,7 +38,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Soft Tofu Soup + Hotpot Bibimbob</h3>
+                <h3 class='item-title'>Soft Tofu Soup + Hotpot Bibimbob*</h3>
 
                 <span class='item-price'>$23</span>
 
@@ -86,7 +86,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Kalbi + Naeng-Myun (Cold Noodle Soup)</h3>
+                <h3 class='item-title'>Kalbi + Naeng-Myun (Cold Noodle Soup)*</h3>
 
                 <span class='item-price'>$24</span>
 
@@ -94,7 +94,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Chicken Bulgogi + Hotpot Bibimbob</h3>
+                <h3 class='item-title'>Chicken Bulgogi + Hotpot Bibimbob*</h3>
 
                 <span class='item-price'>$23</span>
 
