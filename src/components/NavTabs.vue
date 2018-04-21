@@ -82,9 +82,11 @@ export default {
     },
     toggleMenu(tab) {
         // console.log(tab)
-        if (this.isMenuOpen === false) {
-            this.isMenuOpen = true
-        }
+        // if (this.isMenuOpen === false) {
+        //     this.isMenuOpen = true
+        // }
+
+        this.isMenuOpen = !this.isMenuOpen
     },
     toggleOrderTab() {
         this.isOrderOnline = !this.isOrderOnline

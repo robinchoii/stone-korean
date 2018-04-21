@@ -22,6 +22,13 @@
     .order-online-dropdown {
         list-style: none;
         padding: 0;
-        overflow: hidden
+        text-transform: uppercase;
+        line-height: 1.65;
+    }
+
+    .tabs ul li a {
+        text-decoration: none;
+        color: #e2e2e2;
+        font-weight: 700;
     }
 </style>
