@@ -54,40 +54,40 @@
 
                         description: 'Korean BBQ rib-eye marinated in Bulgogi sauce',
 
-                        price: 21,
+                        price: 22,
 
                     },
 
                     {
                         id: 3,
 
-                        name: 'Spicy BBQ Pork',
+                        name: 'Spicy Pork Bul-Go-Gi',
 
                         description: 'Korean BBQ pork loin marinated in spicy Bulgogi sauce',
 
-                        price: 21,
+                        price: 22,
 
                     },
 
                     {
                         id: 4,
 
-                        name: 'Chicken BBQ Bul-Go-Gi',
+                        name: 'Chicken Bul-Go-Gi',
 
                         description: 'Korean BBQ chicken slices marinated in Bulgogi sauce',
 
-                        price: 21,
+                        price: 22,
 
                     },
 
                     {
                         id: 5,
 
-                        name: 'Spicy Chicken BBQ Bul-Go-Gi',
+                        name: 'Spicy Chicken Bul-Go-Gi',
 
                         description: 'Korean BBQ chicken slices marinated in spicy Bulgogi sauce',
 
-                        price: 21,
+                        price: 22,
 
                     },
 
