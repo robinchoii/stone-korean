@@ -45,7 +45,7 @@
 
                         description: "Choose one of our Soft Tofu Soups",
 
-                        price: 11,
+                        price: 12,
 
                         isVege: true,
 
@@ -54,37 +54,35 @@
                     {
                         id: 2,
 
-                        name: 'Cold Bi-Bim-Bob',
+                        name: 'Kalbi',
 
-                        description: "Assorted vegetables, beef & egg over rice",
+                        description: "BBQ beef short ribs served with onions topped with sesame seeds",
 
-                        price: 10,
-
-                        isVege: true
+                        price: 15
 
                     },
 
                     {
                         id: 3,
 
-                        name: 'Hot Pot Bi-Bim-Bob',
+                        name: 'Cold Bi-Bim-Bob',
 
-                        description: "Assorted vegetables, beef & egg over rice in a sizzling stone pot",
+                        description: "Assorted vegetables, beef & egg over rice",
 
-                        price: 13,
+                        price: 12,
 
-                        isVege: true,
+                        isVege: true
 
                     },
 
                     {
                         id: 4,
 
-                        name: 'Bul-Go-Gi',
+                        name: 'Bulgogi',
 
                         description: "BBQ beef ribeye served with onions topped with sesame seeds",
 
-                        price: 12
+                        price: 13
 
 
                     },
@@ -92,70 +90,96 @@
                     {
                         id: 5,
 
-                        name: 'Kalbi',
+                        name: 'Hot Pot Bi-Bim-Bob',
 
-                        description: "BBQ beef short ribs served with onions topped with sesame seeds",
+                        description: "Assorted vegetables, beef & egg over rice in a sizzling stone pot",
 
-                        price: 13
+                        price: 14,
+
+                        isVege: true,
 
                     },
 
                     {
                         id: 6,
 
-                        name: 'Spicy Pork Bul-Go-Gi',
+                        name: 'Spicy Pork Bulgogi',
 
                         description: "Spicy BBQ pork loin served with onions topped with sesame seeds ",
 
-                        price: 12
+                        price: 13
 
                     },
 
                     {
                         id: 7,
 
-                        name: 'Chicken Bul-Go-Gi',
+                        name: 'Yuk-Gae-Jahng',
 
-                        description: "BBQ chicken slices served with onions topped with sesame seeds",
+                        description: "Spicy beef brisket and vegetable soup",
 
-                        price: 12
+                        price: 13
 
                     },
 
                     {
                         id: 8,
 
-                        name: 'Spicy Chicken Bul-Go-Gi',
+                        name: 'Chicken Bulgogi',
 
-                        description: "Spicy BBQ chicken slices served with onions topped with sesame seeds",
+                        description: "BBQ chicken slices served with onions topped with sesame seeds",
 
-                        price: 12
+                        price: 13
 
                     },
 
                     {
                         id: 9,
 
-                        name: 'Yuk-Gae-Jahng',
+                        name: 'Kimchi Jhi-Gae',
 
-                        description: "Spicy beef brisket and vegetable soup",
+                        description: "Kimchi stew with onions, medium-firm tofu, rice cakes. Choice of Beef or Pork",
 
-                        price: 12
+                        price: 12,
+
+                        isVege: true
 
                     },
 
                     {
                         id: 10,
 
-                        name: 'Kimchi Jhi-Gae',
+                        name: 'Spicy Chicken Bulgogi',
 
-                        description: "Kimchi stew with onions, medium-firm tofu, rice cakes. Choice of Beef or Pork",
+                        description: "Spicy BBQ chicken slices served with onions topped with sesame seeds",
 
-                        price: 10,
+                        price: 13
 
-                        isVege: true
+                    },
+
+                    {
+                        id: 11,
+
+                        name: 'Seafood Noodle Soup',
+
+                        description: "Shrimp, clam, squid & assorted veggies",
+
+                        price: 11
+
+                    },
+
+                    {
+                        id: 12,
+
+                        name: 'Kimchi Fried Rice',
+
+                        description: "Stir-fried rice with kimchi & veggies",
+
+                        price: 12
 
                     }
+
+
                 ]
 
             }
