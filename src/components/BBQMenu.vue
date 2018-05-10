@@ -50,7 +50,7 @@
                     {
                         id: 2,
 
-                        name: 'Bul-Go-Gi',
+                        name: 'Bulgogi',
 
                         description: 'Korean BBQ rib-eye marinated in Bulgogi sauce',
 
@@ -61,7 +61,7 @@
                     {
                         id: 3,
 
-                        name: 'Spicy Pork Bul-Go-Gi',
+                        name: 'Spicy Pork Bulgogi',
 
                         description: 'Korean BBQ pork loin marinated in spicy Bulgogi sauce',
 
@@ -72,7 +72,7 @@
                     {
                         id: 4,
 
-                        name: 'Chicken Bul-Go-Gi',
+                        name: 'Chicken Bulgogi',
 
                         description: 'Korean BBQ chicken slices marinated in Bulgogi sauce',
 
@@ -83,7 +83,7 @@
                     {
                         id: 5,
 
-                        name: 'Spicy Chicken Bul-Go-Gi',
+                        name: 'Spicy Chicken Bulgogi',
 
                         description: 'Korean BBQ chicken slices marinated in spicy Bulgogi sauce',
 
