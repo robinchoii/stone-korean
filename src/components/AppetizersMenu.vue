@@ -38,11 +38,11 @@
 
                     id: 1,
 
-                        name: 'Dumplings, 10pcs.',
+                        name: 'Gyoza, 10pcs',
 
                         description: "Pork & vegetable potstickers, served with soy dipping sauce",
 
-                        price: 7,
+                        price: 8,
 
                         isVege: true,
 
@@ -55,7 +55,7 @@
 
                         description: "Pan-fried seafood (baby shrimp, baby octopus & calamari squid) pancake with green onions, served with soy dipping sauce",
 
-                        price: 15
+                        price: 16
 
                     },
 
@@ -66,7 +66,7 @@
 
                         description: "Pan-fried Kimchi pancake with soy dipping sauce",
 
-                        price: 12,
+                        price: 13,
 
                         isVege: true,
 
@@ -79,7 +79,7 @@
 
                         description: "Pan-fried veggies(green and white onions, carrot, & bellpepper) pancake with soy dipping sauce",
 
-                        price: 12,
+                        price: 13,
 
                         isVege: true,
                     },
@@ -91,7 +91,7 @@
 
                         description: "Battered egg, steamed with chopped green onions",
 
-                        price: 7,
+                        price: 8,
 
                         isVege: true,
 
@@ -104,7 +104,7 @@
 
                         description: "Korean potato starch noodles, stir-fried with veggies & beef, seasoned in soy sauce",
 
-                        price: 14,
+                        price: 15,
 
                         isVege: true,
 
@@ -117,7 +117,7 @@
 
                         description: "Fresh rice cake & veggies, boiled & braised in sweet Korean chili sauce",
 
-                        price: 10,
+                        price: 11,
 
                         isVege: true,
 
@@ -126,7 +126,17 @@
                     {
                         id: 8,
 
-                        name: 'Chicken Hot Wings, 8pcs.',
+                        name: 'Chicken Hot Wings, 8pcs',
+
+                        description: "Seasoned chicken wings deep-fried in soybean oil",
+
+                        price: 12
+
+                    },
+                    {
+                        id: 9,
+
+                        name: 'Chicken Strips, 6pcs',
 
                         description: "Seasoned chicken wings deep-fried in soybean oil",
 
