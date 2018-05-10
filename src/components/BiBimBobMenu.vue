@@ -39,71 +39,50 @@
             return {
                 Bibimbobs: [{
                         id: 1,
-
                         name: 'Beef Hot Pot Bi-Bim-Bob',
                         description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '15'
-
+                        price: '16'
                     },
 
                     {
                         id: 2,
-
                         name: 'Seafood Hot Pot Bi-Bim-Bob',
                         description: 'Seafood, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '15'
-
+                        price: '16'
                     },
 
                     {
                         id: 3,
-
                         name: 'Pork Hot Pot Bi-Bim-Bob',
                         description: 'Pork, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '15'
+                        price: '16'
                     },
 
                     {
                         id: 4,
-
                         name: 'Chicken Hot Pot Bi-Bim-Bob',
                         description: 'Chicken, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '15'
-
+                        price: '16'
                     },
 
                     {
                         id: 5,
-
                         name: 'Tofu Hot Pot Bi-Bim-Bob',
                         description: 'Tofu, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '14'
-
+                        price: '16'
                     },
 
                     {
                         id: 6,
-
-                        name: 'Kimchi Hot Pot Bi-Bim-Bob',
-                        description: 'Well-ripen Kimchi, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '14',
+                        name: 'Vegetable Hot Pot Bi-Bim-Bob',
+                        description: 'Carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
+                        price: '16',
                         isVege: true,
 
                     },
 
                     {
                         id: 7,
-
-                        name: 'Vegetable Hot Pot Bi-Bim-Bob',
-                        description: 'Carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '14',
-                        isVege: true,
-
-                    },
-
-                    {
-                        id: 8,
-
                         name: 'Cold Bi-Bim-Bob',
                         description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
                         price: '13'
