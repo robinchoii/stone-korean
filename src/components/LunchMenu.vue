@@ -9,7 +9,7 @@
 
                 <p>11:00am - 2:30pm, Monday - Friday (Except Holidays)</p>
 
-                <p>Rice and assortment of sides included</p>
+                <p>Served with sizzling hot stone rice and side dishes</p>
 
                 <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
 

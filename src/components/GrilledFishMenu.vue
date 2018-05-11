@@ -7,7 +7,7 @@
 
             <div class='fish-about main-about'>
 
-                <p>Served with a sizzling hot stone pot rice & side dishes</p>
+                <p>Served with a sizzling hot stone pot rice and side dishes</p>
 
             </div>
 

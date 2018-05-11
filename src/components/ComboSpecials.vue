@@ -8,7 +8,7 @@
 
             <div class='combo-specials-about main-about'>
 
-                <p>Served with a sizzling hot stone pot rice and  side dishes</p>
+                <p>Served with a sizzling hot stone pot rice and side dishes</p>
 
                 <p>Smaller portions than if ordered separately </p>
 
@@ -30,7 +30,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Spicy Pork Bulgogi+ Hotpot Bibimbob*</h3>
+                <h3 class='item-title'>Spicy Pork Bulgogi + Hotpot Bibimbob*</h3>
 
                 <span class='item-price'>$24</span>
 

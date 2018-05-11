@@ -8,7 +8,7 @@
 
             <div class='fried-chicken-about main-about'>
 
-                <p>Served with side of pickled radishes <br /> Must pair with entre for full side dish set</p>
+                <p>Served with side of pickled radishes <br /> Not served with side dishes</p>
 
             </div>
 

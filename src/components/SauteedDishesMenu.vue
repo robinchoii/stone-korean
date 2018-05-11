@@ -8,7 +8,7 @@
 
             <div class='sauteed-dishes-about main-about'>
 
-                <p>Served with a sizzling hot stone pot rice and  side dishes</p>
+                <p>Served with a sizzling hot stone pot rice and side dishes</p>
 
                 <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
 
