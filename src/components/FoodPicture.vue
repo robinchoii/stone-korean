@@ -1,6 +1,6 @@
 <template>
     <div class='image'>
-        <img :src="image.path" />
+        <img :src="image.path" alt='image.alt'/>
     </div>
 </template>
 
