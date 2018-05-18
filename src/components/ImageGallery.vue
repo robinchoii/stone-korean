@@ -86,6 +86,14 @@
                 id: 4,
                 path: '/src/assets/stone-pic4.jpg',
             },
+            {
+                id: 20,
+                path: '/src/assets/stone-pic20.jpg',
+            },
+            {
+                id: 19,
+                path: '/src/assets/stone-pic19.jpg',
+            }
 
             ]
         }
