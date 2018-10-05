@@ -81,7 +81,7 @@
 
     .food-items-grid {
         display: grid;
-        justify-content: center;
+        justify-content: left;
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         grid-gap: 10px;
     }
@@ -102,7 +102,7 @@
         }
     }
     .main-header {
-        padding: 15px;
+        padding: 10px;
     }
 
     .main-header h2 {
@@ -114,7 +114,7 @@
     .main-header h2, .main-header p {
         margin: 0;
         padding: 0;
-        text-align: center;
+        // text-align: center;
     }
 
     .main-about > p {

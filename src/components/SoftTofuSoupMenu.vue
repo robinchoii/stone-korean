@@ -185,10 +185,10 @@
 <style type="text/css">
     .spicy {
         display: grid;
-        grid-template-columns: repeat(13, auto);
-        text-align:center;
+        grid-template-columns: repeat(5, 70px);
+        text-align:left;
         grid-template-areas:
-            ". . . . non-spicy mild medium hot extra-hot . . . . "
+            "non-spicy mild medium hot extra-hot"
     }
     .non-spicy {
         grid-area: non-spicy

@@ -2,80 +2,28 @@
 
 	<div id="app" class=''>
 
-        <nav-bar class='navbar-component' ></nav-bar>
+        <nav-bar class='navbar-component'></nav-bar>
 
 		<nav-tabs class='navtabs-component'>
 
-			<nav-tab name='' :selected='true'>
+			<!-- <nav-tab name='' :selected='true'>
 
 				<image-gallery></image-gallery>
-
-				<catering></catering>
 
 			</nav-tab>
 
 			<nav-tab name='Full Menu'>
 
-				<full-menu></full-menu>
 
-			</nav-tab>
-
-			<nav-tab name='Lunch'>
-
-				<lunch-menu></lunch-menu>
-
-			</nav-tab>
-
-			<nav-tab name='Appetizers'>
-
-				<appetizers-menu></appetizers-menu>
-
-			</nav-tab>
-
-			<nav-tab name='Soft Tofu'>
-
-				<soft-tofu-soup-menu></soft-tofu-soup-menu>
-
-			</nav-tab>
-
-			<nav-tab name='BiBimBobs'>
-
-				<bibimbob-menu></bibimbob-menu>
-
-			</nav-tab>
-
-			<nav-tab name='B.B.Q.'>
-
-				<bbq-menu></bbq-menu>
-
-			</nav-tab>
-
-			<nav-tab name='Combos'>
-
-				<combo-specials></combo-specials>
-
-			</nav-tab>
-
-			<nav-tab name='Fried Chicken'>
-
-				<fried-chicken-menu></fried-chicken-menu>
-
-			</nav-tab>
-
-			<nav-tab name='Sauteed'>
-
-				<sauteed-dishes-menu></sauteed-dishes-menu>
-
-			</nav-tab>
-
-
-			<nav-tab name='Grilled Fish'>
-
-				<grilled-fish-menu></grilled-fish-menu>
-
-			</nav-tab>
+			</nav-tab> -->
 
 		</nav-tabs>
+
+		<div class='main'>
+			<full-menu></full-menu>
+		</div>
+
+
 
 		<google-map  class='component google-map-component' name='stone'> </google-map>
 
@@ -149,10 +97,14 @@
 
 <style>
 	.navbar-component {
-		grid-area: header
+		grid-area: header;
+		background-color: #cccccc
 	}
 	.navtabs-component {
 		grid-area: tabs
+	}
+	.main {
+		grid-area: main-content
 	}
 	.google-map-component {
 		grid-area: maps;
@@ -163,12 +115,12 @@
 
 	#app {
 		display: grid;
-		grid-template-columns: 1fr 4fr 1fr;
+		grid-template-columns: auto 1fr;
 		grid-template-areas:
-			"header header header"
-			"tabs tabs tabs"
-			"maps maps maps"
-			"contact contact contact";
+			"header header "
+			"tabs main-content "
+			"maps maps "
+			"contact contact ";
         background-color: #3d1b1b;
         color: #e2e2e2;
         height: 100%;
