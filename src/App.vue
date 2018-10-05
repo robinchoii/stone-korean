@@ -8,7 +8,6 @@
 
 			<!-- <nav-tab name='' :selected='true'>
 
-				<image-gallery></image-gallery>
 
 			</nav-tab>
 
@@ -23,7 +22,9 @@
 			<full-menu></full-menu>
 		</div>
 
-
+		<section class='image-gallery'>
+			<image-gallery></image-gallery>
+		</section>
 
 		<google-map  class='component google-map-component' name='stone'> </google-map>
 
@@ -112,15 +113,17 @@
 	.contact-component {
 		grid-area: contact;
 	}
-
+	.image-gallery {
+		grid-area: image-gallery;
+	}
 	#app {
 		display: grid;
-		grid-template-columns: auto 1fr;
+		grid-template-columns: auto 3fr	1fr;
 		grid-template-areas:
-			"header header "
-			"tabs main-content "
-			"maps maps "
-			"contact contact ";
+			"header header header"
+			"tabs main-content image-gallery"
+			"maps maps maps"
+			"contact contact contact";
         background-color: #3d1b1b;
         color: #e2e2e2;
         height: 100%;
