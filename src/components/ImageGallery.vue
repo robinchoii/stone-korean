@@ -105,12 +105,6 @@
                 path: '/src/assets/stone-pic20.jpg',
                 alt: 'Side Dishes'
             },
-            {
-                id: 19,
-                path: '/src/assets/stone-pic19.jpg',
-                alt: 'Stone Pot Rice'
-            }
-
             ]
         }
       }
