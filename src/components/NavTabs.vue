@@ -6,7 +6,7 @@
 
             <ul>
 
-                <li><a href="/" title="">Home</a></li>
+                <li @click="toggleOverview"><a href="/" title="">Home</a></li>
 
                 <li><a href="#contact" title="">Contact</a></li>
                 <li @click="toggleRedmondTab">
@@ -47,7 +47,7 @@
 
 
         <div class='tabs-details'>
-
+            <overview v-if="isOverviewOpen"></overview>
             <full-menu v-if='isRedmondMenuOpen'> </full-menu>
 
         </div>
@@ -60,12 +60,13 @@
 
 import Dropdown from './Dropdown.vue'
 import FullMenu from './FullMenu.vue'
+import Overview from './Overview.vue'
 
 export default {
 
     components: {
 
-        Dropdown, FullMenu
+        Dropdown, FullMenu,Overview
 
     },
 
@@ -77,6 +78,7 @@ export default {
         isRedmondMenuOpen: false,
         isSeattleMenuOpen: false,
         isOrderOnline: false,
+        isOverview: false,
         isRedmond: false,
         isSeattle: false
     }
@@ -137,6 +139,13 @@ export default {
 
         this.isMenuOpen = !this.isMenuOpen
 
+        return false;
+    },
+    toggleOverview(event) {
+        event.stopPropagation()
+        this.isOverview = !this.isOverview;
+
+        return false
     }
   }
 
@@ -160,7 +169,7 @@ export default {
         letter-spacing: 0px;
         padding: 15px 0 15px 0;
         background-color: #3d1b1b !important;
-        width: 110px;
+        width: 150px;
 
      }
         .tabs ul {

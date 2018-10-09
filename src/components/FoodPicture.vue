@@ -14,15 +14,15 @@
 
 <style type="text/css">
     .image img {
-        width: 100%;
-        height: 100%;
+        width: 300px;
+        height: 175px;
         object-fit: cover;
 
     }
     .image {
-        // align-self: center;
-        // width: 250px;
-        // height: auto;
+        /*// align-self: center;*/
+        /*// width: 250px;*/
+        /*// height: auto;*/
         border: 1px solid white;
      }
 </style>

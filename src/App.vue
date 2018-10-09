@@ -6,20 +6,19 @@
 
 		<nav-tabs class='navtabs-component'>
 
-			<!-- <nav-tab name='' :selected='true'>
-
-
+			<nav-tab name='' :selected='true'>
+				<overview></overview>
 			</nav-tab>
-
+<!--
 			<nav-tab name='Full Menu'>
 
 
-			</nav-tab> -->
-
+			</nav-tab>
+ -->
 		</nav-tabs>
 
 		<div class='main'>
-			<full-menu></full-menu>
+			<!-- <full-menu></full-menu> -->
 		</div>
 
 		<section class='image-gallery'>
@@ -53,6 +52,7 @@
     import ComboSpecials from './components/ComboSpecials.vue'
     import ImageGallery from './components/ImageGallery.vue'
     import Catering from './components/Catering.vue'
+    import Overview from './components/Overview.vue'
 
 
 	export default {
@@ -78,8 +78,8 @@
 			SauteedDishesMenu,
 			ComboSpecials,
 			ImageGallery,
-			Catering
-
+			Catering,
+			Overview
 		},
 
 		data () {
