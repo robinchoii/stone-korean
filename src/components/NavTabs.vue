@@ -3,53 +3,54 @@
     <div class='nav-tabs'>
 
         <div class='tabs'>
+            <ul v-for='tab in tabs'>
+                <li>
+                    <a  :class="{'is-active' : tab.isActive}" :href='tab.href' @click='selectTab(tab)'>{{tab.name}} {{tab.title}}</a>
+                </li>
+            </ul>
 
-            <ul>
+           <!--  <ul>
 
                 <li @click="toggleOverview"><a href="/" title="">Home</a></li>
 
                 <li><a href="#contact" title="">Contact</a></li>
-                <li @click="toggleRedmondTab">
+
+                <li @click='toggleRedmondTab'>
                     Redmond
-                    <ul v-if="isRedmond">
-                        <li @click='toggleRedmondMenu'>
-                            Menu
+                    <ul v-if='isRedmond'>
+                        <li class='menu-list' @click='toggleRedmondMenu'>
+                            <span id='menu'>Menu</span>
+                            <ul class="" v-for='tab in tabs' v-show='isRedmondMenuOpen'>
+                                <li>
+                                    <a  :class="{'is-active' : tab.isActive}" :href='tab.href' @click='selectTab(tab)'>{{tab.name}} {{tab.title}}</a>
+                                </li>
+                            </ul>
                         </li>
                         <li @click='toggleOrderOnlineTab'>
                             Order Online
                             <dropdown v-if='isOrderOnline'></dropdown>
-
                         </li>
                     </ul>
                 </li>
+
                 <li @click='toggleSeattleTab'>
                     Seattle
                     <ul v-if='isSeattle'>
                         <li class='menu-list' @click='toggleSeattleMenu'>
                             <span id='menu'>Menu</span>
                             <ul class="" v-for='tab in tabs' v-show='isSeattleMenuOpen'>
-
                                 <li>
-
                                     <a  :class="{'is-active' : tab.isActive}" :href='tab.href' @click='selectTab(tab)'>{{tab.name}} {{tab.title}}</a>
-
                                 </li>
-
                             </ul>
-
                         </li>
                     </ul>
                 </li>
-
-            </ul>
-
+            </ul> -->
         </div>
 
-
         <div class='tabs-details'>
-            <overview v-if="isOverviewOpen"></overview>
-            <full-menu v-if='isRedmondMenuOpen'> </full-menu>
-
+            <slot></slot>
         </div>
 
     </div>
@@ -100,7 +101,7 @@ export default {
         // if (this.isMenuOpen === false) {
         //     this.isMenuOpen = true
         // }
-        console.log('click')
+        console.log('toggle redmond tab')
         tab.stopPropagation()
         this.isRedmondMenuOpen = !this.isRedmondMenuOpen
 
@@ -110,13 +111,13 @@ export default {
         // if (this.isMenuOpen === false) {
         //     this.isMenuOpen = true
         // }
-        console.log('click')
+        console.log('toggle seattle tab')
         tab.stopPropagation()
         this.isSeattleMenuOpen = !this.isSeattleMenuOpen
 
         return false
     },
-    toggleOrderOnlineTab() {
+    toggleOrderOnlineTab(event) {
         event.stopPropagation();
         this.isOrderOnline = !this.isOrderOnline
 
@@ -131,13 +132,6 @@ export default {
     toggleSeattleTab(event) {
         event.stopPropagation()
         this.isSeattle = !this.isSeattle
-
-        return false;
-    },
-    openMenu(event) {
-        event.stopPropagation();
-
-        this.isMenuOpen = !this.isMenuOpen
 
         return false;
     },

@@ -2,33 +2,29 @@
 
 	<div id="app" class=''>
 
-        <nav-bar class='navbar-component'></nav-bar>
+        <nav-bar class='navbar'></nav-bar>
 
-		<nav-tabs class='navtabs-component'>
-
-			<nav-tab name='' :selected='true'>
+		<nav-tabs class='navtabs-container'>
+			<nav-tab name="Home" :selected='true'>
 				<overview></overview>
+				<image-gallery></image-gallery>
 			</nav-tab>
-<!--
-			<nav-tab name='Full Menu'>
-
-
+			<nav-tab name="Contact"></nav-tab>
+			<nav-tab name="Redmond">
+				<full-menu></full-menu>
 			</nav-tab>
- -->
+			<nav-tab name="Seattle">
+				<full-menu></full-menu>
+			</nav-tab>
+			<nav-tab name='Order Online'></nav-tab>
 		</nav-tabs>
 
-		<div class='main'>
-			<!-- <full-menu></full-menu> -->
-		</div>
-
-		<section class='image-gallery'>
-			<image-gallery></image-gallery>
+		<section class='google-maps-container'>
+			<google-map name='stone'> </google-map>
 		</section>
-
-		<google-map  class='component google-map-component' name='stone'> </google-map>
-
-		<contact class='component contact-component' id='contact'></contact>
-		<!-- <food-picture></food-picture> -->
+		<section class='contact-container'>
+			<contact id='contact'></contact>
+		</section>
 	</div>
 
 </template>
@@ -97,31 +93,28 @@
 </script>
 
 <style>
-	.navbar-component {
+	.navbar {
 		grid-area: header;
 		background-color: #cccccc
 	}
-	.navtabs-component {
-		grid-area: tabs
+	.navtabs-container {
+		grid-area: tabs;
 	}
-	.main {
-		grid-area: main-content
+	.image-gallery-container {
+		grid-area: gallery;
 	}
-	.google-map-component {
+	.google-map-container {
 		grid-area: maps;
 	}
-	.contact-component {
+	.contact-container {
 		grid-area: contact;
-	}
-	.image-gallery {
-		grid-area: image-gallery;
 	}
 	#app {
 		display: grid;
 		grid-template-columns: auto 3fr	1fr;
 		grid-template-areas:
 			"header header header"
-			"tabs main-content image-gallery"
+			"tabs tabs tabs"
 			"maps maps maps"
 			"contact contact contact";
         background-color: #3d1b1b;
