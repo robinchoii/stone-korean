@@ -7,13 +7,12 @@
 		<nav-tabs class='navtabs-container'>
 			<nav-tab name="Home" :selected='true'>
 				<overview></overview>
-				<image-gallery></image-gallery>
 			</nav-tab>
 			<nav-tab name="Redmond">
 				<full-menu></full-menu>
 			</nav-tab>
 			<nav-tab name="Seattle">
-				<full-menu></full-menu>
+				<seattle-full-menu></seattle-full-menu>
 			</nav-tab>
 			<nav-tab name="Contact"></nav-tab>
 			<nav-tab name='Order Online'></nav-tab>
@@ -32,24 +31,14 @@
 <script>
 	import FullMenu from './components/FullMenu.vue'
 	import NavBar from './components/NavBar.vue'
-	import FoodPicture from './components/FoodPicture.vue'
 	import GoogleMap from './components/GoogleMap.vue'
 	import Contact from './components/Contact.vue'
 	import NavTabs from './components/Navtabs.vue'
 	import NavTab from './components/Navtab.vue'
-    import LunchMenu from './components/LunchMenu.vue'
-    import AppetizersMenu from './components/AppetizersMenu.vue'
-    import SoftTofuSoupMenu from './components/SoftTofuSoupMenu.vue'
-    import BibimbobMenu from './components/BiBimBobMenu.vue'
-    import BbqMenu from './components/BBQMenu.vue'
-    import FriedChickenMenu from './components/FriedChickenMenu.vue'
-    import GrilledFishMenu from './components/GrilledFishMenu.vue'
-    import SauteedDishesMenu from './components/SauteedDishesMenu.vue'
-    import ComboSpecials from './components/ComboSpecials.vue'
     import ImageGallery from './components/ImageGallery.vue'
     import Catering from './components/Catering.vue'
     import Overview from './components/Overview.vue'
-
+    import SeattleFullMenu from './components/Seattle/SeattleFullMenu.vue'
 
 	export default {
 
@@ -59,23 +48,14 @@
 
 			FullMenu,
 			NavBar,
-			FoodPicture,
 			GoogleMap,
 			Contact,
 			NavTabs,
 			NavTab,
-			LunchMenu,
-			AppetizersMenu,
-			SoftTofuSoupMenu,
-			BibimbobMenu,
-			BbqMenu,
-			FriedChickenMenu,
-			GrilledFishMenu,
-			SauteedDishesMenu,
-			ComboSpecials,
 			ImageGallery,
 			Catering,
-			Overview
+			Overview,
+			SeattleFullMenu
 		},
 
 		data () {
@@ -124,5 +104,4 @@
         font-family: 'Oswald', sans-serif;
 
 	}
-
 </style>
