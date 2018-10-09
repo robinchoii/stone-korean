@@ -9,13 +9,13 @@
 				<overview></overview>
 				<image-gallery></image-gallery>
 			</nav-tab>
-			<nav-tab name="Contact"></nav-tab>
 			<nav-tab name="Redmond">
 				<full-menu></full-menu>
 			</nav-tab>
 			<nav-tab name="Seattle">
 				<full-menu></full-menu>
 			</nav-tab>
+			<nav-tab name="Contact"></nav-tab>
 			<nav-tab name='Order Online'></nav-tab>
 		</nav-tabs>
 
@@ -103,7 +103,7 @@
 	.image-gallery-container {
 		grid-area: gallery;
 	}
-	.google-map-container {
+	.google-maps-container {
 		grid-area: maps;
 	}
 	.contact-container {

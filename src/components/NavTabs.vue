@@ -97,50 +97,50 @@ export default {
         })
         console.log(window.location.href)
     },
-    toggleRedmondMenu(tab) {
-        // if (this.isMenuOpen === false) {
-        //     this.isMenuOpen = true
-        // }
-        console.log('toggle redmond tab')
-        tab.stopPropagation()
-        this.isRedmondMenuOpen = !this.isRedmondMenuOpen
+    // toggleRedmondMenu(tab) {
+    //     // if (this.isMenuOpen === false) {
+    //     //     this.isMenuOpen = true
+    //     // }
+    //     console.log('toggle redmond tab')
+    //     tab.stopPropagation()
+    //     this.isRedmondMenuOpen = !this.isRedmondMenuOpen
 
-        return false
-    },
-    toggleSeattleMenu(tab) {
-        // if (this.isMenuOpen === false) {
-        //     this.isMenuOpen = true
-        // }
-        console.log('toggle seattle tab')
-        tab.stopPropagation()
-        this.isSeattleMenuOpen = !this.isSeattleMenuOpen
+    //     return false
+    // },
+    // toggleSeattleMenu(tab) {
+    //     // if (this.isMenuOpen === false) {
+    //     //     this.isMenuOpen = true
+    //     // }
+    //     console.log('toggle seattle tab')
+    //     tab.stopPropagation()
+    //     this.isSeattleMenuOpen = !this.isSeattleMenuOpen
 
-        return false
-    },
-    toggleOrderOnlineTab(event) {
-        event.stopPropagation();
-        this.isOrderOnline = !this.isOrderOnline
+    //     return false
+    // },
+    // toggleOrderOnlineTab(event) {
+    //     event.stopPropagation();
+    //     this.isOrderOnline = !this.isOrderOnline
 
-        return false;
-    },
-    toggleRedmondTab(event) {
-        event.stopPropagation()
-        this.isRedmond = !this.isRedmond
+    //     return false;
+    // },
+    // toggleRedmondTab(event) {
+    //     event.stopPropagation()
+    //     this.isRedmond = !this.isRedmond
 
-        return false;
-    },
-    toggleSeattleTab(event) {
-        event.stopPropagation()
-        this.isSeattle = !this.isSeattle
+    //     return false;
+    // },
+    // toggleSeattleTab(event) {
+    //     event.stopPropagation()
+    //     this.isSeattle = !this.isSeattle
 
-        return false;
-    },
-    toggleOverview(event) {
-        event.stopPropagation()
-        this.isOverview = !this.isOverview;
+    //     return false;
+    // },
+    // toggleOverview(event) {
+    //     event.stopPropagation()
+    //     this.isOverview = !this.isOverview;
 
-        return false
-    }
+    //     return false
+    // }
   }
 
 }
@@ -148,15 +148,9 @@ export default {
 
 <style lang="css" scoped>
     .nav-tabs {
-/*        display: grid;
-        grid-template-columns: minmax(300px, 1fr);
-        grid-gap: 25px;
+        display: grid;
         grid-template-areas:
-            "tabs"
-            "tabs-detail"*/
-            display: grid;
-            grid-template-areas:
-                "left-nav main-menu";
+                "left-nav main";
     }
     .tabs  {
         grid-area: left-nav;
@@ -164,6 +158,7 @@ export default {
         padding: 15px 0 15px 0;
         background-color: #3d1b1b !important;
         width: 150px;
+        border-right: 4px solid black;
 
      }
         .tabs ul {
@@ -172,7 +167,7 @@ export default {
         }
 
      .tabs-details{
-        grid-area: main-menu;
+        grid-area: main;
         letter-spacing: 2px;
 
      }
@@ -194,39 +189,19 @@ export default {
         font-weight: 700;
     }
 
-
     .is-active {
         border-bottom: 4px solid #c71b00;
     }
 
-    .tabs, .tabs-detail {
-        background-color: #3d1b1b;
-        color: #e2e2e2;
-    }
-
-    .tab-details {
+    .tabs-details {
         max-width: 1200px;
     }
-
-    #menu {
-        font-weight: 700;
-        grid-column: 1;
-    }
-
-/*    .menu-list ul {
-        grid-row: 2;
-    }*/
-
-    .menu-list ul li a  {
-        /*color: ;*/
-    }
-
-    .order-online {
-        display: block;
-    }
-
     .tabs ul li {
         margin-left: 4px;
         margin-right: 15px;
+    }
+
+    .tabs {
+        /*background-image: url('/src/assets/bricks.jpg');*/
     }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section>
+        <section class='story'>
             <h3>Our Story</h3>
 
             <p>Stone Korean Restaurant was founded in 2011 in Redmond, WA.  Our goal was to be the best Korean Restaurant in the Great Seattle area by focusing on two categories: authentic/tasty food and amazing customer service.  We decided on Redmond because it was an area that did not have any Korean Restaurants and owners Diana and Kang Choi wanted to introduce KOrean food to people who have never tried Korean food before.  Diana and Kang owned a Cho Dang Tofu Restaurant and Chicky Pub in the Lynnwood Pal Do World before the market shut down and they sold their business. </p>
@@ -18,5 +18,7 @@
 <script type="text/javascript"></script>
 
 <style type="text/css" media="screen">
-
+    .story {
+        font-size: 1.3em;
+     }
 </style>
