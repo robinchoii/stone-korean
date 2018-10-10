@@ -15,7 +15,9 @@
 				<seattle-full-menu></seattle-full-menu>
 			</nav-tab>
 			<nav-tab name="Contact"></nav-tab>
-			<nav-tab name='Order Online'></nav-tab>
+			<nav-tab name='Order Online'>
+				<order-online></order-online>
+			</nav-tab>
 		</nav-tabs>
 
 		<section class='google-maps-container'>
@@ -38,6 +40,7 @@
     import ImageGallery from './components/ImageGallery.vue'
     import Catering from './components/Catering.vue'
     import Overview from './components/Overview.vue'
+    import OrderOnline from './components/OrderOnline.vue'
     import SeattleFullMenu from './components/Seattle/SeattleFullMenu.vue'
 
 	export default {
@@ -55,7 +58,8 @@
 			ImageGallery,
 			Catering,
 			Overview,
-			SeattleFullMenu
+			SeattleFullMenu,
+			OrderOnline
 		},
 
 		data () {
