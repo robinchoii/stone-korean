@@ -20,5 +20,13 @@
 <style type="text/css" media="screen">
     .story {
         font-size: 1.3em;
+            width: 300px;
+            margin: 0 auto;
      }
+    @media screen and (min-width: 768px) {
+        .story{
+            width: 800px;
+            margin: 0 auto;
+        }
+    }
 </style>

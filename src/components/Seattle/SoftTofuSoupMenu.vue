@@ -14,9 +14,7 @@
                 <div class='spicy'>
 
                     <div class='non-spicy'>
-                        <div>
-                            <i class="fa fa-star"></i>
-                        </div>
+                        <i class="fa fa-star"></i>
                         <div>White</div>
                     </div>
 
@@ -167,8 +165,8 @@
 
 <style type="text/css">
     .spicy {
-        width: 375px;
-        margin: 0 auto;
+        /*width: 375px;*/
+        /*margin: 0 auto;*/
     }
     .spicy div{
         /*display: inline-block;*/
