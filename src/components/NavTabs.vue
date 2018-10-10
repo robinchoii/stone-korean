@@ -4,7 +4,7 @@
 
         <div class='tabs'>
             <ul v-for='tab in tabs'>
-                <li>
+                <li class='tab'>
                     <a  :class="{'is-active' : tab.isActive}" :href='tab.href' @click='selectTab(tab)'>{{tab.name}} {{tab.title}}</a>
                 </li>
             </ul>
@@ -147,27 +147,21 @@ export default {
 </script>
 
 <style lang="css" scoped>
-    .nav-tabs {
-        display: grid;
-        grid-template-areas:
-                "left-nav main";
-    }
     .tabs  {
-        grid-area: left-nav;
         letter-spacing: 0px;
         padding: 15px 0 15px 0;
         background-color: #3d1b1b !important;
-        width: 150px;
-        border-right: 4px solid black;
+        margin: 0 auto;
+        width: 375px;
 
      }
         .tabs ul {
+            display: inline-block;
             margin: 0;
             padding: 0;
         }
 
      .tabs-details{
-        grid-area: main;
         letter-spacing: 2px;
 
      }
@@ -181,6 +175,8 @@ export default {
         margin: 0px;
         padding: 0px;
         line-height: 1.65;
+        margin-left: 4px;
+        margin-right: 15px;
 
     }
     .tabs ul li a {
@@ -191,17 +187,5 @@ export default {
 
     .is-active {
         border-bottom: 4px solid #c71b00;
-    }
-
-    .tabs-details {
-        max-width: 1200px;
-    }
-    .tabs ul li {
-        margin-left: 4px;
-        margin-right: 15px;
-    }
-
-    .tabs {
-        /*background-image: url('/src/assets/bricks.jpg');*/
     }
 </style>

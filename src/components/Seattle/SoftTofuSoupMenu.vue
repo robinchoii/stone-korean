@@ -14,7 +14,9 @@
                 <div class='spicy'>
 
                     <div class='non-spicy'>
-                        <i class="fa fa-star"></i>
+                        <div>
+                            <i class="fa fa-star"></i>
+                        </div>
                         <div>White</div>
                     </div>
 
@@ -165,25 +167,30 @@
 
 <style type="text/css">
     .spicy {
-        display: grid;
+        width: 375px;
+        margin: 0 auto;
+    }
+    .spicy div{
+        /*display: inline-block;*/
+       /* display: grid;
         grid-template-columns: repeat(5, 70px);
-        text-align:left;
+        text-align:center;
         grid-template-areas:
-            "non-spicy mild medium hot extra-hot"
+            "non-spicy mild medium hot extra-hot"*/
     }
     .non-spicy {
-        grid-area: non-spicy
+        /*grid-area: non-spicy*/
     }
     .mild {
-        grid-area: mild
+        /*grid-area: mild*/
     }
     .medium {
-        grid-area: medium
+        /*grid-area: medium*/
     }
     .hot {
-        grid-area: hot
+        /*grid-area: hot*/
     }
     .extra-hot {
-        grid-area: extra-hot
+        /*grid-area: extra-hot*/
     }
 </style>

@@ -36,7 +36,7 @@
 </script>
 
 <style type="text/css">
-    .full-menu {
+    .seattle-full-menu {
         display: grid;
         grid-template-columns: minmax(300px, 1fr);
         grid-gap: 20px;
@@ -118,5 +118,11 @@
 
     .fa-leaf {
         color: #00ce00;
+    }
+    @media screen and (min-width: 768px) {
+        .seattle-full-menu {
+            width: 700px;
+            margin: 0 auto;
+        }
     }
 </style>

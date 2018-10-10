@@ -50,6 +50,8 @@
         background-color: #3d1b1b;
         letter-spacing: 2px;
         margin-bottom: 50px;
+        width: auto;
+        margin: 0 auto;
     }
 
     .item-description {
@@ -103,6 +105,7 @@
     }
     .main-header {
         padding: 10px;
+        text-align: center;
     }
 
     .main-header h2 {
@@ -125,5 +128,11 @@
 
     .fa-leaf {
         color: #00ce00;
+    }
+    @media screen and (min-width: 768px) {
+        .full-menu {
+            width: 700px;
+            margin: 0 auto;
+        }
     }
 </style>
