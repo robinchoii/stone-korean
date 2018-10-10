@@ -8,11 +8,11 @@
 
             <div class='combo-specials-about main-about'>
 
-                <p>Served with a sizzling hot stone pot rice and side dishes</p>
+                <p>Served with a steamed rice and side dishes</p>
 
                 <p>Smaller portions than if ordered separately </p>
 
-                <p> * BiBimBob and Cold Noodle specials do <b>not</b> come with additional rice</p>
+                <p> * BiBimBob specials do <b>not</b> come with additional rice</p>
 
             </div>
 

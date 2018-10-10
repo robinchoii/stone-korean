@@ -7,7 +7,7 @@
 
             <div class='soft-tofu-soups-about main-about'>
 
-                <p>Served with sizzling stone pot rice and side dishes</p>
+                <p>Served with steamed rice and side dishes</p>
 
                 <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
 

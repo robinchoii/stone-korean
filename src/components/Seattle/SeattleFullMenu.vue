@@ -8,6 +8,8 @@
 
         <bbq-menu></bbq-menu>
 
+        <fried-rice></fried-rice>
+
         <combo-specials></combo-specials>
 
         <fried-chicken-menu></fried-chicken-menu>
@@ -24,12 +26,13 @@
     import FriedChickenMenu from './FriedChickenMenu.vue'
     import SauteedDishesMenu from './SauteedDishesMenu.vue'
     import ComboSpecials from './ComboSpecials.vue'
+    import FriedRice from './FriedRice.vue'
 
     export default {
 
         components: {
 
-            AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, SauteedDishesMenu, ComboSpecials
+            AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, SauteedDishesMenu, ComboSpecials, FriedRice
 
         },
     }

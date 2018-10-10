@@ -9,7 +9,7 @@
 
             <div class='bbq-about main-about'>
 
-                <p>Served with sizzling hot stone pot rice and side dishes</p>
+                <p>Served with steamed rice and side dishes</p>
                 <p>Lunch size not available on weekends and holidays</p>
 
             </div>
