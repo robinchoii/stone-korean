@@ -63,7 +63,7 @@
 
     .item-card {
         display: grid;
-        grid-template-columns: 1fr 30px;
+        grid-template-columns: 1fr 40px;
         grid-template-rows: auto 1fr;
         padding: 10px;
     }

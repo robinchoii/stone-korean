@@ -4,10 +4,11 @@
 
         <h3 class='item-title'>{{BBQ.name}}</h3>
 
-        <span class='item-price'>${{BBQ.dinnerPrice}}</span>
+        <span class='item-price'>L ${{BBQ.lunchPrice}}</span>
 
         <p class='item-description'>{{BBQ.description}}</p>
 
+        <span class='item-price'>D ${{BBQ.dinnerPrice}}</span>
     </div>
 
 </template>
