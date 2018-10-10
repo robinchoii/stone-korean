@@ -150,9 +150,11 @@ export default {
     .tabs  {
         letter-spacing: 0px;
         padding: 15px 0 15px 0;
-        background-color: #3d1b1b !important;
+        background-color: #000;
         margin: 0 auto;
-        width: 375px;
+        text-align: center;
+        opacity: .75
+
 
      }
         .tabs ul {

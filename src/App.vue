@@ -75,7 +75,8 @@
 <style>
 	.navbar {
 		grid-area: header;
-		background-color: #cccccc
+		background-color: #cccccc;
+		padding: 10px 0 10px 0;
 	}
 	.navtabs-container {
 		grid-area: tabs;
