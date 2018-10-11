@@ -28,7 +28,7 @@
 
     @media only screen and (max-width: 1068px) {
         .story {
-            width: 600px;
+            width: 616px;
         }
     }
 

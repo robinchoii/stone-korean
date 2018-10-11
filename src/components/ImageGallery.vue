@@ -121,6 +121,12 @@
         justify-content: center;
     }
 
+    @media only screen and (max-width: 1068px) {
+        .gallery {
+            grid-template-columns: repeat(2, 300px);
+
+        }
+    }
     @media only screen and (max-width: 735px) {
         .gallery {
             grid-template-columns: repeat(1, 300px);
