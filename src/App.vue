@@ -7,6 +7,7 @@
 		<nav-tabs class='navtabs-container'>
 			<nav-tab name="Home" :selected='true'>
 				<overview></overview>
+				<image-gallery></image-gallery>
 			</nav-tab>
 			<nav-tab name="Redmond">
 				<full-menu></full-menu>

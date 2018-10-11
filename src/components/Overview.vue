@@ -15,12 +15,14 @@
 
 </template>
 
-<script type="text/javascript"></script>
+<script type="text/javascript">
+
+</script>
 
 <style type="text/css" media="screen">
     .story {
         font-size: 1.3em;
-        width: 800px;
+        width: 936px;
         margin: 0 auto;
      }
 
@@ -31,6 +33,12 @@
     }
 
     @media only screen and (max-width: 735px) {
+        .story {
+            width: 500px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
         .story {
             width: 300px;
         }
