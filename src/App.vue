@@ -14,7 +14,9 @@
 			<nav-tab name="Seattle">
 				<seattle-full-menu></seattle-full-menu>
 			</nav-tab>
-			<nav-tab name="Contact"></nav-tab>
+			<nav-tab name="Contact">
+				<contact id='contact'></contact>
+			</nav-tab>
 			<nav-tab name='Order Online'>
 				<order-online></order-online>
 			</nav-tab>
@@ -24,7 +26,6 @@
 			<google-map name='stone'> </google-map>
 		</section>
 		<section class='contact-container'>
-			<contact id='contact'></contact>
 		</section>
 	</div>
 
