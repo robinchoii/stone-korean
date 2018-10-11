@@ -1,6 +1,9 @@
 <template>
-    <div class='image'>
-        <img :src="image.path" alt='image.alt'/>
+    <div class="image-container'">
+        <div class='image'>
+            <img :src="image.path" alt='image.alt'/><br>
+        </div>
+        <span>{{image.alt}}</span>
     </div>
 </template>
 
@@ -14,15 +17,14 @@
 
 <style type="text/css">
     .image img {
-        width: 100%;
-        height: 100%;
+        width: 298px;
+        height: 175px;
         object-fit: cover;
 
     }
     .image {
-        // align-self: center;
-        // width: 250px;
-        // height: auto;
         border: 1px solid white;
      }
+
+
 </style>

@@ -1,7 +1,5 @@
-f<template>
-    <div class='full-menu'>
-        <lunch-menu ></lunch-menu>
-
+<template>
+    <div class='seattle-full-menu'>
         <appetizers-menu> </appetizers-menu>
 
         <soft-tofu-soup-menu></soft-tofu-soup-menu>
@@ -14,50 +12,44 @@ f<template>
 
         <fried-chicken-menu></fried-chicken-menu>
 
-        <sauteed-dishes-menu></sauteed-dishes-menu>
-
         <fried-rice-menu></fried-rice-menu>
 
-        <cold-noodle-menu></cold-noodle-menu>
+        <sauteed-dishes-menu></sauteed-dishes-menu>
 
-        <grilled-fish-menu></grilled-fish-menu>
+        <cold-noodle-menu></cold-noodle-menu>
 
     </div>
 </template>
 
 <script type="text/javascript">
-    import LunchMenu from './LunchMenu.vue'
     import AppetizersMenu from './AppetizersMenu.vue'
     import SoftTofuSoupMenu from './SoftTofuSoupMenu.vue'
     import BibimbobMenu from './BiBimBobMenu.vue'
     import BbqMenu from './BBQMenu.vue'
     import FriedChickenMenu from './FriedChickenMenu.vue'
-    import GrilledFishMenu from './GrilledFishMenu.vue'
     import SauteedDishesMenu from './SauteedDishesMenu.vue'
     import ComboSpecials from './ComboSpecials.vue'
-    import FriedRiceMenu from './Seattle/FriedRiceMenu.vue'
-    import ColdNoodleMenu from './ColdNoodleMenu.vue'
+    import FriedRiceMenu from './FriedRiceMenu.vue'
+    import ColdNoodleMenu from '../ColdNoodleMenu.vue'
 
     export default {
 
         components: {
 
-                LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu, ComboSpecials, FriedRiceMenu, ColdNoodleMenu
+            AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, SauteedDishesMenu, ComboSpecials, FriedRiceMenu, ColdNoodleMenu
 
         },
     }
 </script>
 
 <style type="text/css">
-    .full-menu {
+    .seattle-full-menu {
         display: grid;
         grid-template-columns: minmax(300px, 1fr);
         grid-gap: 20px;
         background-color: #3d1b1b;
         letter-spacing: 2px;
         margin-bottom: 50px;
-        width: auto;
-        margin: 0 auto;
     }
 
     .item-description {
@@ -78,7 +70,7 @@ f<template>
 
     .item-card {
         display: grid;
-        grid-template-columns: 1fr 30px;
+        grid-template-columns: 1fr 40px;
         grid-template-rows: auto 1fr;
         padding: 10px;
     }
@@ -111,7 +103,6 @@ f<template>
     }
     .main-header {
         padding: 10px;
-        text-align: center;
     }
 
     .main-header h2 {
@@ -136,7 +127,7 @@ f<template>
         color: #00ce00;
     }
     @media screen and (min-width: 768px) {
-        .full-menu {
+        .seattle-full-menu {
             width: 700px;
             margin: 0 auto;
         }

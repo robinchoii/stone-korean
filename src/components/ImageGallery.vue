@@ -1,6 +1,6 @@
 <template>
     <div class='gallery'>
-        <food-picture v-for='image in images' :image='image' :key='image.id' class='food-container'></food-picture>
+            <food-picture v-for='image in images' :image='image' :key='image.id' class='food-container'></food-picture>
     </div>
 </template>
 
@@ -85,32 +85,26 @@
                 path: '/src/assets/stone-pic9.jpg',
                 alt: 'Hot Pot Bibimbob'
             },
-            {
-                id: 13,
-                path: '/src/assets/stone-pic13.jpg',
-                alt: 'Cold Bibimbob'
-            },
-            {
-                id: 10,
-                path: '/src/assets/stone-pic10.jpg',
-                alt: 'Seafood Noodle Soup'
-            },
+            // {
+            //     id: 13,
+            //     path: '/src/assets/stone-pic13.jpg',
+            //     alt: 'Cold Bibimbob'
+            // },
+            // {
+            //     id: 10,
+            //     path: '/src/assets/stone-pic10.jpg',
+            //     alt: 'Seafood Noodle Soup'
+            // },
             {
                 id: 4,
                 path: '/src/assets/stone-pic4.jpg',
                 alt: 'Cold Noodle Soup'
             },
-            {
-                id: 20,
-                path: '/src/assets/stone-pic20.jpg',
-                alt: 'Side Dishes'
-            },
-            {
-                id: 19,
-                path: '/src/assets/stone-pic19.jpg',
-                alt: 'Stone Pot Rice'
-            }
-
+            // {
+            //     id: 20,
+            //     path: '/src/assets/stone-pic20.jpg',
+            //     alt: 'Side Dishes'
+            // },
             ]
         }
       }
@@ -120,8 +114,23 @@
 <style lang="css" scoped>
     .gallery {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        justify-items: center;
+        grid-template-columns: repeat(3, 300px);
+        grid-gap: 15px;
+        margin-bottom: 50px;
+        margin: 25px auto;
+        justify-content: center;
+    }
 
+    @media only screen and (max-width: 1068px) {
+        .gallery {
+            grid-template-columns: repeat(2, 300px);
+
+        }
+    }
+    @media only screen and (max-width: 735px) {
+        .gallery {
+            grid-template-columns: repeat(1, 300px);
+
+        }
     }
 </style>

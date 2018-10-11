@@ -1,4 +1,4 @@
-<template>
+ <template>
     <div class='soft-tofu-soups food-wrapper'>
 
         <div class='soft-tofu-soups-header main-header'>
@@ -7,7 +7,7 @@
 
             <div class='soft-tofu-soups-about main-about'>
 
-                <p>Served with sizzling stone pot rice and side dishes</p>
+                <p>Served with steamed rice and side dishes</p>
 
                 <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
 
@@ -68,11 +68,13 @@
                 softTofuSoups: [{
                         id: 1,
 
-                        name: 'Mushroom Tofu Soup',
+                        name: 'Seafood Tofu Soup',
+
+                        description: 'Clam & Shrimp',
 
                         price: 13,
 
-                        isVege: true,
+                        isDescription: true
 
                     },
 
@@ -81,16 +83,11 @@
 
                         name: 'Combo Tofu Soup',
 
-                        price: 13
+                        description: 'Clam, Shrimp & Beef',
 
-                    },
+                        price: 13,
 
-                    {
-                        id: 3,
-
-                        name: 'Seafood Tofu Soup',
-
-                        price: 13
+                        isDescription: true
 
                     },
 
@@ -124,15 +121,6 @@
                     },
 
                     {
-                        id: 7,
-
-                        name: 'Fish Roe Tofu Soup',
-
-                        price: 13
-
-                    },
-
-                    {
                         id: 8,
 
                         name: 'Beef Tofu Soup',
@@ -151,24 +139,17 @@
                     },
 
                     {
-                        id: 10,
-
-                        name: 'Dumpling Tofu Soup',
-
-                        price: 13,
-
-                        isVege: true,
-
-                    },
-
-                    {
                         id: 11,
 
                         name: 'Vegetable Tofu Soup',
 
+                        description: 'Zucchini, Mushroom & Onion, prepared w/ veggie broth',
+
                         price: 13,
 
                         isVege: true,
+
+                        isDescription: true,
 
                     },
 
@@ -184,25 +165,30 @@
 
 <style type="text/css">
     .spicy {
-        display: grid;
-        grid-template-columns: repeat(5, auto);
+        /*width: 375px;*/
+        /*margin: 0 auto;*/
+    }
+    .spicy div{
+        /*display: inline-block;*/
+       /* display: grid;
+        grid-template-columns: repeat(5, 70px);
         text-align:center;
         grid-template-areas:
-            "non-spicy mild medium hot extra-hot"
+            "non-spicy mild medium hot extra-hot"*/
     }
     .non-spicy {
-        grid-area: non-spicy
+        /*grid-area: non-spicy*/
     }
     .mild {
-        grid-area: mild
+        /*grid-area: mild*/
     }
     .medium {
-        grid-area: medium
+        /*grid-area: medium*/
     }
     .hot {
-        grid-area: hot
+        /*grid-area: hot*/
     }
     .extra-hot {
-        grid-area: extra-hot
+        /*grid-area: extra-hot*/
     }
 </style>
