@@ -1,4 +1,4 @@
-<template>
+f<template>
     <div class='full-menu'>
         <lunch-menu ></lunch-menu>
 
@@ -16,6 +16,10 @@
 
         <sauteed-dishes-menu></sauteed-dishes-menu>
 
+        <fried-rice-menu></fried-rice-menu>
+
+        <cold-noodle-menu></cold-noodle-menu>
+
         <grilled-fish-menu></grilled-fish-menu>
 
     </div>
@@ -31,12 +35,14 @@
     import GrilledFishMenu from './GrilledFishMenu.vue'
     import SauteedDishesMenu from './SauteedDishesMenu.vue'
     import ComboSpecials from './ComboSpecials.vue'
+    import FriedRiceMenu from './Seattle/FriedRiceMenu.vue'
+    import ColdNoodleMenu from './ColdNoodleMenu.vue'
 
     export default {
 
         components: {
 
-                LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu, ComboSpecials
+                LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu, ComboSpecials, FriedRiceMenu, ColdNoodleMenu
 
         },
     }

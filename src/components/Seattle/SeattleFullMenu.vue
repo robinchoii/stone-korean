@@ -8,13 +8,16 @@
 
         <bbq-menu></bbq-menu>
 
-        <fried-rice></fried-rice>
-
         <combo-specials></combo-specials>
 
         <fried-chicken-menu></fried-chicken-menu>
 
+        <fried-rice-menu></fried-rice-menu>
+
         <sauteed-dishes-menu></sauteed-dishes-menu>
+
+        <cold-noodle-menu></cold-noodle-menu>
+
     </div>
 </template>
 
@@ -26,13 +29,14 @@
     import FriedChickenMenu from './FriedChickenMenu.vue'
     import SauteedDishesMenu from './SauteedDishesMenu.vue'
     import ComboSpecials from './ComboSpecials.vue'
-    import FriedRice from './FriedRice.vue'
+    import FriedRiceMenu from './FriedRiceMenu.vue'
+    import ColdNoodleMenu from '../ColdNoodleMenu.vue'
 
     export default {
 
         components: {
 
-            AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, SauteedDishesMenu, ComboSpecials, FriedRice
+            AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, SauteedDishesMenu, ComboSpecials, FriedRiceMenu, ColdNoodleMenu
 
         },
     }
