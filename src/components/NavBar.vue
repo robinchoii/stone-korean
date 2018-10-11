@@ -1,7 +1,9 @@
 <template>
     <div>
         <div class="logo-container">
-            <figure class="logo-image"></figure>
+            <a href="/">
+                <figure class="logo-image"></figure>
+            </a>
         </div>
     </div>
 
@@ -25,5 +27,8 @@
         height: 78px;
         width: 293px;
         margin:0;
+     }
+     .logo-image:hover {
+        cursor: pointer
      }
 </style>
