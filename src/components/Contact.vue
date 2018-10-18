@@ -6,7 +6,7 @@
                 <h2>Redmond</h2>
                 <div class="info-card">
                     <div class='hours'>
-                        <i class="fa fa-2x fa-clock-o"></i>
+                        <div><i class="fa fa-2x fa-clock-o"></i></div>
                         <div><b>Monday - Thursday:</b> <br>11AM - 9:30PM</div>
                         <div><b>Friday - Saturday:</b> <br>11AM - 10PM </div>
                         <div><b>Sunday:</b> <br>11AM - 9PM</div>
@@ -14,19 +14,14 @@
                 </div>
                 <div class="info-card">
                     <div class='address'>
-                        <div>
-                            <i class="fa fa-2x fa-location-arrow"></i>
-                        </div>
+                        <div><i class="fa fa-2x fa-location-arrow"></i></div>
                         <a href='https://www.google.com/maps/place/Stone+Korean+Restaurant/@47.6712848,-122.1171033,17z/data=!3m1!4b1!4m5!3m4!1s0x549072b0849aab65:0x323ab2d85984f5b!8m2!3d47.6712848!4d-122.1149146'>16857 Redmond Way<br>
                         Redmond, WA 98052</a>
                     </div>
                 </div>
                 <div class="info-card">
                     <div class='phone'>
-                        <div>
-                            <i class="fa fa-2x fa-phone"></i>
-
-                        </div>
+                        <div><i class="fa fa-2x fa-phone"></i></div>
                         <a href='tel:+14254970515'>425-497-0514</a>
                     </div>
                 </div>
@@ -35,25 +30,21 @@
                 <h2>Seattle</h2>
                 <div class="info-card">
                     <div class='hours'>
-                        <i class="fa fa-2x fa-clock-o"></i>
-                        <div><b>Monday - Thursday:</b><br> 11AM - 9PM</div>
+                        <div><i class="fa fa-2x fa-clock-o"></i></div>
+                        <div><b>Monday - Thursday:</b><br> 11AM - 9:30PM</div>
                         <div><b>Friday - Saturday:</b><br> 11AM - Midnight </div>
                         <div><b>Sunday:</b><br> Closed</div>
                     </div>
                 </div>
                 <div class="info-card">
                     <div class='address'>
-                        <div>
-                            <i class="fa fa-2x fa-location-arrow"></i>
-                        </div>
-                        <a href='https://www.google.com/maps/place/Stone+Korean+Restaurant/@47.6272525,-122.3443252,17z/data=!3m1!4b1!4m5!3m4!1s0x549015f23eacc7df:0x6f755914399c427d!8m2!3d47.6272525!4d-122.3421365'>900 Dexter Ave N<br>Seattle, WA 98012</a>
+                        <div><i class="fa fa-2x fa-location-arrow"></i></div>
+                        <a href='https://www.google.com/maps/place/Stone+Korean+Restaurant/@47.6272525,-122.3443252,17z/data=!3m1!4b1!4m5!3m4!1s0x549015f23eacc7df:0x6f755914399c427d!8m2!3d47.6272525!4d-122.3421365'>900 Dexter Ave N<br>Seattle, WA 98109</a>
                     </div>
                 </div>
                 <div class="info-card">
                     <div class='phone'>
-                        <div>
-                            <i class="fa fa-2x fa-phone"></i>
-                        </div>
+                        <div><i class="fa fa-2x fa-phone"></i></div>
                         <a href='tel:+12067172864'>206-717-2864</a>
                     </div>
                 </div>
@@ -88,6 +79,10 @@
     /* On mouse-over, add a deeper shadow */
     .info-card:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .info-card div {
+        margin: 3px;
     }
 
     @media only screen and (max-width: 735px) {
