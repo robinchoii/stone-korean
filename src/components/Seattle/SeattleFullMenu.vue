@@ -70,7 +70,7 @@
 
     .item-card {
         display: grid;
-        grid-template-columns: 1fr 40px;
+        grid-template-columns: 1fr 50px;
         grid-template-rows: auto 1fr;
         padding: 10px;
     }
@@ -128,7 +128,7 @@
     }
     @media screen and (min-width: 768px) {
         .seattle-full-menu {
-            width: 700px;
+            width: 800px;
             margin: 0 auto;
         }
     }

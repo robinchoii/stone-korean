@@ -18,3 +18,10 @@ body {
     color:green;
  }
 
+
+.nowrap {
+    display: inline-block;
+    text-decoration: inherit;
+    white-space: nowrap
+}
+

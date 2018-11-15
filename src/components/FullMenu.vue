@@ -137,7 +137,7 @@ f<template>
     }
     @media screen and (min-width: 768px) {
         .full-menu {
-            width: 700px;
+            width: 800px;
             margin: 0 auto;
         }
     }
