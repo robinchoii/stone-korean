@@ -22,7 +22,7 @@
                 <div class="info-card">
                     <div class='phone'>
                         <div><i class="fa fa-2x fa-phone"></i></div>
-                        <a href='tel:+14254970515'>425-497-0514</a>
+                        <a href='tel:+14254970515'>425-497-0515</a>
                     </div>
                 </div>
             </div>
