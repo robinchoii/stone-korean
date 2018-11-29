@@ -22,7 +22,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Bulgogi + Hotpot&nbsp;Bibimbob*</h3>
+                <h3 class='item-title'>Bulgogi + <br class='large'>Hotpot&nbsp;Bibimbob*</h3>
 
                 <span class='item-price'>$24</span>
 
@@ -38,7 +38,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Kalbi + Hotpot&nbsp;Bibimbob*</h3>
+                <h3 class='item-title'>Kalbi + <br class='large'>Hotpot&nbsp;Bibimbob*</h3>
 
                 <span class='item-price'>$25</span>
 
@@ -62,7 +62,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Bulgogi + Soft&nbsp;Tofu&nbsp;Soup</h3>
+                <h3 class='item-title'>Bulgogi + <br class='large'> Soft&nbsp;Tofu&nbsp;Soup</h3>
 
                 <span class='item-price'>$24</span>
 
@@ -78,7 +78,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Chicken&nbsp;Bulgogi + Soft&nbsp;Tofu&nbsp;Soup</h3>
+                <h3 class='item-title'>Chicken&nbsp;Bulgogi + <br class='large'> Soft&nbsp;Tofu&nbsp;Soup</h3>
 
                 <span class='item-price'>$24</span>
 
@@ -94,7 +94,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Kalbi + Soft&nbsp;Tofu&nbsp;Soup</h3>
+                <h3 class='item-title'>Kalbi + <br class='large'>Soft&nbsp;Tofu&nbsp;Soup</h3>
 
                 <span class='item-price'>$25</span>
 
@@ -114,5 +114,10 @@
 </script>
 
 <style type="text/css">
+    @media screen and (max-width: 768px) {
+        .large {
+            display: none;
+        }
+    }
 
 </style>

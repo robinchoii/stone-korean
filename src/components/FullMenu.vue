@@ -20,6 +20,8 @@ f<template>
 
         <cold-noodle-menu></cold-noodle-menu>
 
+        <soups-and-stews-menu></soups-and-stews-menu>
+
         <grilled-fish-menu></grilled-fish-menu>
 
     </div>
@@ -37,12 +39,13 @@ f<template>
     import ComboSpecials from './ComboSpecials.vue'
     import FriedRiceMenu from './Seattle/FriedRiceMenu.vue'
     import ColdNoodleMenu from './ColdNoodleMenu.vue'
+    import SoupsAndStewsMenu from './SoupsAndStewsMenu.vue'
 
     export default {
 
         components: {
 
-                LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu, ComboSpecials, FriedRiceMenu, ColdNoodleMenu
+                LunchMenu, AppetizersMenu, SoftTofuSoupMenu, BibimbobMenu, BbqMenu, FriedChickenMenu, GrilledFishMenu, SauteedDishesMenu, ComboSpecials, FriedRiceMenu, ColdNoodleMenu, SoupsAndStewsMenu
 
         },
     }
@@ -135,10 +138,22 @@ f<template>
     .fa-leaf {
         color: #00ce00;
     }
+
+    .korean-word {
+        font-size: 10px;
+    }
+
     @media screen and (min-width: 768px) {
         .full-menu {
             width: 800px;
             margin: 0 auto;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        .large {
+            display:none;
+        }
+    }
+
 </style>
