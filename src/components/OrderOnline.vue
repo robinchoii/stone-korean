@@ -23,17 +23,19 @@
             <div class="order-card">
                 <a href="https://www.trycaviar.com/t/seattle-eastside/stone-korean-8604?groups=f_online__d_dwidget-4-button-1__p_marketing__c_merchant-links&how=delivery&utm_medium=localmarketing&utm_source=widget&utm_campaign=stone-korean-8604&utm_term=seattle-eastside&utm_content=stone-korean-8604&cvosrc=localmarketing.widget.stone-korean-8604&cvo_campaign=stone-korean-8604&cav_source=stone-korean-8604&cav_medium=widget">
                     <div class="order-wrapper">
-                        <h3>Delivery</h3>
+                        <h3>Caviar</h3>
                         <i class="fa fa-4x fa-car" aria-hidden="true"></i>
                     </div>
                 </a>
             </div>
 
             <div class="order-card">
-              <div class="order-wrapper">
-                <h3>Coming Soon!</h3>
-                <i class="fa fa-4x fa-car" aria-hidden="true"></i>
-              </div>
+                <a href="https://www.ubereats.com/en-US/seattle/food-delivery/stone-korean-restaurant-dexter-ave/eLYGmDkSQ9iBcHWvuGjI4g/" title="">
+                  <div class="order-wrapper">
+                    <h3>Uber Eats</h3>
+                    <i class="fa fa-4x fa-car" aria-hidden="true"></i>
+                  </div>
+                </a>
             </div>
         </div>
     </div>
