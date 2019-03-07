@@ -58,7 +58,7 @@
 
                         description: "BBQ beef short ribs served with onions topped with sesame seeds",
 
-                        price: 15
+                        price: 16
 
                     },
 

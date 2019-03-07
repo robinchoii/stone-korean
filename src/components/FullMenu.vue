@@ -1,5 +1,6 @@
 f<template>
     <div class='full-menu'>
+        <lunch-menu> </lunch-menu>
 
         <appetizers-menu> </appetizers-menu>
 
@@ -31,7 +32,7 @@ f<template>
     import AppetizersMenu from './AppetizersMenu.vue'
     import SoftTofuSoupMenu from './SoftTofuSoupMenu.vue'
     import BibimbobMenu from './BiBimBobMenu.vue'
-    import BbqMenu from './Seattle/BBQMenu.vue'
+    import BbqMenu from './BBQMenu.vue'
     import FriedChickenMenu from './FriedChickenMenu.vue'
     import GrilledFishMenu from './GrilledFishMenu.vue'
     import SauteedDishesMenu from './SauteedDishesMenu.vue'

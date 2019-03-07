@@ -43,7 +43,7 @@
 
                         description: 'Korean BBQ beef short ribs with Kalbi sauce',
 
-                        price: 25,
+                        price: 26,
 
                     },
 
