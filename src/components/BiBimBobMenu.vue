@@ -45,13 +45,6 @@
                     },
 
                     {
-                        id: 2,
-                        name: 'Seafood Hot Pot',
-                        description: 'Seafood, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '16'
-                    },
-
-                    {
                         id: 3,
                         name: 'Pork Hot Pot',
                         description: 'Pork, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',

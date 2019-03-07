@@ -10,7 +10,8 @@
             <div class='bbq-about main-about'>
 
                 <p>Served with steamed rice and side dishes</p>
-                <p>Lunch size not available on weekends and holidays</p>
+
+                <p>Lunch pricing is available Mon-Fri until 2:30PM <br />and not offered on holidays.</p>
 
             </div>
         </div>
@@ -44,9 +45,9 @@
 
                         description: 'Korean BBQ beef short ribs with Kalbi sauce',
 
-                        dinnerPrice: 25,
+                        dinnerPrice: 26,
 
-                        lunchPrice: 15
+                        lunchPrice: 16
 
                     },
 

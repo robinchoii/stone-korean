@@ -140,7 +140,7 @@
 
                         description: "Seasoned chicken wings deep-fried in soybean oil",
 
-                        price: 12
+                        price: 9
 
                     },
 

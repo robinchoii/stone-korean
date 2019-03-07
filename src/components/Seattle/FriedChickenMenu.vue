@@ -40,13 +40,13 @@
                         id: 1,
                         name:'Fried Chicken',
                         description: 'Whole fried chicken cut into 12 pieces with house made batter',
-                        price: 23,
+                        price: 24,
                     },
                     {
                         id: 2,
                         name:'Marinated Chicken',
                         description: 'Whole fried chicken cut into 12 pieces toss in a sweet garlic sauce',
-                        price: 24,
+                        price: 25,
                     },
                     {
                         id: 3,
