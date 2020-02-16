@@ -41,35 +41,35 @@
                         id: 1,
                         name: 'Beef Hot Pot',
                         description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '16'
+                        price: '17'
                     },
 
                     {
                         id: 3,
                         name: 'Pork Hot Pot',
                         description: 'Pork, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '16'
+                        price: '17'
                     },
 
                     {
                         id: 4,
                         name: 'Chicken Hot Pot',
                         description: 'Chicken, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '16'
+                        price: '17'
                     },
 
                     {
                         id: 5,
                         name: 'Tofu Hot Pot',
                         description: 'Tofu, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '16'
+                        price: '17'
                     },
 
                     {
                         id: 6,
                         name: 'Vegetable Hot Pot',
                         description: 'Carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '16',
+                        price: '17',
                         isVege: true,
 
                     },
@@ -78,7 +78,7 @@
                         id: 7,
                         name: 'Cold Bi-Bim-Bob',
                         description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '13'
+                        price: '14'
 
                     },
                 ]
