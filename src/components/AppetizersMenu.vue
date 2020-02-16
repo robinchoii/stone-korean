@@ -55,7 +55,7 @@
 
                         description: "Pan-fried seafood (baby shrimp, baby octopus & calamari squid) pancake with green onions, served with soy dipping sauce",
 
-                        price: 16
+                        price: 17
 
                     },
 
@@ -66,7 +66,7 @@
 
                         description: "Pan-fried Kimchi pancake with soy dipping sauce",
 
-                        price: 13,
+                        price: 15,
 
                         isVege: true,
 
@@ -79,7 +79,7 @@
 
                         description: "Pan-fried veggies(green and white onions, carrot, & bellpepper) pancake with soy dipping sauce",
 
-                        price: 13,
+                        price: 15,
 
                         isVege: true,
                     },
@@ -117,7 +117,7 @@
 
                         description: "Fresh rice cake & veggies, boiled & braised in sweet Korean chili sauce",
 
-                        price: 11,
+                        price: 12,
 
                         isVege: true,
 
@@ -130,7 +130,7 @@
 
                         description: "Seasoned chicken wings deep-fried in soybean oil",
 
-                        price: 12
+                        price: 13
 
                     },
                     {
