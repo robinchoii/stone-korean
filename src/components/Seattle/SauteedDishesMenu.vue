@@ -43,7 +43,7 @@
                         id: 1,
                         name:'Spicy Squid',
                         description: 'Sauteed squid & vegetables with house spicy sauce',
-                        price: 17,
+                        price: 18,
                     },
                     {
                         id: 2,
@@ -61,7 +61,7 @@
                         id: 4,
                         name:'Stif Fried Vegetables',
                         description: 'Sauteed vegetables with house sauce',
-                        price: 14,
+                        price: 15,
                         isVege: true,
                     }
                 ]
