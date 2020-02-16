@@ -102,14 +102,14 @@
             </div>
 
 
-            <div class='combo-special-item-card item-card'>
+            <!-- <div class='combo-special-item-card item-card'>
 
                 <h3 class='item-title'>Kalbi + Naeng-Myun* <span class='small-word'>(Cold Noodle Soup)</span></h3>
 
                 <span class='item-price'>$25</span>
 
             </div>
-
+ -->
         </div>
 
     </div>

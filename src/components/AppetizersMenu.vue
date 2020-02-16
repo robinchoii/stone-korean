@@ -44,7 +44,7 @@
 
                         price: 8,
 
-                        isVege: true,
+                        isVege: false,
 
                     },
 
@@ -87,13 +87,13 @@
                     {
                         id: 5,
 
-                        name: 'Gye-Rahn-Jiim',
+                        name: 'Steamed Egg',
 
                         description: "Battered egg, steamed with chopped green onions",
 
                         price: 8,
 
-                        isVege: true,
+                        isVege: false,
 
                     },
 

@@ -52,18 +52,18 @@
                         id: 3,
                         name:'1/2 Fried 1/2 Marinated',
                         description: 'Whole fried chicken cut into 12 pieces, half fried and half marinated',
-                        price:25,
+                        price:26,
                     },
                     {
                         id: 4,
                         name:'Chicken Hot Wings',
                         description: 'Fried hot wings, 12 pieces',
-                        price: 17,
+                        price: 18,
                     },
                     {
                         name:'Chili Marinated Hot Wings',
                         description: 'Fried Hot wings tossed in a spicy, sweet garlic sauce',
-                        price: 18,
+                        price: 19,
                     }
                 ]
             }
