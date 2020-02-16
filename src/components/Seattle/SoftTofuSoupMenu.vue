@@ -72,7 +72,7 @@
 
                         description: 'Clam & Shrimp',
 
-                        price: 13,
+                        price: 14,
 
                         isDescription: true
 
@@ -85,7 +85,7 @@
 
                         description: 'Clam, Shrimp & Beef',
 
-                        price: 13,
+                        price: 14,
 
                         isDescription: true
 
@@ -96,7 +96,7 @@
 
                         name: 'Kimchi Tofu Soup',
 
-                        price: 13,
+                        price: 14,
 
                         isVege: true,
 
@@ -107,7 +107,7 @@
 
                         name: 'Kimchi Beef Tofu Soup',
 
-                        price: 13
+                        price: 14
 
                     },
 
@@ -116,7 +116,7 @@
 
                         name: 'Kimchi Pork Tofu Soup',
 
-                        price: 13
+                        price: 14
 
                     },
 
@@ -125,7 +125,7 @@
 
                         name: 'Beef Tofu Soup',
 
-                        price: 13
+                        price: 14
 
                     },
 
@@ -134,7 +134,7 @@
 
                         name: 'Pork Tofu Soup',
 
-                        price: 13
+                        price: 14
 
                     },
 
@@ -145,7 +145,7 @@
 
                         description: 'Zucchini, Mushroom & Onion, prepared w/ veggie broth',
 
-                        price: 13,
+                        price: 14,
 
                         isVege: true,
 
