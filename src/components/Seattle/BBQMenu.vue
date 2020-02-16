@@ -45,7 +45,7 @@
 
                         description: 'Korean BBQ beef short ribs with Kalbi sauce',
 
-                        dinnerPrice: 26,
+                        dinnerPrice: 27,
 
                         lunchPrice: 16
 
@@ -58,9 +58,9 @@
 
                         description: 'Korean BBQ rib-eye marinated in Bulgogi sauce',
 
-                        dinnerPrice: 22,
+                        dinnerPrice: 24,
 
-                        lunchPrice: 14
+                        lunchPrice: 15
 
                     },
 
@@ -71,9 +71,9 @@
 
                         description: 'Korean BBQ pork loin marinated in spicy Bulgogi sauce',
 
-                        dinnerPrice: 22,
+                        dinnerPrice: 24,
 
-                        lunchPrice: 14
+                        lunchPrice: 15
 
                     },
 
@@ -84,9 +84,9 @@
 
                         description: 'Korean BBQ chicken slices marinated in Bulgogi sauce',
 
-                        dinnerPrice: 22,
+                        dinnerPrice: 23,
 
-                        lunchPrice: 14
+                        lunchPrice: 15
 
                     },
 
@@ -97,9 +97,9 @@
 
                         description: 'Korean BBQ chicken slices marinated in spicy Bulgogi sauce',
 
-                        dinnerPrice: 22,
+                        dinnerPrice: 23,
 
-                        lunchPrice: 14
+                        lunchPrice: 15
 
                     },
 

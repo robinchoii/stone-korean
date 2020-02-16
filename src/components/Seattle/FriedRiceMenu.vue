@@ -19,7 +19,7 @@
 
                 <h3 class='item-title'>Kimchi Fried Rice</h3>
 
-                <span class='item-price'>$14</span>
+                <span class='item-price'>$15</span>
 
                 <p class='item-description'>Stir-fried rice with kimchi &amp; veggies</p>
 
@@ -29,7 +29,7 @@
 
                 <h3 class='item-title'>Veggie Fried Rice</h3>
 
-                <span class='item-price'>$14</span>
+                <span class='item-price'>$15</span>
 
                 <p class='item-description'>Stir-fried rice with an assortment of veggies</p>
 

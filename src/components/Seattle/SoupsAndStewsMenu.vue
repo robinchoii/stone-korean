@@ -19,7 +19,7 @@
 
                 <h3 class='item-title'>Yuk-Gae-Jang</h3>
 
-                <span class='item-price'>$15</span>
+                <span class='item-price'>$16</span>
 
                 <p class='item-description'>Spicy beef brisket and vegetable soup</p>
 
@@ -49,7 +49,7 @@
 
                 <h3 class='item-title'>Seafood Noodle Soup <br/><span class="korean-word">Spicy or Non-Spicy</span></h3>
 
-                <span class='item-price'>$13</span>
+                <span class='item-price'>$15</span>
 
                 <p class='item-description'>Shrimp, clam, squid &amp; assorted veggies</p>
 
