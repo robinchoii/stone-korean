@@ -1,6 +1,11 @@
 <template>
     <div>
         <h1 style='text-align:center;'>How to Reach Us</h1>
+
+        <div style='text-align:center;'>
+            <p>Please reach out to <br/> <a style='text-decoration:none;color:#e2e2e2;' href='mailto:stonekoreanrestaurant@gmail.com'>stonekoreanrestaurant@gmail.com</a></p>
+        </div>
+
         <div class='info-container'>
             <div class='info-redmond' style='text-align:center;'>
                 <h2>Redmond</h2>
