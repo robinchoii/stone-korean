@@ -9,6 +9,8 @@
 
                 <p>Served with a sizzling hot stone pot rice and side dishes</p>
 
+                <p>* Redmond Location Only</p>
+
             </div>
 
         </div>
@@ -17,7 +19,7 @@
 
             <div class='fish-item-card item-card'>
 
-                <h3 class='item-title'>Grilled Mackerel</h3>
+                <h3 class='item-title'>Grilled Mackerel*</h3>
 
                 <span class='item-price'>$16</span>
 
@@ -27,7 +29,7 @@
 
             <div class='fish-item-card item-card'>
 
-                <h3 class='item-title'>Grilled Flounder</h3>
+                <h3 class='item-title'>Grilled Flounder*</h3>
 
                 <span class='item-price'>$16</span>
 

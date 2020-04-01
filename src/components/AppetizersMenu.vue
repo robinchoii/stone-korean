@@ -7,7 +7,9 @@
 
             <div class='appetizers-about main-about'>
 
-                <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
+                <p><i class='fa fa-leaf'></i> Vegetarian upon request</p>
+
+                <p>* Redmond Location Only</p>
 
             </div>
 
@@ -40,7 +42,7 @@
 
                         name: 'Gyoza, 10pcs',
 
-                        description: "Pork & vegetable potstickers, served with soy dipping sauce",
+                        description: "Pork & vegetable pot stickers, served with soy dipping sauce",
 
                         price: 8,
 
@@ -136,7 +138,7 @@
                     {
                         id: 9,
 
-                        name: 'Chicken Strips, 6pcs',
+                        name: 'Chicken Strips, 6pcs*',
 
                         description: "Seasoned chicken wings deep-fried in soybean oil",
 

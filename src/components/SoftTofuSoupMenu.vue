@@ -9,7 +9,9 @@
 
                 <p>Served with sizzling stone pot rice and side dishes</p>
 
-                <p><i class='fa fa-leaf'></i> Ask for Vegetarian</p>
+                <p><i class='fa fa-leaf'></i> Vegetarian upon request</p>
+
+                <p>* Redmond Location Only</p>
 
                 <div class='spicy'>
 
@@ -65,17 +67,7 @@
         data() {
 
             return {
-                softTofuSoups: [{
-                        id: 1,
-
-                        name: 'Mushroom Tofu Soup',
-
-                        price: 14,
-
-                        isVege: true,
-
-                    },
-
+                softTofuSoups: [
                     {
                         id: 2,
 
@@ -126,7 +118,7 @@
                     {
                         id: 7,
 
-                        name: 'Fish Roe Tofu Soup',
+                        name: 'Fish Roe Tofu Soup*',
 
                         price: 14
 
@@ -147,17 +139,6 @@
                         name: 'Pork Tofu Soup',
 
                         price: 14
-
-                    },
-
-                    {
-                        id: 10,
-
-                        name: 'Dumpling Tofu Soup',
-
-                        price: 14,
-
-                        isVege: true,
 
                     },
 

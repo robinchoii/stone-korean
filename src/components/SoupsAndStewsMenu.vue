@@ -9,6 +9,8 @@
 
                 <p>Served with side dishes</p>
 
+                <p>* Redmond Location Only</p>
+
             </div>
 
         </div>
@@ -27,7 +29,7 @@
 
             <div class='soups-item-card item-card'>
 
-                <h3 class='item-title'>Beef Broth Soup <span class='korean-word'>Sul-Lung-Tang</span></h3>
+                <h3 class='item-title'>Beef Broth Soup* <span class='korean-word'>Sul-Lung-Tang</span></h3>
 
                 <span class='item-price'>$14</span>
 
@@ -37,7 +39,7 @@
 
             <div class='soups-item-card item-card'>
 
-                <h3 class='item-title'>Dumpling Soup</h3>
+                <h3 class='item-title'>Dumpling Soup*</h3>
 
                 <span class='item-price'>$14</span>
 
@@ -47,7 +49,7 @@
 
             <div class='soups-item-card item-card'>
 
-                <h3 class='item-title'>Dumpling Soup w Rice Cake</h3>
+                <h3 class='item-title'>Dumpling Soup w Rice Cake*</h3>
 
                 <span class='item-price'>$15</span>
 
@@ -67,7 +69,7 @@
 
             <div class='soups-item-card item-card'>
 
-                <h3 class='item-title'>Rice Cake Soup</h3>
+                <h3 class='item-title'>Rice Cake Soup*</h3>
 
                 <span class='item-price'>$14</span>
 

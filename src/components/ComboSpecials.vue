@@ -12,7 +12,7 @@
 
                 <p>Smaller portions than if ordered separately </p>
 
-                <p> * BiBimBob and Cold Noodle specials do <b>not</b> come with additional rice</p>
+                <p> * BiBimBap and Cold Noodle specials do <b>not</b> come with additional rice</p>
 
             </div>
 
@@ -22,7 +22,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Kalbi + <br class='large'>Hotpot Bibimbob*</h3>
+                <h3 class='item-title'>Kalbi + <br class='large'>Hotpot Bibimbap*</h3>
 
                 <span class='item-price'>$27</span>
 
@@ -38,7 +38,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Bulgogi + <br class='large'>Hotpot Bibimbob*</h3>
+                <h3 class='item-title'>Bulgogi + <br class='large'>Hotpot Bibimbap*</h3>
 
                 <span class='item-price'>$25</span>
 
@@ -54,7 +54,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Spicy Pork Bulgogi + <br class='large'>Hotpot Bibimbob*</h3>
+                <h3 class='item-title'>Spicy Pork Bulgogi + <br class='large'>Hotpot Bibimbap*</h3>
 
                 <span class='item-price'>$25</span>
 
@@ -70,7 +70,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Chicken Bulgogi + <br class='large'>Hotpot Bibimbob*</h3>
+                <h3 class='item-title'>Chicken Bulgogi + <br class='large'>Hotpot Bibimbap*</h3>
 
                 <span class='item-price'>$25</span>
 
@@ -86,7 +86,7 @@
 
             <div class='combo-special-item-card item-card'>
 
-                <h3 class='item-title'>Soft Tofu Soup + <br class='large'>Hotpot Bibimbob*</h3>
+                <h3 class='item-title'>Soft Tofu Soup + <br class='large'>Hotpot Bibimbap*</h3>
 
                 <span class='item-price'>$25</span>
 

@@ -4,12 +4,12 @@
 
         <div class='bibimbob-header main-header'>
 
-            <h2>Bi-Bim-Bobs</h2>
+            <h2>Bi-Bim-Baps</h2>
 
             <div class='bibimbob-about main-about'>
                 <p> Served with rice and side dishes</p>
 
-                <p><i class='fa fa-leaf vege'></i> Ask for Vegetarian</p>
+                <p><i class='fa fa-leaf vege'></i> Vegetarian upon request</p>
             </div>
         </div>
 
@@ -70,16 +70,15 @@
                         name: 'Vegetable Hot Pot',
                         description: 'Carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
                         price: '17',
-                        isVege: true,
-
+                        isVege: true
                     },
 
                     {
                         id: 7,
-                        name: 'Cold Bi-Bim-Bob',
+                        name: 'Bi-Bim-Bap',
                         description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '14'
-
+                        price: '14',
+                        isVege: true
                     },
                 ]
             }

@@ -9,11 +9,8 @@
 				<overview></overview>
 				<image-gallery></image-gallery>
 			</nav-tab>
-			<nav-tab name="Redmond">
+			<nav-tab name="Menu">
 				<full-menu></full-menu>
-			</nav-tab>
-			<nav-tab name="Seattle">
-				<seattle-full-menu></seattle-full-menu>
 			</nav-tab>
 			<nav-tab name="Contact">
 				<contact id='contact'></contact>
