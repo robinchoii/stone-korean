@@ -76,7 +76,7 @@
                     {
                         id: 7,
                         name: 'Bi-Bim-Bap',
-                        description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
+                        description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served with steamed rice.',
                         price: '14',
                         isVege: true
                     },
