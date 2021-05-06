@@ -19,7 +19,7 @@
 
                 <h3 class='item-title'>Chik-Naeng-Myun</h3>
 
-                <span class='item-price'>$15</span>
+                <span class='item-price'>$17</span>
 
                 <p class='item-description'>Cold arrowroot noodles and chili sauce in beef broth soup</p>
 
@@ -29,7 +29,7 @@
 
                 <h3 class='item-title'>Mul-Naeng-Myun</h3>
 
-                <span class='item-price'>$15</span>
+                <span class='item-price'>$16</span>
 
                 <p class='item-description'>Cold buckwheat noodles in beef broth soup</p>
 
@@ -39,7 +39,7 @@
 
                 <h3 class='item-title'>Bi-Bim-Naeng-Myun</h3>
 
-                <span class='item-price'>$15</span>
+                <span class='item-price'>$16</span>
 
                 <p class='item-description'>Cold buckwheat noodles with chili sauce (no broth)</p>
 

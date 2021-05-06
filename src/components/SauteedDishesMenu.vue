@@ -43,7 +43,7 @@
                         id: 1,
                         name:'Spicy Squid',
                         description: 'Sauteed squid & vegetables with house spicy sauce',
-                        price: 18,
+                        price: 19,
                     },
                     {
                         id: 2,

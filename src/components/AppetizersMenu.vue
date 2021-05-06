@@ -44,7 +44,7 @@
 
                         description: "Pork & vegetable pot stickers, served with soy dipping sauce",
 
-                        price: 8,
+                        price: 9,
 
                         isVege: false,
 
@@ -57,7 +57,7 @@
 
                         description: "Pan-fried seafood (baby shrimp, baby octopus & calamari squid) pancake with green onions, served with soy dipping sauce",
 
-                        price: 17
+                        price: 18
 
                     },
 
@@ -93,7 +93,7 @@
 
                         description: "Battered egg, steamed with chopped green onions",
 
-                        price: 8,
+                        price: 9,
 
                         isVege: false,
 
@@ -106,7 +106,7 @@
 
                         description: "Korean potato starch noodles, stir-fried with veggies & beef, seasoned in soy sauce",
 
-                        price: 15,
+                        price: 17,
 
                         isVege: true,
 
@@ -119,7 +119,7 @@
 
                         description: "Fresh rice cake & veggies, boiled & braised in sweet Korean chili sauce",
 
-                        price: 12,
+                        price: 13,
 
                         isVege: true,
 

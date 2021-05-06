@@ -41,35 +41,35 @@
                         id: 1,
                         name: 'Beef Hot Pot',
                         description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '17'
+                        price: '18'
                     },
 
                     {
                         id: 3,
                         name: 'Pork Hot Pot',
                         description: 'Pork, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '17'
+                        price: '18'
                     },
 
                     {
                         id: 4,
                         name: 'Chicken Hot Pot',
                         description: 'Chicken, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '17'
+                        price: '18'
                     },
 
                     {
                         id: 5,
                         name: 'Tofu Hot Pot',
                         description: 'Tofu, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '17'
+                        price: '18'
                     },
 
                     {
                         id: 6,
                         name: 'Vegetable Hot Pot',
                         description: 'Carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served in a sizzling hot stone pot.',
-                        price: '17',
+                        price: '18',
                         isVege: true
                     },
 
@@ -77,7 +77,7 @@
                         id: 7,
                         name: 'Bi-Bim-Bap',
                         description: 'Beef, carrots, shiitake mushrooms, zucchini, bean-sprouts, spinach. Topped with yolk of an egg. Served with steamed rice.',
-                        price: '14',
+                        price: '15',
                         isVege: true
                     },
                 ]

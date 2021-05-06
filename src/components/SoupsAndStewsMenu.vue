@@ -21,7 +21,7 @@
 
                 <h3 class='item-title'>Yuk-Gae-Jang</h3>
 
-                <span class='item-price'>$16</span>
+                <span class='item-price'>$17</span>
 
                 <p class='item-description'>Spicy beef brisket &amp; vegetable soup</p>
 
@@ -61,7 +61,7 @@
 
                 <h3 class='item-title'>Kimchi Jhi-Gae</h3>
 
-                <span class='item-price'>$14</span>
+                <span class='item-price'>$15</span>
 
                 <p class='item-description'>Kimchi stew with onions, rice cake &amp; medium-firm tofu</p>
 
@@ -81,7 +81,7 @@
 
                 <h3 class='item-title'>Soybean Soup <span class='korean-word'>Dwaen-Jahng-Jhi-Gae</span></h3>
 
-                <span class='item-price'>$14</span>
+                <span class='item-price'>$15</span>
 
                 <p class='item-description'>Fermented soybean stew w/ beef, clam &amp; veggies</p>
 
@@ -91,7 +91,7 @@
 
                 <h3 class='item-title'>Seafood Noodle Soup <br/><span class="korean-word">Spicy or Non-Spicy</span></h3>
 
-                <span class='item-price'>$15</span>
+                <span class='item-price'>$17</span>
 
                 <p class='item-description'>Shrimp, clam, squid &amp; assorted veggies</p>
 

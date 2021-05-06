@@ -24,7 +24,7 @@
 
                 <h3 class='item-title'>Kalbi + <br class='large'>Hotpot Bibimbap*</h3>
 
-                <span class='item-price'>$27</span>
+                <span class='item-price'>$29</span>
 
             </div>
 
@@ -32,7 +32,7 @@
 
                 <h3 class='item-title'>Kalbi + <br class='large'>Soft Tofu Soup</h3>
 
-                <span class='item-price'>$27</span>
+                <span class='item-price'>$28</span>
 
             </div>
 
@@ -40,7 +40,7 @@
 
                 <h3 class='item-title'>Bulgogi + <br class='large'>Hotpot Bibimbap*</h3>
 
-                <span class='item-price'>$25</span>
+                <span class='item-price'>$28</span>
 
             </div>
 
@@ -48,7 +48,7 @@
 
                 <h3 class='item-title'>Bulgogi + <br class='large'>Soft Tofu Soup</h3>
 
-                <span class='item-price'>$25</span>
+                <span class='item-price'>$27</span>
 
             </div>
 
@@ -56,7 +56,7 @@
 
                 <h3 class='item-title'>Spicy Pork Bulgogi + <br class='large'>Hotpot Bibimbap*</h3>
 
-                <span class='item-price'>$25</span>
+                <span class='item-price'>$28</span>
 
             </div>
 
@@ -64,7 +64,7 @@
 
                 <h3 class='item-title'>Spicy Pork Bulgogi + <br class='large'>Soft Tofu Soup</h3>
 
-                <span class='item-price'>$25</span>
+                <span class='item-price'>$27</span>
 
             </div>
 
@@ -72,7 +72,7 @@
 
                 <h3 class='item-title'>Chicken Bulgogi + <br class='large'>Hotpot Bibimbap*</h3>
 
-                <span class='item-price'>$25</span>
+                <span class='item-price'>$27</span>
 
             </div>
 
@@ -80,24 +80,24 @@
 
                 <h3 class='item-title'>Chicken Bulgogi + <br class='large'>Soft Tofu Soup</h3>
 
-                <span class='item-price'>$25</span>
+                <span class='item-price'>$27</span>
 
             </div>
 
-            <div class='combo-special-item-card item-card'>
+            <!-- <div class='combo-special-item-card item-card'>
 
                 <h3 class='item-title'>Soft Tofu Soup + <br class='large'>Hotpot Bibimbap*</h3>
 
                 <span class='item-price'>$25</span>
 
             </div>
-
+-->
 
             <div class='combo-special-item-card item-card'>
 
                 <h3 class='item-title'>Spicy Chicken Bulgogi + <br class='large'>Soft Tofu Soup</h3>
 
-                <span class='item-price'>$25</span>
+                <span class='item-price'>$27</span>
 
             </div>
 

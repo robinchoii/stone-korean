@@ -73,7 +73,7 @@
 
                         name: 'Combo Tofu Soup',
 
-                        price: 14
+                        price: 15
 
                     },
 
@@ -82,7 +82,7 @@
 
                         name: 'Seafood Tofu Soup',
 
-                        price: 14
+                        price: 15
 
                     },
 
@@ -91,7 +91,7 @@
 
                         name: 'Kimchi Tofu Soup',
 
-                        price: 14,
+                        price: 15,
 
                         isVege: true,
 
@@ -102,7 +102,7 @@
 
                         name: 'Kimchi Beef Tofu Soup',
 
-                        price: 14
+                        price: 15
 
                     },
 
@@ -111,7 +111,7 @@
 
                         name: 'Kimchi Pork Tofu Soup',
 
-                        price: 14
+                        price: 15
 
                     },
 
@@ -120,7 +120,7 @@
 
                         name: 'Fish Roe Tofu Soup*',
 
-                        price: 14
+                        price: 15
 
                     },
 
@@ -129,7 +129,7 @@
 
                         name: 'Beef Tofu Soup',
 
-                        price: 14
+                        price: 15
 
                     },
 
@@ -138,7 +138,7 @@
 
                         name: 'Pork Tofu Soup',
 
-                        price: 14
+                        price: 15
 
                     },
 
@@ -147,7 +147,7 @@
 
                         name: 'Vegetable Tofu Soup',
 
-                        price: 14,
+                        price: 15,
 
                         isVege: true,
 
