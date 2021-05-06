@@ -31,7 +31,7 @@
 
                 <h3 class='item-title'>Beef Broth Soup* <span class='korean-word'>Sul-Lung-Tang</span></h3>
 
-                <span class='item-price'>$14</span>
+                <span class='item-price'>$15</span>
 
                 <p class='item-description'>Beef &amp; glass noodles w/ green onions</p>
 
@@ -41,7 +41,7 @@
 
                 <h3 class='item-title'>Dumpling Soup*</h3>
 
-                <span class='item-price'>$14</span>
+                <span class='item-price'>$15</span>
 
                 <p class='item-description'>Mahn-Doo-Ghuk <strong>No Rice</strong></p>
 
@@ -71,7 +71,7 @@
 
                 <h3 class='item-title'>Rice Cake Soup*</h3>
 
-                <span class='item-price'>$14</span>
+                <span class='item-price'>$15</span>
 
                 <p class='item-description'>Ddug-Ghuk <strong>No Rice</strong></p>
 
