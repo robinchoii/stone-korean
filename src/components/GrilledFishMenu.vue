@@ -9,7 +9,7 @@
 
                 <p>Served with a sizzling hot stone pot rice and side dishes</p>
 
-                <p>* Redmond Location Only</p>
+                <p>* Redmond & Bothell Location Only</p>
 
             </div>
 

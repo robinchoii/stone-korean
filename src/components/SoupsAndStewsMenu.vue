@@ -9,7 +9,7 @@
 
                 <p>Served with side dishes</p>
 
-                <p>* Redmond Location Only</p>
+                <p>* Redmond & Bothell Location Only</p>
 
             </div>
 
