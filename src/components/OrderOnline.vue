@@ -54,28 +54,30 @@
 
             <div v-show='isSeattle'>
                 <h2>Seattle</h2>
-                <!-- caviar -->
-                <!-- <div class="order-card">
-                  <div class="order-wrapper">
-                    <h3>Coming Soon!</h3>
-                    <i class="fa fa-4x fa-car" aria-hidden="true"></i>
-                  </div>
-                </div> -->
-                <div class="order-card">
-                    <a href="https://www.ubereats.com/en-US/seattle/food-delivery/stone-korean-restaurant-dexter-ave/eLYGmDkSQ9iBcHWvuGjI4g/" title="">
+                <div class='services-wrapper'>
+                    <!-- caviar -->
+                    <!-- <div class="order-card">
                       <div class="order-wrapper">
-                        <h3>Uber Eats</h3>
+                        <h3>Coming Soon!</h3>
                         <i class="fa fa-4x fa-car" aria-hidden="true"></i>
                       </div>
-                    </a>
-                </div>
-                <div class="order-card">
-                    <a href="https://postmates.com/merchant/stone-korean-restaurant-seattle" title="">
-                      <div class="order-wrapper">
-                        <h3>Postmates</h3>
-                        <i class="fa fa-4x fa-car" aria-hidden="true"></i>
-                      </div>
-                    </a>
+                    </div> -->
+                    <div class="order-card">
+                        <a href="https://www.ubereats.com/en-US/seattle/food-delivery/stone-korean-restaurant-dexter-ave/eLYGmDkSQ9iBcHWvuGjI4g/" title="">
+                          <div class="order-wrapper">
+                            <h3>Uber Eats</h3>
+                            <i class="fa fa-4x fa-car" aria-hidden="true"></i>
+                          </div>
+                        </a>
+                    </div>
+                    <div class="order-card">
+                        <a href="https://postmates.com/merchant/stone-korean-restaurant-seattle" title="">
+                          <div class="order-wrapper">
+                            <h3>Postmates</h3>
+                            <i class="fa fa-4x fa-car" aria-hidden="true"></i>
+                          </div>
+                        </a>
+                    </div>
                 </div>
             </div>
 
