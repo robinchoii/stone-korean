@@ -16,37 +16,39 @@
         <div class='services-container'>
             <div v-show='isRedmond'>
                 <h2>Redmond</h2>
-                <!-- <div class="order-card">
-                    <a href="https://www.trycaviar.com/t/seattle-eastside/stone-korean-8604?groups=f_online__d_dwidget-4-button-1__p_marketing__c_merchant-links&how=pickup&utm_medium=localmarketing&utm_source=widget&utm_campaign=stone-korean-8604&utm_term=seattle-eastside&utm_content=stone-korean-8604&cvosrc=localmarketing.widget.stone-korean-8604&cvo_campaign=stone-korean-8604&cav_source=stone-korean-8604&cav_medium=widget">
-                        <div class="order-wrapper">
-                            <h3>Pick&nbsp;Up</h3>
-                            <i class="fa fa-4x fa-shopping-bag" aria-hidden="true"></i>
-                        </div>
-                    </a>
-                </div> -->
-                <div class="order-card">
-                    <a href="https://www.ubereats.com/seattle/food-delivery/stone-korean-restaurant-redmond/7ylPSRg4T0q5s1HxLvQKww">
-                        <div class="order-wrapper">
-                            <h3>Uber Eats</h3>
-                            <i class="fa fa-4x fa-car" aria-hidden="true"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="order-card">
-                    <a href="https://www.trycaviar.com/m/stone-korean-8604">
-                        <div class="order-wrapper">
-                            <h3>Caviar</h3>
-                            <i class="fa fa-4x fa-car" aria-hidden="true"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="order-card">
-                    <a href="https://postmates.com/merchant/stone-korean-restaurant-redmond">
-                        <div class="order-wrapper">
-                            <h3>Postmates</h3>
-                            <i class="fa fa-4x fa-car" aria-hidden="true"></i>
-                        </div>
-                    </a>
+                <div class='services-wrapper'>
+                    <!-- <div class="order-card">
+                        <a href="https://www.trycaviar.com/t/seattle-eastside/stone-korean-8604?groups=f_online__d_dwidget-4-button-1__p_marketing__c_merchant-links&how=pickup&utm_medium=localmarketing&utm_source=widget&utm_campaign=stone-korean-8604&utm_term=seattle-eastside&utm_content=stone-korean-8604&cvosrc=localmarketing.widget.stone-korean-8604&cvo_campaign=stone-korean-8604&cav_source=stone-korean-8604&cav_medium=widget">
+                            <div class="order-wrapper">
+                                <h3>Pick&nbsp;Up</h3>
+                                <i class="fa fa-4x fa-shopping-bag" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div> -->
+                    <div class="order-card">
+                        <a href="https://www.ubereats.com/seattle/food-delivery/stone-korean-restaurant-redmond/7ylPSRg4T0q5s1HxLvQKww">
+                            <div class="order-wrapper">
+                                <h3>Uber Eats</h3>
+                                <i class="fa fa-4x fa-car" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="order-card">
+                        <a href="https://www.trycaviar.com/m/stone-korean-8604">
+                            <div class="order-wrapper">
+                                <h3>Caviar</h3>
+                                <i class="fa fa-4x fa-car" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="order-card">
+                        <a href="https://postmates.com/merchant/stone-korean-restaurant-redmond">
+                            <div class="order-wrapper">
+                                <h3>Postmates</h3>
+                                <i class="fa fa-4x fa-car" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -131,6 +133,10 @@
 </script>
 
 <style type="text/css" media="screen">
+    .services-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
     .services-container {
         margin: 50px auto;
         display: grid;
@@ -155,7 +161,8 @@
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         padding: 25px;
-        margin:15px
+        margin:15px;
+        width: 300px;
     }
 
     .order-card a {
@@ -166,5 +173,14 @@
     .order-card:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
+    @media only screen and (max-width: 600px) {
+        .online-order-container {
+            grid-template-columns: repeat(1, minmax(auto, 300px));
+        }
+        .services-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
 
+    }
 </style>
