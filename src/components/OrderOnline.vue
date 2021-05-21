@@ -7,6 +7,9 @@
             </button>
             <button v-show='isLocation' class='order-card' @click='toggleSeattleLocation()'>
                 <h1 style='color:#e2e2e2'>Seattle</h1>
+            </button>            
+            <button v-show='isLocation' class='order-card' @click='toggleBothellLocation()'>
+                <h1 style='color:#e2e2e2'>Bothell</h1>
             </button>
         </div>
 
@@ -73,6 +76,18 @@
                     </a>
                 </div>
             </div>
+
+            <div v-show='isBothell'>
+                <h2>Bothell</h2>
+                <div class="order-card">
+                    <a href="https://www.ubereats.com/seattle/food-delivery/stone-korean-restaurant-bothell/p5RaQNS0RFeNpj36vkS3oQ" title="">
+                      <div class="order-wrapper">
+                        <h3>Uber Eats</h3>
+                        <i class="fa fa-4x fa-car" aria-hidden="true"></i>
+                      </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -85,7 +100,8 @@
             return {
                 isLocation: true,
                 isRedmond: false,
-                isSeattle: false
+                isSeattle: false,
+                isBothell: false
             }
         },
 
@@ -94,11 +110,19 @@
                 let updateLocation = this.isSeattle
                 this.isSeattle = !updateLocation
                 this.isRedmond = false
+                this.isBothell = false
             },
             toggleRedmondLocation() {
                 let updateLocation = this.isRedmond
                 this.isRedmond = !updateLocation
                 this.isSeattle = false
+                this.isBothell = false
+            },
+            toggleBothellLocation() {
+                let updateLocation = this.isBothell
+                this.isBothell = !updateLocation
+                this.isSeattle = false
+                this.isRedmond = false
             }
         }
     }
@@ -118,7 +142,7 @@
     .online-order-container {
         margin: 50px auto;
         display: grid;
-        grid-template-columns: repeat(2, minmax(auto, 300px));
+        grid-template-columns: repeat(3, minmax(auto, 300px));
         grid-gap: 15px;
         text-align: center;
         justify-content: center;
