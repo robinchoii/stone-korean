@@ -81,7 +81,7 @@
                 <div class="info-card">
                     <div class='phone'>
                         <div><i class="fa fa-2x fa-phone"></i></div>
-                        <a href='tel:+12067172864'>425-408-1462</a>
+                        <a href='tel:+14254081462'>425-408-1462</a>
                     </div>
                 </div>
             </div>
