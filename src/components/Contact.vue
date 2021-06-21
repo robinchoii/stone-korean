@@ -64,9 +64,9 @@
                 <div class="info-card">
                     <div class='hours'>
                         <div><i class="fa fa-2x fa-clock-o"></i></div>
-                        <div><b>Monday - Thursday:</b><br> 11AM - 8:00PM</div>
-                        <div><b>Friday - Saturday:</b><br> 11AM - 8:30PM </div>
-                        <div><b>Sunday:</b><br> 11AM - 8:00PM</div>
+                        <div><b>Monday:</b><br/> Closed</div>
+                        <div><b>Sun, Tue, Wed, Thru:</b><br> 11AM - 9:00PM</div>
+                        <div><b>Friday - Saturday:</b><br> 11AM - 9:30PM </div>
                     </div>
                 </div>
                 <div class="info-card">
